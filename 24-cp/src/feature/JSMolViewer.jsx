@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 
-
 const JSmolViewer = ({ pdbFile }) => {
  useEffect(() => {
    if (!pdbFile) return;

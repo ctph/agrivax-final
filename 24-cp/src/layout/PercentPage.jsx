@@ -75,7 +75,7 @@ const PercentPage = () => {
   return (
     <div style={{ padding: 24 }}>
       <Title level={2}>
-        Similar Structures to {pdbId.toUpperCase()} at {threshold}% Similarity
+        Similar Structures to {pdbId?.toUpperCase()} at {threshold}% Similarity
       </Title>
 
       <Card>

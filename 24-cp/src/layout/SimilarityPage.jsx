@@ -12,6 +12,10 @@ const SimilarityPage = () => {
 
   const [pdbId, setPdbId] = useState(paramPdbId || '1a1p_a');
 
+  const goHome = () => {
+    navigate('/');
+  };
+
   // Sync pdbId when URL param changes
   useEffect(() => {
     if (paramPdbId && paramPdbId !== pdbId) {
@@ -33,16 +37,18 @@ const SimilarityPage = () => {
   // Handle similarity threshold button click
   const handleSetThreshold = (value) => {
     const percentage = value * 100;
+      console.log(`Attempting to navigate to /percent/${pdbId}/${value*100}`);
     navigate(`/percent/${pdbId}/${percentage}`);
   };
 
-  return (
+  return (  
     <div style={{ padding: '24px' }}>
       <Title level={2}>
         Structure Similarity Viewer For {pdbId.toUpperCase()}
       </Title>
 
       <Space style={{ marginBottom: 24 }}>
+        <Button onClick={goHome}>Home</Button>
         <Button onClick={() => handleSetThreshold(0.5)}>50%</Button>
         <Button onClick={() => handleSetThreshold(0.65)}>65%</Button>
         <Button onClick={() => handleSetThreshold(0.75)}>75%</Button>
