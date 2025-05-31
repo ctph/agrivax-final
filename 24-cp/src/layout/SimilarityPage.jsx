@@ -50,7 +50,9 @@ const SimilarityPage = () => {
        }}
      >
        <Card title="3D Viewer" style={{ height: '100%' }}>
-         <JSmolViewer pdbFile={`/clean_pdbs/${pdbId.split('_')[0].toLowerCase()}.pdb`} />
+         {/* <JSmolViewer pdbFile={`/clean_pdbs/${pdbId.split('_')[0].toLowerCase()}.pdb`} /> */
+         <JSmolViewer pdbFile={`/filtered_pdbs/${pdbId.toLowerCase()}.pdb`} />}
+
        </Card>
 
 
