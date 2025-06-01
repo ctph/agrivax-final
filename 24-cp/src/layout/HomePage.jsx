@@ -12,7 +12,7 @@ const HomePage = ({ allOptions }) => {
 
  return (
    <div className="home-container">
-     <h1 className="home-title">24 Cyclic Peptide</h1>
+     <h1 className="home-title">PepKnot-917 database</h1>
      <SearchBar allOptions={allOptions} />
      <div style={{ marginTop: 32 }}>
        <PdbTable />
