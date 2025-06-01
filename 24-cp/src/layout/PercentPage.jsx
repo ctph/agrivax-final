@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Papa from 'papaparse';
-import { Typography, Card, Table, Tag } from 'antd';
+import { Typography, Card, Table, Tag, Tooltip } from 'antd';
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const PercentPage = () => {
   const { pdbId, threshold } = useParams(); 
@@ -58,7 +58,21 @@ const PercentPage = () => {
       title: 'Sequence',
       dataIndex: 'sequence',
       key: 'sequence',
-      render: (seq) => <span style={{ fontFamily: 'monospace' }}>{seq}</span>,
+      width: 200,
+      render: (seq) => (
+        <Tooltip title={seq} placement="topLeft">
+          <Text 
+            ellipsis 
+            style={{ 
+              fontFamily: 'monospace',
+              display: 'block',
+              width: '100%'
+            }}
+          >
+            {seq}
+          </Text>
+        </Tooltip>
+      ),
     },
     {
       title: 'Classification',
