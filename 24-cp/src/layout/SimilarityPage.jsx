@@ -108,7 +108,7 @@ const ProteinContent = () => {
     const cleanPdbId = rawParam.split("_")[0].toLowerCase();
 
     // Fetch .pdb structure
-    fetch(`${process.env.PUBLIC_URL}/filtered_pdbs/${normalizedPdbId}.pdb`)
+    fetch(`http://localhost:8080/filtered_pdbs/${normalizedPdbId}.pdb`)
       .then((res) => {
         if (!res.ok) throw new Error("PDB file not found");
         return res.text();
@@ -120,6 +120,19 @@ const ProteinContent = () => {
         setError(err.message);
         setPdbStructure(null);
       });
+
+    // fetch(`http://localhost:8080/filtered_pdbs/${normalizedPdbId}.pdb`)
+    // .then((res) => {
+    //   if (!res.ok) throw new Error("PDB file not found");
+    //   return res.text();  // ⬅️ get the file content, not download it
+    // })
+    // .then((pdbData) => {
+    //   viewer.addModel(pdbData, "pdb");  // 3Dmol.js usage
+    //   viewer.render();
+    // })
+    // .catch((err) => {
+    //   setError(err.message);
+    // });
 
     // Fetch metadata
     fetch(`https://data.rcsb.org/rest/v1/core/entry/${cleanPdbId}`)
