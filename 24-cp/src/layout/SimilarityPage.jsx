@@ -103,12 +103,12 @@ const ProteinContent = () => {
     const baseId = rawParam.split('_')[0].toLowerCase(); // Remove chain suffix if present
     navigate(`/percent/${baseId}/${threshold}`);
   };
-  
+
   useEffect(() => {
     const cleanPdbId = rawParam.split("_")[0].toLowerCase();
 
     // Fetch .pdb structure
-    fetch(`/filtered_pdbs/${normalizedPdbId}.pdb`)
+    fetch(`${process.env.PUBLIC_URL}/filtered_pdbs/${normalizedPdbId}.pdb`)
       .then((res) => {
         if (!res.ok) throw new Error("PDB file not found");
         return res.text();
