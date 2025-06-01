@@ -3,7 +3,7 @@ from flask_cors import CORS
 import os
 
 app = Flask(__name__)
-CORS(app)  # Allow cross-origin from React frontend
+CORS(app, resources={r"/filtered_pdbs/*": {"origins": "*"}})  # Allow all origins (or specify your React URL)
 
 PDB_DIR = os.path.join(os.path.dirname(__file__), 'filtered_pdbs')
 

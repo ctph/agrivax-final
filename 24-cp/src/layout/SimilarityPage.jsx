@@ -90,9 +90,9 @@ const ProteinContent = () => {
   const { pdbId: rawParam } = useParams();
   const navigate = useNavigate();
 
-  const normalizedPdbId = rawParam?.toLowerCase().includes("_")
-    ? rawParam.toLowerCase()
-    : `${rawParam?.toLowerCase()}_a`;
+  const normalizedPdbId = rawParam?.toUpperCase().includes("_")
+    ? rawParam.toUpperCase()
+    : `${rawParam?.toUpperCase()}_a`;
 
   const [pdbStructure, setPdbStructure] = useState("");
   const [metadata, setMetadata] = useState(null);
@@ -107,8 +107,10 @@ const ProteinContent = () => {
   useEffect(() => {
     const cleanPdbId = rawParam.split("_")[0].toLowerCase();
 
-    // Fetch .pdb structure
-    fetch(`http://localhost:8080/filtered_pdbs/${normalizedPdbId}.pdb`)
+    const pdbUrl = `https://two4-cp-backend2.onrender.com/filtered_pdbs/${normalizedPdbId}.pdb`;
+    console.log('Fetching PDB from:', pdbUrl);  // Debug URL
+
+    fetch(pdbUrl)
       .then((res) => {
         if (!res.ok) throw new Error("PDB file not found");
         return res.text();
