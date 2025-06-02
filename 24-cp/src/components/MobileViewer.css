@@ -1,0 +1,28 @@
+/* MobileViewer.css */
+
+#viewer-container {
+  width: 100%;
+  height: 45vh;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.ant-card {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .threshold-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.ant-typography, .pdb-title {
+  display: inline-block;
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}

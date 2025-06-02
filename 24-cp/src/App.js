@@ -16,11 +16,14 @@
 
 // export default App;
 
+
+
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './layout/HomePage';
 import SimilarityPage from './layout/SimilarityPage';
 import PercentPage from './layout/PercentPage';
+import ResponsiveSimilarityViewer from './layout/ResponsiveSimilarityViewer';
 
 const App = () => {
   return (
@@ -29,16 +32,10 @@ const App = () => {
       <Route path="/" element={<HomePage />} />
       
       {/* Similarity route with parameter validation */}
-      <Route 
-        path="/similarity/:pdbId" 
-        element={<SimilarityPage />} 
-      />
+      <Route path="/similarity/:pdbId" element={<SimilarityPage />} />
       
       {/* Percentage route with strict parameter requirements */}
-      <Route 
-        path="/percent/:pdbId/:threshold" 
-        element={<PercentPage />}
-      />
+      <Route  path="/percent/:pdbId/:threshold" element={<PercentPage />}/>
       
       {/* Redirect legacy routes or malformed URLs */}
       <Route path="/similarity" element={<Navigate to="/" replace />} />
@@ -46,8 +43,14 @@ const App = () => {
       
       {/* Catch-all route for 404s */}
       <Route path="*" element={<Navigate to="/" replace />} />
+
+      <Route path="/similarity/:pdbId" element={<ResponsiveSimilarityViewer />} />
+
     </Routes>
   );
 };
 
 export default App;
+
+
+
