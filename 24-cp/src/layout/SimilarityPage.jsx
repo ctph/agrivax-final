@@ -89,6 +89,7 @@ const { Title, Text } = Typography;
 const ProteinContent = () => {
   const { pdbId: rawParam } = useParams();
   const navigate = useNavigate();
+  const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
 
   const normalizedPdbId = rawParam?.toUpperCase().includes("_")
     ? rawParam.toUpperCase()
@@ -191,7 +192,7 @@ const ProteinContent = () => {
             </Button.Group>
             <Button 
               type="primary" 
-              href={`https://www.rcsb.org/structure/${rawParam.toUpperCase()}`}
+              href={`https://www.rcsb.org/structure/${rawParam.split('_')[0].toUpperCase()}`}
               target="_blank"
             >
               View on RCSB
@@ -222,16 +223,17 @@ const ProteinContent = () => {
             bodyStyle={{ padding: 0 }}
           >
             <div
-              style={{
-                height: "500px",
-                width: "100%",
-                position: "relative",
-                backgroundColor: "#fafafa",
-              }}
-            >
+            style={{
+              height: "500px",
+              width: "100%",
+              position: "relative",
+              backgroundColor: "#fafafa",
+            }}
+          >
+            {!isMobile ? (
               <Protein3DMol
                 pdbIdStructure={pdbStructure}
-                viewStyle={[{}, { cartoon: {} }]}  // Empty cartoon style
+                viewStyle={[{}, { cartoon: {} }]}
                 surfaceStyle={null}
                 partialViewStyle={null}
                 style={{
@@ -240,7 +242,15 @@ const ProteinContent = () => {
                   borderRadius: "0 0 12px 12px",
                 }}
               />
-            </div>
+            ) : 
+            (
+              <div style={{ padding: "1rem", textAlign: "center" }}>
+                <Text type="secondary">3D viewer not supported on mobile</Text>
+              </div>
+            )
+            }
+          </div>
+
           </Card>
 
           {/* Metadata */}

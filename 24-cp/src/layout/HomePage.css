@@ -1,8 +1,24 @@
-.home-container {
+/* .home-container {
     font-family: Arial, sans-serif;
     padding: 2rem;
   }
    .home-title {
     text-align: left;
   }
- 
+  */
+
+  .home-title {
+  text-align: left;
+  word-break: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* Mobile-only overrides */
+@media (max-width: 600px) {
+  .home-title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+}
