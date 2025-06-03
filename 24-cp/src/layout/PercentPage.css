@@ -1,0 +1,36 @@
+/* PercentPage.css */
+
+.percent-page-container {
+  padding: 24px;
+}
+
+.similarity-card {
+  overflow-x: auto;
+}
+
+.ant-table-wrapper {
+  min-width: 100%;
+  overflow-x: auto;
+}
+
+.ant-table {
+  width: 100%;
+  table-layout: auto;
+  word-break: break-word;
+}
+
+.ant-table-tbody > tr > td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  vertical-align: middle;
+}
+
+.compact-row td {
+  padding: 0px 8px;
+}
+
+.ant-table th {
+  white-space: nowrap !important;
+}
+
+

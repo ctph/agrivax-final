@@ -13,6 +13,13 @@ const Mobile3DMolViewer = ({ pdbId, metadata }) => {
     navigate(`/percent/${pdbId}/${percent}`);
   };
 
+  // Consistent card style
+  const cardStyle = {
+    marginTop: '1rem',
+    borderRadius: '10px',
+    width: '100%'
+  };
+
   return (
     <div style={{ padding: '1rem' }}>
       {/* Title + Buttons */}
@@ -28,13 +35,22 @@ const Mobile3DMolViewer = ({ pdbId, metadata }) => {
         </div>
       </div>
 
-      {/* 3Dmol Viewer */}
-      <div id="viewer-container">
-        <Protein3DMol pdbId={pdbId} />
-      </div>
+      {/* 3Dmol Viewer inside a Card */}
+      <Card
+        title="3D Structure"
+        style={cardStyle}
+        bodyStyle={{ padding: 0, height: '45vh' }}
+      >
+        <div id="viewer-container">
+          <Protein3DMol pdbId={pdbId} />
+        </div>
+      </Card>
 
       {/* Metadata */}
-      <Card title="Protein Metadata" style={{ marginTop: '1rem' }}>
+      <Card 
+        title="Protein Metadata" 
+        style={cardStyle}
+      >
         <p><strong>Classification:</strong> {metadata.classification}</p>
         <p><strong>Melting Point:</strong> {metadata.melting_point}</p>
         <p><strong>Notes:</strong> {metadata.notes}</p>

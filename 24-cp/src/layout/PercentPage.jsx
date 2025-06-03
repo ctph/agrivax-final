@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Papa from 'papaparse';
 import { Typography, Card, Table, Tag, Tooltip } from 'antd';
+import './PercentPage.css';
 
 const { Title, Text } = Typography;
 
@@ -53,52 +54,77 @@ const PercentPage = () => {
           <Tag color="blue">{id}</Tag>
         </Link>
       ),
+      width: 100,
     },
     {
       title: 'Sequence',
       dataIndex: 'sequence',
       key: 'sequence',
-      width: 200,
       render: (seq) => (
         <Tooltip title={seq} placement="topLeft">
-          <Text 
-            ellipsis 
-            style={{ 
+          <Text
+            ellipsis
+            style={{
               fontFamily: 'monospace',
-              display: 'block',
-              width: '100%'
+              display: 'inline-block',
+              maxWidth: 300,
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
             }}
           >
             {seq}
           </Text>
         </Tooltip>
       ),
+      width: 300,
     },
     {
       title: 'Classification',
       dataIndex: 'classification',
       key: 'classification',
+      width: 200,
+      ellipsis: true,
     },
     {
       title: 'Melting Point (K)',
       dataIndex: 'melting',
       key: 'melting',
+      width: 150,
+      ellipsis: true,
     },
   ];
 
+
   return (
-    <div style={{ padding: 24 }}>
-      <Title level={2}>
+    <div className="percent-page-container">
+      <Title
+        level={2}
+        style={{
+          whiteSpace: 'normal',
+          wordBreak: 'break-word',
+          overflowWrap: 'break-word',
+          maxWidth: '100%',
+          textAlign: 'center',
+        }}
+      >
         Similar Structures to {pdbId?.toUpperCase()} at {threshold}% Similarity
       </Title>
 
-      <Card>
-        <Table
-          dataSource={similarData}
-          columns={columns}
-          pagination={{ pageSize: 10 }}
-          bordered
-        />
+
+      <Card className="similarity-card">
+        <div style={{ overflowX: 'auto' }}>
+          <Table
+            rowClassName={() => 'compact-row'}
+            dataSource={similarData}
+            columns={columns}
+            pagination={{ pageSize: 10 }}
+            bordered
+            sized='small'
+            scroll={{ x: true }}
+            tableLayout="fixed"
+          />
+        </div>
       </Card>
     </div>
   );
