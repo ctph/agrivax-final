@@ -5,7 +5,7 @@ import SimilarityPage from '../layout/SimilarityPage';
 import Mobile3DMolViewer from '../components/Mobile3DMolViewer';
 
 const ResponsiveSimilarityViewer = () => {
-  const { pdbId } = useParams(); // e.g., "1a1p_a"
+  const { pdbId } = useParams(); 
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   const [metadata, setMetadata] = useState(null);

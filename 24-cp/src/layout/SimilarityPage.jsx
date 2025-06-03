@@ -4,13 +4,19 @@ import { Spin, Button, Flex, Card, Typography, Tag, Divider, Space } from "antd"
 import * as $3Dmol from "3dmol";
 import Protein3DMol from "../components/Protein3DMol";
 import { InfoCircleOutlined, ArrowLeftOutlined } from "@ant-design/icons";
+import { Grid } from 'antd'; // Ant Design's responsive hook
+
+const { useBreakpoint } = Grid;
 
 const { Title, Text } = Typography;
 
 const ProteinContent = () => {
   const { pdbId: rawParam } = useParams();
   const navigate = useNavigate();
-  const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+  // const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+
+  const screens = useBreakpoint();
+  const isMobile = !screens.md; 
 
   const normalizedPdbId = rawParam?.toUpperCase().includes("_")
     ? rawParam.toUpperCase()
@@ -98,30 +104,48 @@ const ProteinContent = () => {
   }
 
   
-    return (
+  return (
     <div style={{ padding: "24px", maxWidth: "1400px", margin: "0 auto" }}>
       <Space direction="vertical" size="middle" style={{ width: "100%" }}>
-        <Flex justify="space-between" align="center">
-          <Title level={2} style={{ margin: 0 }}>
-            {rawParam.toUpperCase()} Structure Viewer
-          </Title>
-          <Space>
-            <Button.Group>
-              <Button onClick={() => handleSimilarityClick(50)}>50% Similarity</Button>
-              <Button onClick={() => handleSimilarityClick(65)}>65% Similarity</Button>
-              <Button onClick={() => handleSimilarityClick(75)}>75% Similarity</Button>
-            </Button.Group>
-            <Button 
-              type="primary" 
-              href={`https://www.rcsb.org/structure/${rawParam.split('_')[0].toUpperCase()}`}
-              target="_blank"
-            >
-              View on RCSB
-            </Button>
-          </Space>
-        </Flex>
-
-    {/* Rest of your content remains the same */}
+        
+        {/* TITLE + BUTTONS */}
+        {isMobile ? (
+          <div style={{ textAlign: "center", marginBottom: "1rem" }}>
+            <Title level={2}>{rawParam.toUpperCase()} Structure Viewer</Title>
+            <div className="threshold-buttons">
+              <Button onClick={() => handleSimilarityClick(50)}>50%</Button>
+              <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
+              <Button onClick={() => handleSimilarityClick(75)}>75%</Button>
+              <Button 
+                type="primary" 
+                href={`https://www.rcsb.org/structure/${rawParam.split('_')[0].toUpperCase()}`}
+                target="_blank"
+              >
+                View on RCSB
+              </Button>
+            </div>
+          </div>
+        ) : (
+          <Flex justify="space-between" align="center">
+            <Title level={2} style={{ margin: 0 }}>
+              {rawParam.toUpperCase()} Structure Viewer
+            </Title>
+            <Space>
+              <Button.Group>
+                <Button onClick={() => handleSimilarityClick(50)}>50%</Button>
+                <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
+                <Button onClick={() => handleSimilarityClick(75)}>75%</Button>
+              </Button.Group>
+              <Button 
+                type="primary" 
+                href={`https://www.rcsb.org/structure/${rawParam.split('_')[0].toUpperCase()}`}
+                target="_blank"
+              >
+                View on RCSB
+              </Button>
+            </Space>
+          </Flex>
+        )}
 
         <Divider style={{ margin: "16px 0" }} />
 

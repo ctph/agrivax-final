@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, Typography, Space } from 'antd';
+import { Card, Button, Typography } from 'antd';
 import Protein3DMol from './Protein3DMol'; 
 import { useNavigate } from 'react-router-dom';
 import './MobileViewer.css';
@@ -9,36 +9,31 @@ const { Title } = Typography;
 const Mobile3DMolViewer = ({ pdbId, metadata }) => {
   const navigate = useNavigate();
 
-  console.log("pdbId passed to mobile viewer:", pdbId);
-  console.log("Type of pdbId:", typeof pdbId); // Should be "string"
-
   const handleThresholdClick = (percent) => {
     navigate(`/percent/${pdbId}/${percent}`);
   };
 
   return (
     <div style={{ padding: '1rem' }}>
-      {/* [1] Title */}
-      <Title level={3} style={{ textAlign: 'center' }}>
-        Structure similarity for {pdbId.toUpperCase()}
-          🚨 Mobile3DMolViewer is rendering
+      {/* Title + Buttons */}
+      <div className="pdb-header">
+        <Title level={3} className="pdb-title">
+          Structure Viewer for {pdbId.toUpperCase()}
+        </Title>
 
-      </Title>
+        <div className="threshold-buttons">
+          <Button type="primary" onClick={() => handleThresholdClick(50)}>50% Similarity</Button>
+          <Button onClick={() => handleThresholdClick(65)}>65% Similarity</Button>
+          <Button onClick={() => handleThresholdClick(75)}>75% Similarity</Button>
+        </div>
+      </div>
 
-
-      {/* [2] Threshold Buttons */}
-      <Space align="center" style={{ justifyContent: 'center', marginBottom: '1rem' }}>
-        <Button type="primary" onClick={() => handleThresholdClick(50)}>50%</Button>
-        <Button onClick={() => handleThresholdClick(65)}>65%</Button>
-        <Button onClick={() => handleThresholdClick(75)}>75%</Button>
-      </Space>
-
-      {/* [3] 3Dmol Viewer */}
+      {/* 3Dmol Viewer */}
       <div id="viewer-container">
         <Protein3DMol pdbId={pdbId} />
       </div>
 
-      {/* [4] Metadata */}
+      {/* Metadata */}
       <Card title="Protein Metadata" style={{ marginTop: '1rem' }}>
         <p><strong>Classification:</strong> {metadata.classification}</p>
         <p><strong>Melting Point:</strong> {metadata.melting_point}</p>
