@@ -36,7 +36,7 @@ const ProteinContent = () => {
     const cleanPdbId = rawParam.split("_")[0].toLowerCase();
 
     const pdbUrl = `https://two4-cp-backend2.onrender.com/filtered_pdbs/${normalizedPdbId}.pdb`;
-    console.log('Fetching PDB from:', pdbUrl);  // Debug URL
+    console.log('Fetching PDB from:', pdbUrl);  
 
     fetch(pdbUrl)
       .then((res) => {
@@ -44,25 +44,16 @@ const ProteinContent = () => {
         return res.text();
       })
       .then((text) => {
+        if (!text || text.trim().length === 0) {
+          throw new Error("Empty PDB file content");
+        }
         setPdbStructure(text);
       })
+
       .catch((err) => {
         setError(err.message);
         setPdbStructure(null);
       });
-
-    // fetch(`http://localhost:8080/filtered_pdbs/${normalizedPdbId}.pdb`)
-    // .then((res) => {
-    //   if (!res.ok) throw new Error("PDB file not found");
-    //   return res.text();  // ⬅️ get the file content, not download it
-    // })
-    // .then((pdbData) => {
-    //   viewer.addModel(pdbData, "pdb");  // 3Dmol.js usage
-    //   viewer.render();
-    // })
-    // .catch((err) => {
-    //   setError(err.message);
-    // });
 
     // Fetch metadata
     fetch(`https://data.rcsb.org/rest/v1/core/entry/${cleanPdbId}`)
@@ -159,44 +150,58 @@ const ProteinContent = () => {
               </Space>
             }
             style={{
-              flex: 1,
-              minWidth: "500px",
+              flex: isMobile ? "unset" : 1,
+              width: isMobile ? "400px" : "auto",
               borderRadius: "12px",
               boxShadow: "0 1px 2px 0 rgba(0,0,0,0.03)",
               border: "1px solid #f0f0f0",
             }}
-            bodyStyle={{ padding: 0 }}
-          >
-            <div
-            style={{
-              height: "500px",
-              width: "100%",
-              position: "relative",
+            bodyStyle={{
+              padding: isMobile ? "16px" : 0,
               backgroundColor: "#fafafa",
             }}
           >
             {!isMobile ? (
-              <Protein3DMol
-                pdbIdStructure={pdbStructure}
-                viewStyle={[{}, { cartoon: {} }]}
-                surfaceStyle={null}
-                partialViewStyle={null}
+              <div
                 style={{
+                  height: "400px",
                   width: "100%",
-                  height: "100%",
                   borderRadius: "0 0 12px 12px",
                 }}
-              />
-            ) : 
-            (
-              <div style={{ padding: "1rem", textAlign: "center" }}>
-                <Text type="secondary">3D viewer not supported on mobile</Text>
+              >
+                <Protein3DMol
+                  pdbIdStructure={pdbStructure}
+                  viewStyle={[{}, { cartoon: {} }]}
+                  surfaceStyle={null}
+                  partialViewStyle={null}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                  }}
+                />
               </div>
-            )
-            }
-          </div>
-
+            ) : (
+              <div
+                style={{
+                  height: "400px",
+                  width: "100%",
+                  borderRadius: "0 0 12px 12px",
+                }}
+              >
+                <Protein3DMol
+                  pdbIdStructure={pdbStructure}
+                  viewStyle={[{}, { cartoon: {} }]}
+                  surfaceStyle={null}
+                  partialViewStyle={null}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                  }}
+                />
+              </div>
+            )}
           </Card>
+
 
           {/* Metadata */}
           <Card

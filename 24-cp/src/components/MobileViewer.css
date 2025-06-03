@@ -63,4 +63,14 @@
     width: 100%;
     max-width: 200px;
   }
+
+  .percent-page-container {
+    padding: 12px;
+  }
+
+  .similarity-card {
+    padding: 12px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
 }
