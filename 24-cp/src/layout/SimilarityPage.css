@@ -1,0 +1,35 @@
+.similarity-page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.pdb-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .similarity-page-container {
+    padding: 16px;
+  }
+  
+  .ant-card {
+    margin-bottom: 16px;
+  }
+}
+
+/* Make sure canvas containers render properly */
+.molecule-viewer-container {
+  position: relative;
+  width: 100%;
+}
+
+.molecule-canvas {
+  width: 100% !important;
+  height: 100% !important;
+}

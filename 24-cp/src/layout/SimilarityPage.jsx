@@ -5,6 +5,8 @@ import * as $3Dmol from "3dmol";
 import Protein3DMol from "../components/Protein3DMol";
 import { InfoCircleOutlined, ArrowLeftOutlined } from "@ant-design/icons";
 import { Grid } from 'antd'; // Ant Design's responsive hook
+import './SimilarityPage.css';
+import MoleculeViewer from '../components/MoleculeViewer';
 
 const { useBreakpoint } = Grid;
 
@@ -96,7 +98,7 @@ const ProteinContent = () => {
 
   
   return (
-    <div style={{ padding: "24px", maxWidth: "1400px", margin: "0 auto" }}>
+    <div className="percent-page-container">
       <Space direction="vertical" size="middle" style={{ width: "100%" }}>
         
         {/* TITLE + BUTTONS */}
@@ -142,7 +144,7 @@ const ProteinContent = () => {
 
         <Flex justify="space-between" gap={24} style={{ flexWrap: "wrap" }}>
           {/* 3D Viewer */}
-          <Card
+          <Card className="similarity-card"
             title={
               <Space>
                 <Text strong>3D Structure</Text>
