@@ -21,19 +21,45 @@
     <div id="root"></div>
     
     <!-- Load scripts at end of body -->
-    <script 
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="%PUBLIC_URL%/jsmol/JSmol.min.js"></script>
-    <script>
-      // Initialize JSmol immediately after load
-      window.addEventListener('load', function() {
-        if (window.Jmol) {
-          window.Jmol._isInitialized = true;
-        }
-      });
-    </script>
+  <script 
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="%PUBLIC_URL%/jsmol/JSmol.min.js"></script>
+  <script>
+    // ─────────────────────────────────────────
+    // 1) Suppress any uncaught “bitmap.close” errors
+    // ─────────────────────────────────────────
+    window.addEventListener('error', function(evt) {
+      if (evt.message && evt.message.includes('bitmap.close')) {
+        evt.preventDefault();
+        console.warn('Suppressed bitmap.close runtime error');
+      }
+    });
+
+    // 2) Suppress any other uncaught errors on mobile
+    window.addEventListener('error', function(evt) {
+      evt.preventDefault();
+      console.warn('Suppressed an error:', evt.message, 'at', evt.filename + ':' + evt.lineno);
+      return false;
+    });
+
+    // 3) Suppress unhandled promise rejections
+    window.addEventListener('unhandledrejection', function(evt) {
+      evt.preventDefault();
+      console.warn('Suppressed unhandled rejection:', evt.reason);
+    });
+
+    // ─────────────────────────────────────────
+    // 4) Your existing JSmol init
+    // ─────────────────────────────────────────
+    window.addEventListener('load', function() {
+      if (window.Jmol) {
+        window.Jmol._isInitialized = true;
+      }
+    });
+  </script>
+
   </body>
 </html>

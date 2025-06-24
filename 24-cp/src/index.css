@@ -13,7 +13,16 @@ body {
     monospace;
  }
  
- html, body {
-  overflow-x: hidden;
-  max-width: 100vw;
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+#viewer-container {
+  width: 100%;
+  height: 100%; /* will fill #root because #root is 100% tall */
+  min-height: 300px; /* optional safety net */
+}
+
+

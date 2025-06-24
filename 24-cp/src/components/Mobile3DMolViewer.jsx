@@ -17,7 +17,8 @@ const Mobile3DMolViewer = ({ pdbId, metadata }) => {
   const cardStyle = {
     marginTop: '1rem',
     borderRadius: '10px',
-    width: '100%'
+    width: '100%',
+    height: '100vh'
   };
 
   return (
@@ -41,7 +42,7 @@ const Mobile3DMolViewer = ({ pdbId, metadata }) => {
         style={cardStyle}
         bodyStyle={{ padding: 0, height: '45vh' }}
       >
-        <div id="viewer-container">
+        <div id="viewer-container" style={{width: '100%', height: '100vh', minHeight: '300px'}}>
           <Protein3DMol pdbId={pdbId} />
         </div>
       </Card>
