@@ -9,6 +9,7 @@ html, body, #root {
   height: calc(env(safe-area-inset-top) * 0 + 100vh);
   position: relative;
   overflow: hidden;
+  min-height: 45vh;
 }
 
 .ant-card {
