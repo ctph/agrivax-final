@@ -6,10 +6,10 @@ html, body, #root {
 
 #viewer-container {
   width: 100%;
-  height: calc(env(safe-area-inset-top) * 0 + 100vh);
+  height: 100%;      
+  min-height: 45vh;  /* protects against 0-px flashes */
   position: relative;
   overflow: hidden;
-  min-height: 45vh;
 }
 
 .ant-card {

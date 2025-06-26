@@ -170,4 +170,3 @@ export default Protein3DMol;
 
 // export default Protein3DMol;
 
-
