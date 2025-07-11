@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import Papa from 'papaparse';
 import { Typography, Card, Table, Tag, Tooltip } from 'antd';
 import './PercentPage.css';
+import Header from "../components/Header";
 
 const { Title, Text } = Typography;
 
@@ -98,6 +99,7 @@ const PercentPage = () => {
 
   return (
     <div className="percent-page-container">
+      <Header/>
       <Title
         level={2}
         style={{
