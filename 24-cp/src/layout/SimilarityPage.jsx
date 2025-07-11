@@ -11,34 +11,40 @@ import MoleculeViewer from '../components/MoleculeViewer';
 const { useBreakpoint } = Grid;
 
 const { Title, Text } = Typography;
-
 const ProteinContent = () => {
   const { pdbId: rawParam } = useParams();
   const navigate = useNavigate();
-  // const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
-
   const screens = useBreakpoint();
-  const isMobile = !screens.md; 
+  const isMobile = !screens.md;
 
   const normalizedPdbId = rawParam?.toUpperCase().includes("_")
     ? rawParam.toUpperCase()
-    : `${rawParam?.toUpperCase()}_a`;
+    : `${rawParam?.toUpperCase()}_A`;
 
   const [pdbStructure, setPdbStructure] = useState("");
   const [metadata, setMetadata] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [renderMode, setRenderMode] = useState("cartoon");
 
-    const handleSimilarityClick = (threshold) => {
-    const baseId = rawParam.split('_')[0].toLowerCase(); // Remove chain suffix if present
+  const getViewStyle = () => {
+    if (renderMode === "cartoon") {
+      return [{}, { cartoon: { color: "spectrum" } }];
+    } else if (renderMode === "stick") {
+      return [{}, { stick: { radius: 0.2 } }];
+    } else {
+      return [{}];
+    }
+  };
+
+  const handleSimilarityClick = (threshold) => {
+    const baseId = rawParam.split("_")[0].toLowerCase();
     navigate(`/percent/${baseId}/${threshold}`);
   };
 
   useEffect(() => {
     const cleanPdbId = rawParam.split("_")[0].toLowerCase();
-
     const pdbUrl = `https://two4-cp-backend2.onrender.com/filtered_pdbs/${normalizedPdbId}.pdb`;
-    console.log('Fetching PDB from:', pdbUrl);  
 
     fetch(pdbUrl)
       .then((res) => {
@@ -51,7 +57,6 @@ const ProteinContent = () => {
         }
         setPdbStructure(text);
       })
-
       .catch((err) => {
         setError(err.message);
         setPdbStructure(null);
@@ -140,6 +145,16 @@ const ProteinContent = () => {
           </Flex>
         )}
 
+        <Flex justify="left" gap={8} wrap>
+          <Text strong>View Mode:</Text>
+          <Button type={renderMode === "cartoon" ? "primary" : "default"} onClick={() => setRenderMode("cartoon")}>
+            Cartoon
+          </Button>
+          <Button type={renderMode === "stick" ? "primary" : "default"} onClick={() => setRenderMode("stick")}>
+            Stick
+          </Button>
+        </Flex>
+
         <Divider style={{ margin: "16px 0" }} />
 
         <Flex justify="space-between" gap={24} style={{ flexWrap: "wrap" }}>
@@ -173,7 +188,7 @@ const ProteinContent = () => {
               >
                 <Protein3DMol
                   pdbIdStructure={pdbStructure}
-                  viewStyle={[{}, { cartoon: {} }]}
+                  viewStyle={getViewStyle()}
                   surfaceStyle={null}
                   partialViewStyle={null}
                   style={{
@@ -192,7 +207,7 @@ const ProteinContent = () => {
               >
                 <Protein3DMol
                   pdbIdStructure={pdbStructure}
-                  viewStyle={[{}, { cartoon: {} }]}
+                  viewStyle={getViewStyle()}
                   surfaceStyle={null}
                   partialViewStyle={null}
                   style={{
