@@ -1,3 +1,72 @@
+// import React, { useState, useEffect } from 'react';
+// import { Table, Tag } from 'antd';
+// import { Link } from 'react-router-dom';
+
+// const PdbTable = () => {
+//   const [pdbs, setPdbs] = useState([]);
+//   const [loading, setLoading] = useState(true);
+
+//   useEffect(() => {
+//     fetch('/filtered_pdbs_list.json')
+//       .then(res => res.json())
+//       .then(data => {
+//         const formatted = data.map(filename => {
+//           const id = filename.replace('.pdb', '');
+//           return {
+//             id,
+//             sequence: '-',          // Placeholder
+//             cyclisation: '-',       // Placeholder
+//             filepath: `/filtered_pdbs/${filename}`,
+//           };
+//         });
+//         setPdbs(formatted);
+//         setLoading(false);
+//       });
+//   }, []);
+
+//   const columns = [
+//     {
+//       title: 'PDB ID',
+//       dataIndex: 'id',
+//       key: 'id',
+//       render: (id) => (
+//         <Link to={`/similarity/${id.toUpperCase()}`}>
+//           <Tag color="blue">{id}</Tag>
+//         </Link>
+//       ),
+//     },
+//     {
+//       title: 'Actions',
+//       key: 'actions',
+//       render: (_, record) => (
+//         <>
+//           <Link to={`/similarity/${record.id.toUpperCase()}`} style={{ marginRight: 8 }}>
+//             View 3D
+//           </Link>
+//           <a href={record.filepath} download>
+//             Download
+//           </a>
+//         </>
+//       ),
+//     },
+//   ];
+
+//   return (
+//   <div style={{ marginLeft: '20px', marginRight: '20px' }}>
+//     <Table
+//       columns={columns}
+//       dataSource={pdbs}
+//       loading={loading}
+//       rowKey="id"
+//       pagination={{ pageSize: 10 }}
+//     />
+//   </div>
+//   );
+// };
+
+// export default PdbTable;
+
+
 import React, { useState, useEffect } from 'react';
 import { Table, Tag } from 'antd';
 import { Link } from 'react-router-dom';
@@ -7,22 +76,23 @@ const PdbTable = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/filtered_pdbs_list.json')
-      .then(res => res.json())
-      .then(data => {
-        const formatted = data.map(filename => {
-          const id = filename.replace('.pdb', '');
-          return {
-            id,
-            sequence: '-',          // Placeholder
-            cyclisation: '-',       // Placeholder
-            filepath: `/filtered_pdbs/${filename}`,
-          };
-        });
-        setPdbs(formatted);
-        setLoading(false);
-      });
-  }, []);
+  fetch('/home_page_table.json')
+    .then(res => res.json())
+    .then(data => {
+      const formatted = Object.entries(data)
+        .map(([pdbId, info]) => ({
+          id: pdbId,
+          sequence: info.sequence || '-',
+          melting_point: info.melting_point_K ?? '-',
+          filepath: `/filtered_pdbs/${pdbId}.pdb`,
+        }))
+        .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+
+      setPdbs(formatted);
+      setLoading(false);
+    });
+}, []);
+
 
   const columns = [
     {
@@ -33,6 +103,24 @@ const PdbTable = () => {
         <Link to={`/similarity/${id.toUpperCase()}`}>
           <Tag color="blue">{id}</Tag>
         </Link>
+      ),
+    },
+    {
+      title: 'PDB Sequence',
+      dataIndex: 'sequence',
+      key: 'sequence',
+      render: (seq) => (
+        <span style={{ fontFamily: 'monospace' }}>
+          {seq.slice(0, 40)}{seq.length > 40 ? '...' : ''}
+        </span>
+      ),
+    },
+    {
+      title: 'Melting Point (K)',
+      dataIndex: 'melting_point',
+      key: 'melting_point',
+      render: (temp) => (
+        <span>{temp !== '-' ? `${temp} K` : '-'}</span>
       ),
     },
     {
@@ -52,13 +140,15 @@ const PdbTable = () => {
   ];
 
   return (
-    <Table
-      columns={columns}
-      dataSource={pdbs}
-      loading={loading}
-      rowKey="id"
-      pagination={{ pageSize: 10 }}
-    />
+    <div style={{ marginLeft: '20px', marginRight: '20px' }}>
+      <Table
+        columns={columns}
+        dataSource={pdbs}
+        loading={loading}
+        rowKey="id"
+        pagination={{ pageSize: 10 }}
+      />
+    </div>
   );
 };
 
