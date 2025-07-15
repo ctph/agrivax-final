@@ -2,16 +2,22 @@ import pandas as pd
 import json
 
 # Load the Excel file with header
-df = pd.read_excel("PDB_sequence_24cp.xlsx", header=0)
+df = pd.read_excel("home_page_table.xlsx", header=0)
 
 # Ensure correct column names
-df.columns = ['pdb_id', 'sequence']
+df.columns = ['pdb_id', 'sequence', 'melting_point_K']
 
-# Convert to dictionary
-data_dict = dict(zip(df['pdb_id'], df['sequence']))
+# Convert each row to a dict with pdb_id as key and others as subfields
+data_dict = {
+    row['pdb_id']: {
+        'sequence': row['sequence'],
+        'melting_point_K': row['melting_point_K']
+    }
+    for _, row in df.iterrows()
+}
 
 # Save to JSON
-with open("PDB_sequence_24cp.json", "w", encoding="utf-8") as f:
+with open("home_page_table.json", "w", encoding="utf-8") as f:
     json.dump(data_dict, f, ensure_ascii=False, indent=4)
 
-print("✅ Converted to PDB_sequence_24cp.json")
+print("✅ Converted to home_page_table.json")

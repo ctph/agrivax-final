@@ -1,0 +1,3634 @@
+{
+    "1CYA": {
+        "sequence": "ALLVTAGLVLA",
+        "melting_point_K": 358
+    },
+    "1DG0": {
+        "sequence": "CPWQPWC",
+        "melting_point_K": 349
+    },
+    "1DG2": {
+        "sequence": "GCCSYPPCFATNPDC",
+        "melting_point_K": 328
+    },
+    "1DFY": {
+        "sequence": "GCPWQPWC",
+        "melting_point_K": 333
+    },
+    "1DFZ": {
+        "sequence": "GCPWQPWC",
+        "melting_point_K": 360
+    },
+    "1D7T": {
+        "sequence": "GCPYNPKC",
+        "melting_point_K": 358
+    },
+    "1T9E": {
+        "sequence": "GRATKSIPPIAFPD",
+        "melting_point_K": 338
+    },
+    "1PXQ": {
+        "sequence": "NKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG",
+        "melting_point_K": 347
+    },
+    "1MPV": {
+        "sequence": "CHWDLLVRHWVC",
+        "melting_point_K": 372
+    },
+    "1N1U": {
+        "sequence": "AGETCVGGTCNTPGATCSWPVCTRNGLPV",
+        "melting_point_K": 346
+    },
+    "1VB8": {
+        "sequence": "CAESCVWIPCTVTALLGCSCSNKVCYNGIP",
+        "melting_point_K": 370
+    },
+    "1NBJ": {
+        "sequence": "CAESCVYIPCTVTALLGCSCSNRVCYNGIP",
+        "melting_point_K": 357
+    },
+    "2MT8": {
+        "sequence": "CEAIYAAPKCRRDSDCPGACICRGNGYCGEAIYAAPFAR",
+        "melting_point_K": 328
+    },
+    "1YP8": {
+        "sequence": "CGESCFLGTCYTKGCSCGEWKLCYGTNGGTIFD",
+        "melting_point_K": 338
+    },
+    "1PT4": {
+        "sequence": "CGETCFGGTCNTPGCSCTWPICTRDGLPV",
+        "melting_point_K": 361
+    },
+    "2KUK": {
+        "sequence": "CGETCFTGTCYTNGCTCDPWPVCTRNGLPV",
+        "melting_point_K": 341
+    },
+    "2B38": {
+        "sequence": "CGETCLLGTCYTTGCTCNKYRVCTKDGSVLN",
+        "melting_point_K": 328
+    },
+    "2JWM": {
+        "sequence": "CGETCTLGTCYTQGCTCSWPICKRNGLPV",
+        "melting_point_K": 372
+    },
+    "2F2I": {
+        "sequence": "CGETCVGGTCNTPGCTCSWDKCTRNGLPV",
+        "melting_point_K": 362
+    },
+    "2LUR": {
+        "sequence": "CGETCVGGTCNTPGCTCSWPVCGHFRWGV",
+        "melting_point_K": 351
+    },
+    "1NB1": {
+        "sequence": "CGETCVGGTCNTPGCTCSWPVCTRNGLPV",
+        "melting_point_K": 360
+    },
+    "1ZNU": {
+        "sequence": "CGETCVGGTCNTPGCTCSWPVCTRNGLPV",
+        "melting_point_K": 357
+    },
+    "1HVZ": {
+        "sequence": "GFCRCLCRRGVCRCICTR",
+        "melting_point_K": 354
+    },
+    "7RIJ": {
+        "sequence": "GFPCGESCVYGPCFTAAIGCSCKSKVCYKN",
+        "melting_point_K": 339
+    },
+    "7RN3": {
+        "sequence": "GFPCGESCVYIPCFTAAIGCSCKSKVCYKN",
+        "melting_point_K": 337
+    },
+    "2MH1": {
+        "sequence": "GGGCGETCVGGTCNTPGCTCSWPVCTRNGLPVT",
+        "melting_point_K": 342
+    },
+    "5WOV": {
+        "sequence": "GGVCPKILQRCRRDSDCPGACICRGNGYCGSGSD",
+        "melting_point_K": 367
+    },
+    "5WOW": {
+        "sequence": "GGVCPKILQRCRRDSDCPGACICRGNGYCGYPYDVPDYA",
+        "melting_point_K": 368
+    },
+    "2KCG": {
+        "sequence": "GIPCGESCVWIPCISSAIGCSCKSKVCYRN",
+        "melting_point_K": 332
+    },
+    "2KNM": {
+        "sequence": "GIPCGESCVWIPCISSAIGCSCKSKVCYRN",
+        "melting_point_K": 331
+    },
+    "2KNN": {
+        "sequence": "GIPCGXSCVWIPCISSAIGCSCKSKVCYRN",
+        "melting_point_K": 367
+    },
+    "6DHR": {
+        "sequence": "GLPICGETCLLGKCYTPGCSCRRPVCYKN",
+        "melting_point_K": 365
+    },
+    "2LAM": {
+        "sequence": "GLPTCGETCTLGTCYVPDCSCSWPICMKN",
+        "melting_point_K": 360
+    },
+    "7LHC": {
+        "sequence": "GLPVCGETCVGGTCNTPGCKCSWPVCTRN",
+        "melting_point_K": 349
+    },
+    "2MN1": {
+        "sequence": "GLPVCGETCVGGTCNTPGCTCSWWPVCTRN",
+        "melting_point_K": 350
+    },
+    "7K7X": {
+        "sequence": "GLPVCGETCVGGTCNTPGCVCSWPVCTRN",
+        "melting_point_K": 358
+    },
+    "2GJ0": {
+        "sequence": "GSIPACGESCFKGKCYTPGCSCSKYPLCAKN",
+        "melting_point_K": 367
+    },
+    "2KVX": {
+        "sequence": "GSLCGDTCFVLGCNDSSCSCNYPICVKD",
+        "melting_point_K": 330
+    },
+    "2KUX": {
+        "sequence": "GTPCGESCVYIPCISGVIGCSCTDKVCYLN",
+        "melting_point_K": 359
+    },
+    "2K7G": {
+        "sequence": "GVPICGETCTLGTCYTAGCSCSWPVCTRN",
+        "melting_point_K": 344
+    },
+    "7RMQ": {
+        "sequence": "IPCGESCVWIPCISSAIGCSCKSKVCYRNG",
+        "melting_point_K": 343
+    },
+    "1CRE": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVSNLTVPVKRGCIDVCPKNSALVKYVCCNTDRCN",
+        "melting_point_K": 349
+    },
+    "1KBS": {
+        "sequence": "RKCNKLVPLFYKTCPAGKNLCYKMFMVSNLTVPVKRGCIDVCPKNSALVKYVCCNTDRCN",
+        "melting_point_K": 349
+    },
+    "4GUX": {
+        "sequence": "SGSDGGVCPKILKKCRRDSDCPGACICRGNGYCG",
+        "melting_point_K": 331
+    },
+    "2M86": {
+        "sequence": "SGSGASKAPTSFAEYWNLLSAGGVCPKILQRCRRDSDCPGACICRGNGYCG",
+        "melting_point_K": 331
+    },
+    "2MW0": {
+        "sequence": "SWPICKRNGLPVCGETCTLGTCSTQGCTC",
+        "melting_point_K": 360
+    },
+    "1KAL": {
+        "sequence": "SWPVCTRNGLPVCGETCVGGTCNTPGCTC",
+        "melting_point_K": 360
+    },
+    "1R1F": {
+        "sequence": "TFCGETCRVIPVCTYSAALGCTCDDRSDGLCKRNGDP",
+        "melting_point_K": 350
+    },
+    "1QUZ": {
+        "sequence": "ASCRTPKDCADPCRKETGCPYGKCMNRKCKCNRC",
+        "melting_point_K": 358
+    },
+    "1QDP": {
+        "sequence": "CAKKRNWCGKNEDCCCPMKCIYAWYNQQGSCQTTITGLFKKC",
+        "melting_point_K": 349
+    },
+    "1FGE": {
+        "sequence": "CEAPEGYILDDGFICTDIDE",
+        "melting_point_K": 360
+    },
+    "1DW4": {
+        "sequence": "CKGKGAKCSRLMYDCCTGSCRSGKC",
+        "melting_point_K": 370
+    },
+    "1DW5": {
+        "sequence": "CKGKGAKCSRLMYDCCTGACRSGKC",
+        "melting_point_K": 357
+    },
+    "1OMG": {
+        "sequence": "CKGKGAKCSRLMYDCCTGSCKSGKC",
+        "melting_point_K": 371
+    },
+    "1MVJ": {
+        "sequence": "CKLKGQSCRKTSYDCCSGSCGRSGKC",
+        "melting_point_K": 346
+    },
+    "1EGT": {
+        "sequence": "CPEGYILDDGFCTDIDE",
+        "melting_point_K": 329
+    },
+    "1V6R": {
+        "sequence": "CSCSSLMDKECVYFCHLDIIW",
+        "melting_point_K": 353
+    },
+    "2MGO": {
+        "sequence": "CYIQNCPLG",
+        "melting_point_K": 371
+    },
+    "1XGC": {
+        "sequence": "ECCNPACGRHYSC",
+        "melting_point_K": 364
+    },
+    "1OMB": {
+        "sequence": "EDNCIAEDYGKCTWGGTKCCRGRPCRCSMIGTNCECTPRLIMEGLSFA",
+        "melting_point_K": 354
+    },
+    "1UL2": {
+        "sequence": "GCCSHPACAGNNQHIC",
+        "melting_point_K": 332
+    },
+    "1B3C": {
+        "sequence": "KDGYLVEKTGCKKTCYKLGENDFCNRECKWKHIGGSYGYCYGFGCYCEGLPDSTQTWPLPNKTC",
+        "melting_point_K": 357
+    },
+    "1VNB": {
+        "sequence": "KEGYLVKKSDGCKYDCFWLGKNEHCNTECKAKNQGGSYGYCYAFACWCEGLPESTPTYPLPNKSC",
+        "melting_point_K": 346
+    },
+    "1ETN": {
+        "sequence": "CELCCNPACAGC",
+        "melting_point_K": 356
+    },
+    "1ETL": {
+        "sequence": "CELCCNPGCAGC",
+        "melting_point_K": 366
+    },
+    "1ETM": {
+        "sequence": "CELCCNPLCAGC",
+        "melting_point_K": 363
+    },
+    "5KK4": {
+        "sequence": "AKDCKRESNTFPGICITKPPCRKACIREKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 338
+    },
+    "6MRY": {
+        "sequence": "ARQCKAESNTFTGICIAKPPCRQACIREKFTDGHCSKVLRRCLCTKRC",
+        "melting_point_K": 370
+    },
+    "1N4N": {
+        "sequence": "ATCKAECPTWDSVCINKKPCVACCKKAKFSDGHCSKILRRCLCTKEC",
+        "melting_point_K": 362
+    },
+    "1VTX": {
+        "sequence": "CAKKRNWCGKTEDCCCPMKCVYAWYNEQGSCQSTISALWKKC",
+        "melting_point_K": 356
+    },
+    "5TY4": {
+        "sequence": "CCLRPLYIDFRKDLGWKWIHEPKGYNANFCAGACPYLWSSDTQHSRVLSLYNTINPEASASPCCVSQDLEPLTIVYYVGRKPKVEQLSNMIVKSCKC",
+        "melting_point_K": 359
+    },
+    "1ZA8": {
+        "sequence": "CGESCAMISFCFTEVIGCSCKNKVCYLNSIS",
+        "melting_point_K": 358
+    },
+    "1BH4": {
+        "sequence": "CGESCVWIPCISAALGCSCKNKVCYRNGIP",
+        "melting_point_K": 360
+    },
+    "2KCH": {
+        "sequence": "CGETCFGGTCNTPGCSCTWPICTRDGLPV",
+        "melting_point_K": 360
+    },
+    "3E4H": {
+        "sequence": "CGETCTLGTCYTAGCSCSWPVCTRNGVPI",
+        "melting_point_K": 372
+    },
+    "2F2J": {
+        "sequence": "CGETCVGGTCNTPGCTCSKNKCTRNGLPV",
+        "melting_point_K": 347
+    },
+    "1CLV": {
+        "sequence": "CIPKWNRCGPKMDGVPCCEPYTCTSDYYGNCS",
+        "melting_point_K": 335
+    },
+    "1HTX": {
+        "sequence": "CIPKWNRCGPKMDGVPCCEPYTCTSDYYGNCS",
+        "melting_point_K": 350
+    },
+    "1QFD": {
+        "sequence": "CIPKWNRCGPKMDGVPCCEPYTCTSDYYGNCS",
+        "melting_point_K": 368
+    },
+    "1HVW": {
+        "sequence": "CIPSGQPCPYNENCCSQSCTGGRCD",
+        "melting_point_K": 361
+    },
+    "1TT3": {
+        "sequence": "CKGKGAKCSKLMYDCCTGSCRSGKC",
+        "melting_point_K": 362
+    },
+    "1FEO": {
+        "sequence": "CKGKGAKCSRLMYDCCTGSCRSGKCG",
+        "melting_point_K": 339
+    },
+    "1MVI": {
+        "sequence": "CKGKGAKCSRLMYDCCTGSCRSGKC",
+        "melting_point_K": 365
+    },
+    "1TTK": {
+        "sequence": "CKGKGAKCSRLMKDCCTGSCRSGKC",
+        "melting_point_K": 371
+    },
+    "1CNN": {
+        "sequence": "CKGKGAPCRKYMYDCCSGSCGRRGKC",
+        "melting_point_K": 328
+    },
+    "1OMN": {
+        "sequence": "CKGKGAPCRKMMYDCCSGSCGRRGKC",
+        "melting_point_K": 332
+    },
+    "1F3K": {
+        "sequence": "CKQADEPCDVFSLDCCTGICLGVCMW",
+        "melting_point_K": 349
+    },
+    "1TR6": {
+        "sequence": "CKSPGSSCSKTSYNCCRSCNPYTKRCY",
+        "melting_point_K": 327
+    },
+    "2CCO": {
+        "sequence": "CKSPGSSCSPTSYGCCRSCNPYTKRCY",
+        "melting_point_K": 350
+    },
+    "1RPB": {
+        "sequence": "CLGIGSCNDFAGCGYAVVCFW",
+        "melting_point_K": 345
+    },
+    "1RPC": {
+        "sequence": "CLGIGSCNDFAGCGYAVVCFW",
+        "melting_point_K": 360
+    },
+    "1D5Q": {
+        "sequence": "CNLARCQLSCKSLGLKGGCQGSFCTCG",
+        "melting_point_K": 329
+    },
+    "1AV3": {
+        "sequence": "CRIPNQKCFQHLDDCCSRKCNRFNKCV",
+        "melting_point_K": 358
+    },
+    "1KCP": {
+        "sequence": "CRIPNQKCFQHLVDCCSRKCNRFNKCV",
+        "melting_point_K": 359
+    },
+    "1SRB": {
+        "sequence": "CSCKDMTDKECLYFCHQDVIW",
+        "melting_point_K": 334
+    },
+    "1EDP": {
+        "sequence": "CSCSSLMDKECVYFCHL",
+        "melting_point_K": 365
+    },
+    "1EDN": {
+        "sequence": "CSCSSLMDKECVYFCHLDIIW",
+        "melting_point_K": 353
+    },
+    "1MPZ": {
+        "sequence": "CTTGPCCRQCKLKPAGTTCWKTSLTSHYCTGKSCDCPLYPG",
+        "melting_point_K": 368
+    },
+    "1CMR": {
+        "sequence": "CTTSKECWSVCQRLHNTSKGWCDHRGCICES",
+        "melting_point_K": 328
+    },
+    "1MR0": {
+        "sequence": "CVRLHESCLGQQVPCCDPAATCYCRFFNAFCYCR",
+        "melting_point_K": 357
+    },
+    "1HYK": {
+        "sequence": "CVRLHESCLGQQVPCCDPCATCYCRFFNAFCYCRKLGTAMNPCSRT",
+        "melting_point_K": 371
+    },
+    "1MYN": {
+        "sequence": "DCLSGRYKGPCAVWDNETCRRVCKEEGRSSGHCSPSLKCWCEGC",
+        "melting_point_K": 337
+    },
+    "4BVV": {
+        "sequence": "DCMFGNGKGYRGKKATTVTGTPCQEWAAQEPHRHSTFIPGTNKWAGLEKNYCRNPDGDINGPWCYTMNPRKLFDYCDIPLC",
+        "melting_point_K": 355
+    },
+    "1UOY": {
+        "sequence": "DTCGSGYNVDQRRTNSGCKAGNGDRHFCGCDRTGVVECKGGKWTEVQDCGSSSCKGTSNGGATC",
+        "melting_point_K": 352
+    },
+    "1NOT": {
+        "sequence": "ECCNPACHRHYSC",
+        "melting_point_K": 363
+    },
+    "1XGA": {
+        "sequence": "ECCNPACARHYSC",
+        "melting_point_K": 362
+    },
+    "1XGB": {
+        "sequence": "ECCNPACGRHYSC",
+        "melting_point_K": 367
+    },
+    "1IEN": {
+        "sequence": "FNWRCCLIPACRRNHKKFC",
+        "melting_point_K": 332
+    },
+    "5XDI": {
+        "sequence": "FQCGRQAGGARCSNGLCCSQFGYCGSTPPYCGAGQCQSQC",
+        "melting_point_K": 333
+    },
+    "999999999999999926539781176481198923508803215199467887262646419780362305536": {
+        "sequence": "GCCSDPLCAWAC",
+        "melting_point_K": 355
+    },
+    "1CNL": {
+        "sequence": "GCCSDPRCAWRC",
+        "melting_point_K": 350
+    },
+    "1G2G": {
+        "sequence": "GCCSDPKCAWRC",
+        "melting_point_K": 371
+    },
+    "1PEN": {
+        "sequence": "GCCSLPPCAANNPDYC",
+        "melting_point_K": 349
+    },
+    "1AKG": {
+        "sequence": "GCCSLPPCALSNPDYC",
+        "melting_point_K": 353
+    },
+    "10000000000000000470601344959054695891559601407866630764278709534898249531392": {
+        "sequence": "GCCSNPRCAWRC",
+        "melting_point_K": 347
+    },
+    "1MII": {
+        "sequence": "GCCSNPVCHLEHSNLC",
+        "melting_point_K": 348
+    },
+    "1HP9": {
+        "sequence": "GHACYRNCWREGNDEETCKERC",
+        "melting_point_K": 367
+    },
+    "4R5U": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICEIPRGDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 329
+    },
+    "6ATL": {
+        "sequence": "GSVVIGQRCYRSPDCYSACKKLVGKATGKCTNGRCDC",
+        "melting_point_K": 356
+    },
+    "2Z3S": {
+        "sequence": "GVPINVSCTGSKDCYAPCRKQTGCPNAKCINKSCKCYGC",
+        "melting_point_K": 340
+    },
+    "1HJE": {
+        "sequence": "ICCNPACAPKYSC",
+        "melting_point_K": 348
+    },
+    "1QMW": {
+        "sequence": "ICCNPACGPKYSC",
+        "melting_point_K": 354
+    },
+    "1MTQ": {
+        "sequence": "IRDECCSNPACRVNNPHVC",
+        "melting_point_K": 371
+    },
+    "2B3C": {
+        "sequence": "KDGYLVEKTGCKKTCYKLGENDFCNRECKWKHIGGSYGYCYGFGCYCEGLPDSTQTWPLPNKTC",
+        "melting_point_K": 352
+    },
+    "1NPI": {
+        "sequence": "KEGYLMDHEGCKLSCFIRPSGYCGRECGIKKGSSGYCAWPACYCYGLPNWVKVWDRATNKC",
+        "melting_point_K": 347
+    },
+    "2YBR": {
+        "sequence": "KEGYLVDKNTGCKYECLKLGDNDYCLRECKQQYGKGAGGYCYAFACWCTHLYEQAIVWPLPNKRCS",
+        "melting_point_K": 339
+    },
+    "2YC1": {
+        "sequence": "KEGYLVDKNTGCKYECLKLGDNDYCLRECKQQYGKGAGGYCYAFACWCTHLYEQAIVWPLPNKRCS",
+        "melting_point_K": 342
+    },
+    "4V1D": {
+        "sequence": "KEGYLVDKNTGCKYECLKLGDNDYCLRECKQQYGKGAGGYCYAFACWCTHLYEQAIVWPLPNKRCS",
+        "melting_point_K": 334
+    },
+    "2SN3": {
+        "sequence": "KEGYLVKKSDGCKYGCLKLGENEGCDTECKAKNQGGSYGYCYAFACWCEGLPESTPTYPLPNKSC",
+        "melting_point_K": 331
+    },
+    "2M01": {
+        "sequence": "KKKCQLPSDVGKGKASFTRYYYNEESGKCETFIYGGVGGNSNNFLTKEDCCRECAQGSC",
+        "melting_point_K": 350
+    },
+    "3PSM": {
+        "sequence": "KTCENLADTFRGPCFTDGSCDDHCKNKEHLIKGRCRDDFRCWCTRNC",
+        "melting_point_K": 351
+    },
+    "2LJ7": {
+        "sequence": "KTCENLSDSFKGPCIPDGNCNKHCKEKEHLLSGRCRDDFRCWCTRNC",
+        "melting_point_K": 363
+    },
+    "6NOM": {
+        "sequence": "KTCENLSGTFKGPCIPDGNCNKHCRNNEHLLSGRCRDDFRCWCTNRC",
+        "melting_point_K": 355
+    },
+    "1BK8": {
+        "sequence": "LCNERPSQTWSGNCGNTAHCDKQCQDWEKASHGACHKRENHWKCFCYFNC",
+        "melting_point_K": 349
+    },
+    "5KY4": {
+        "sequence": "NTPDCTESSCFNGGTCVDGINSFTCLCPPGFTGSYCQYDV",
+        "melting_point_K": 360
+    },
+    "1AYJ": {
+        "sequence": "QKLCERPSGTWSGVCGNNNACKNQCINLEKARHGSCNYVFPAHKCICYFPC",
+        "melting_point_K": 337
+    },
+    "2N2R": {
+        "sequence": "QKLCQRPSGTWSGVCGNNNACKNQCIRLEKARHGSCNYVFPAHKCICYFPC",
+        "melting_point_K": 366
+    },
+    "1EIS": {
+        "sequence": "QRCGSQGGGSTCPGLRCCSIWGWCGDSEPYCGRTCENKCWSGERSDHRCGAAVGNPPCGQDRCCSVHGWCGGGNDYCSGGNCQYRCSSS",
+        "melting_point_K": 338
+    },
+    "1EN2": {
+        "sequence": "QRCGSQGGGSTCPGLRCCSIWGWCGDSEPYCGRTCENKCWSGERSDHRCGAAVGNPPCGQDRCCSVHGWCGGGNDYCSGGNCQYRCSSS",
+        "melting_point_K": 327
+    },
+    "1ENM": {
+        "sequence": "QRCGSQGGGSTCPGLRCCSIWGWCGDSEPYCGRTCENKCWSGERSDHRCGAAVGNPPCGQDRCCSVHGWCGGGNDYCSGGNCQYRCSSS",
+        "melting_point_K": 328
+    },
+    "1R9I": {
+        "sequence": "QRLCCGFPKSCRSRQCKPHRCC",
+        "melting_point_K": 372
+    },
+    "2M8B": {
+        "sequence": "QRLCEKPSGTWSGVCGNNGACRNQCIRLEKARHGSCNYVFPAHKCICYFPC",
+        "melting_point_K": 368
+    },
+    "1K64": {
+        "sequence": "RDPCCYHPTCNMSNPQIC",
+        "melting_point_K": 346
+    },
+    "1MR4": {
+        "sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 352
+    },
+    "4AAZ": {
+        "sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 365
+    },
+    "4AB0": {
+        "sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 371
+    },
+    "1GPT": {
+        "sequence": "RICRRRSAGFKGPCVSNKNCAQVCMQEGWGGGNCDGPLRRCKCMRRC",
+        "melting_point_K": 354
+    },
+    "1BEI": {
+        "sequence": "RSCIDTIPKSRCTAFQCKHSMAYRLSFCRKTCGTC",
+        "melting_point_K": 338
+    },
+    "1ROO": {
+        "sequence": "RSCIDTIPKSRCTAFQCKHSMKYRLSFCRKTCGTC",
+        "melting_point_K": 364
+    },
+    "1GNA": {
+        "sequence": "TCEICAYAACTGC",
+        "melting_point_K": 370
+    },
+    "1IEO": {
+        "sequence": "VGVCCGYKLCHPC",
+        "melting_point_K": 339
+    },
+    "1WT7": {
+        "sequence": "WCSTCLDLACTGSKDCYAPCRKQTGCPNAKCINKSCKCYGC",
+        "melting_point_K": 330
+    },
+    "1SH1": {
+        "sequence": "AACKCDDEGPDIRTAPLTGTVDLGSCNAGWEKCASYYTIIADCCRKKK",
+        "melting_point_K": 328
+    },
+    "2SH1": {
+        "sequence": "AACKCDDEGPDIRTAPLTGTVDLGSCNAGWEKCASYYTIIADCCRKKK",
+        "melting_point_K": 360
+    },
+    "1SHI": {
+        "sequence": "AACKCDDEGPDIRTAPLTGTVDLGSCNAGWEKCASYYTIIADCCRKKKX",
+        "melting_point_K": 363
+    },
+    "1Q2K": {
+        "sequence": "AACYSSDCRVKCVAMGFSSGKCINSKCKCYK",
+        "melting_point_K": 355
+    },
+    "1R1G": {
+        "sequence": "AACYSSDCRVKCVAMGFSSGKCINSKCKCYK",
+        "melting_point_K": 334
+    },
+    "2N1S": {
+        "sequence": "AAGQCYRGRCSGGLCCSKYGYCGSGPAYCG",
+        "melting_point_K": 347
+    },
+    "1DTK": {
+        "sequence": "AAKYCKLPLRIGPCKRKIPSFYYKWKAKQCLPFDYSGCGGNANRFKTIEECRRTCVG",
+        "melting_point_K": 357
+    },
+    "1BDS": {
+        "sequence": "AAPCFCSGKPGRGDLWILRGTCPGGYGYTSNCYKWPNICCYPH",
+        "melting_point_K": 346
+    },
+    "2BDS": {
+        "sequence": "AAPCFCSGKPGRGDLWILRGTCPGGYGYTSNCYKWPNICCYPH",
+        "melting_point_K": 359
+    },
+    "1JLZ": {
+        "sequence": "ACGSCRKKCKGSGKCINGRCKCY",
+        "melting_point_K": 367
+    },
+    "1QK6": {
+        "sequence": "ACKGVFDACTPGKNECCPNRVCSDKHKWCKWKL",
+        "melting_point_K": 350
+    },
+    "1MM0": {
+        "sequence": "ACNFQSCWATCQAQHSIYFRRAFCDRSQCKCVFVRG",
+        "melting_point_K": 344
+    },
+    "1AG7": {
+        "sequence": "ACSGRGSRCPPQCCMGLRCGRGNPQKCIGAHEDV",
+        "melting_point_K": 371
+    },
+    "1RMK": {
+        "sequence": "ACSKKWEYCIVPILGFVYCCPGLICGPFVCV",
+        "melting_point_K": 356
+    },
+    "1JU8": {
+        "sequence": "ADCNGACSPFEVPPCRSRDCRCVPIGLFVGFCIHPTG",
+        "melting_point_K": 352
+    },
+    "1LMR": {
+        "sequence": "ADDDCLPRGSKCLGENKQCCKGTTCMFYANRCVGV",
+        "melting_point_K": 359
+    },
+    "1IGX": {
+        "sequence": "ADPGAPAPVNPCCYYPCQHQGICVRFGLDRYQCDCTRTGYSGPNCTIPEIWTWLRTTLRPSPSFIHFLLTHGRWLWDFVNATFIRDTLMRLVLTVRSNLIPSPPTYNIAHDYISWESFSNVSYYTRILPSVPRDCPTPMGTKGKKQLPDAEFLSRRFLLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQYQLRLFKDGKLKYQMLNGEVYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLYATIWLREHNRVCDLLKAEHPTWGDEQLFQTARLILIGETIKIVIEEYVQQLSGYFLQLKFDPELLFGAQFQYRNRIAMEFNQLYHWHPLMPDSFRVGPQDYSYEQFLFNTSMLVDYGVEALVDAFSRQPAGRIGGGRNIDHHILHVAVDVIKESRVLRLQPFNEYRKRFGMKPYTSFQELTGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEMGAPFSLKGLLGNPICSPEYWKASTFGGEVGFNLVKTATLKKLVCLNTKTCPYVSFHVPDPRQEDRPGVERPPTEL",
+        "melting_point_K": 343
+    },
+    "1IGZ": {
+        "sequence": "ADPGAPAPVNPCCYYPCQHQGICVRFGLDRYQCDCTRTGYSGPNCTIPEIWTWLRTTLRPSPSFIHFLLTHGRWLWDFVNATFIRDTLMRLVLTVRSNLIPSPPTYNIAHDYISWESFSNVSYYTRILPSVPRDCPTPMGTKGKKQLPDAEFLSRRFLLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQYQLRLFKDGKLKYQMLNGEVYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLYATIWLREHNRVCDLLKAEHPTWGDEQLFQTARLILIGETIKIVIEEYVQQLSGYFLQLKFDPELLFGAQFQYRNRIAMEFNQLYHWHPLMPDSFRVGPQDYSYEQFLFNTSMLVDYGVEALVDAFSRQPAGRIGGGRNIDHHILHVAVDVIKESRVLRLQPFNEYRKRFGMKPYTSFQELTGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEMGAPFSLKGLLGNPICSPEYWKASTFGGEVGFNLVKTATLKKLVCLNTKTCPYVSFHVPDPRQEDRPGVERPPTEL",
+        "melting_point_K": 363
+    },
+    "2MQF": {
+        "sequence": "AECKGFGKSCVPGKNECCSGYACNSRDKWCKVLL",
+        "melting_point_K": 346
+    },
+    "1I26": {
+        "sequence": "AEKDCIAPGAPCFGTDKPCCNPRAWCSSYANKCL",
+        "melting_point_K": 356
+    },
+    "1SCY": {
+        "sequence": "AFCNLRMCQLSCRSLGLLGKCIGDKCECVKH",
+        "melting_point_K": 329
+    },
+    "6VNZ": {
+        "sequence": "AFCNLRRCELSCRSLGLLGACIGEECKCVPY",
+        "melting_point_K": 328
+    },
+    "6D8U": {
+        "sequence": "AFCNLRRCELSCRSLGLLGECIGEECKCVPY",
+        "melting_point_K": 350
+    },
+    "6D9O": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEACKCVPY",
+        "melting_point_K": 352
+    },
+    "6D9P": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECACVPY",
+        "melting_point_K": 366
+    },
+    "6D8S": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECECVPY",
+        "melting_point_K": 350
+    },
+    "6D93": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECKCVPA",
+        "melting_point_K": 353
+    },
+    "6D8Y": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECKCVPH",
+        "melting_point_K": 358
+    },
+    "2LU9": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECKCVPY",
+        "melting_point_K": 352
+    },
+    "6D8H": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECKCVPYN",
+        "melting_point_K": 337
+    },
+    "6D3T": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECKCVY",
+        "melting_point_K": 353
+    },
+    "6D8Q": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEECKCVYN",
+        "melting_point_K": 327
+    },
+    "6D8T": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEKCECVPY",
+        "melting_point_K": 371
+    },
+    "6D8R": {
+        "sequence": "AFCNLRRCELSCRSLGLLGKCIGEKCKCVPY",
+        "melting_point_K": 330
+    },
+    "1DKC": {
+        "sequence": "AGCIKNGGRCNASAGPPYCCSSYCFQIAGQSYGVCKNR",
+        "melting_point_K": 365
+    },
+    "1WO9": {
+        "sequence": "AGECTPGQTKKQDCNTCTCTPTGIWGCTRKACRTT",
+        "melting_point_K": 364
+    },
+    "5ZV6": {
+        "sequence": "AGECVRGRCPGGLCCSKFGFCGSGPAYCGG",
+        "melting_point_K": 357
+    },
+    "1DL0": {
+        "sequence": "AICTGADRPCAACCPCCPGTSCKAESNGVSYCRKDEP",
+        "melting_point_K": 357
+    },
+    "1LX5": {
+        "sequence": "AILGRSETQECLFFNANWERDRTNQTGVEPCYGDKDKRRHCFATWKNISGSIEIVKQGCWLDDINCYDRTDCIEKKDSPEVYFCCCEGNMCNEKFSYFPEME",
+        "melting_point_K": 352
+    },
+    "2GOO": {
+        "sequence": "AILGRSETQECLFFNANWERDRTNQTGVEPCYGDKDKRRHCFATWKNISGSIEIVKQGCWLDDINCYDRTDCIEKKDSPEVYFCCCEGNMCNEKFSYFPEME",
+        "melting_point_K": 364
+    },
+    "7KPD": {
+        "sequence": "AIPCGESCVYIPCISVVIGCSCRNKVCYR",
+        "melting_point_K": 341
+    },
+    "5VYP": {
+        "sequence": "AKDCKRESNTFPGICITKPPCRKACIREKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 348
+    },
+    "1M9Z": {
+        "sequence": "ALCKFCDVRFSTCDNQKSCMSNCSITSICEKPQEVCVAVWRKNDENITLETVCHDPKLPYHDFILEDAASPTCIMKEKKKPGETFFMCSCSSDECNDNIIFSEEYNTSNPD",
+        "melting_point_K": 368
+    },
+    "1TER": {
+        "sequence": "ALCNCNRIIIPHMCWKKCGKK",
+        "melting_point_K": 369
+    },
+    "1KCN": {
+        "sequence": "ALCPAVCYVGGKALCPDVCYV",
+        "melting_point_K": 369
+    },
+    "5TX4": {
+        "sequence": "ALDAAYCFRNVQDNCCLRPLYIDFRKDLGWKWIHEPKGYNANFCAGACPYRASKSPSCVSQDLEPLTIVYYVGRKPKVEQLSNMIVKSCKCS",
+        "melting_point_K": 370
+    },
+    "1KTZ": {
+        "sequence": "ALDTNYCFRNLEENCCVRPLYIDFRQDLGWKWVHEPKGYYANFCSGPCPYLRSADTTHSTVLGLYNTLNPEASASPCCVPQDLEPLTILYYVGRTPKVEQLSNMVVKSCKCS",
+        "melting_point_K": 345
+    },
+    "6MAC": {
+        "sequence": "TRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLPEPG",
+        "melting_point_K": 331
+    },
+    "2PJY": {
+        "sequence": "ALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSSCIAEIDLIPRDRPFVCAPSSKTGSVTTTYCCNQDHCNKIEL",
+        "melting_point_K": 344
+    },
+    "2W9W": {
+        "sequence": "AMDCTTGPCCRQCKLKPAGTTCWKTSVSSHYCTGRSCECPSYPG",
+        "melting_point_K": 350
+    },
+    "2W9U": {
+        "sequence": "AMDCTTGPCCRQCKLKPAGTTCWKTSVSSHYCTGRSCECPSYPGNG",
+        "melting_point_K": 359
+    },
+    "2W9V": {
+        "sequence": "AMDCTTGPCCRQCKLKPAGTTCWRTSVSSHYCTGRSCECPSYPG",
+        "melting_point_K": 339
+    },
+    "2W9O": {
+        "sequence": "AMDCTTGPCCRQCKLKPAGTTCWRTSVSSHYCTGRSCECPSYPGNG",
+        "melting_point_K": 368
+    },
+    "1XI7": {
+        "sequence": "AMVSSTCIGHYQKCVNADKPCCSKTVRYGDSKNVRKFICDRDGEGVCVPFDGGVRGLPNGA",
+        "melting_point_K": 333
+    },
+    "1XJ1": {
+        "sequence": "AMVSSTCIGHYQKCVNADKPCCSKTVRYGDSKNVRKFICDRDGEGVCVPFDGGVRGLPNGA",
+        "melting_point_K": 354
+    },
+    "3TH2": {
+        "sequence": "ANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILE",
+        "melting_point_K": 341
+    },
+    "3TH3": {
+        "sequence": "ANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILE",
+        "melting_point_K": 342
+    },
+    "3TH4": {
+        "sequence": "ANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILE",
+        "melting_point_K": 367
+    },
+    "4ZMA": {
+        "sequence": "ANAFLEELRPGSLERECKEEQCSFEEAREIFKDAERTKLFWISYSDGDQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILEKRNASKPQGR",
+        "melting_point_K": 346
+    },
+    "1IOD": {
+        "sequence": "ANSFLEEVKQGNLERECLEEACSLEEAREVFEDAEQTDEFWSKY",
+        "melting_point_K": 334
+    },
+    "1UHA": {
+        "sequence": "APECGERASGKRCPNGKCCSQWGYCGTTDNYCGQGCQSQCDYWRCGRDFGGRLCEEDMCCSKYGWCGYSDDHCEDGCQSQCD",
+        "melting_point_K": 330
+    },
+    "1ULM": {
+        "sequence": "APECGERASGKRCPNGKCCSQWGYCGTTDNYCGQGCQSQCDYWRCGRDFGGRLCEEDMCCSKYGWCGYSDDHCEDGCQSQCD",
+        "melting_point_K": 372
+    },
+    "1ULN": {
+        "sequence": "APECGERASGKRCPNGKCCSQWGYCGTTDNYCGQGCQSQCDYWRCGRDFGGRLCEEDMCCSKYGWCGYSDDHCEDGCQSQCDLT",
+        "melting_point_K": 351
+    },
+    "1BNB": {
+        "sequence": "APLSCGRNGGVCIPIRCPVPMRQIGTCFGRPVKCCRSW",
+        "melting_point_K": 367
+    },
+    "4UJ0": {
+        "sequence": "AQQICKAPSQTFPGLCFMDSSCRKYCIKEKFTGGHCSKLQRKCLCTKPC",
+        "melting_point_K": 348
+    },
+    "2LKB": {
+        "sequence": "ARDAYIAKPHNCVYECFDAFSSYCNGVCTKNGAKSGYCQILGTYGNGCWCIALPDNVPIRIPGKCH",
+        "melting_point_K": 365
+    },
+    "5MOU": {
+        "sequence": "ARDAYIAKPHNCVYECYNPKGSYCNDLCTENGAESGYCQILGKYGNACWCIQLPDNVPIRIPGKCH",
+        "melting_point_K": 349
+    },
+    "6B55": {
+        "sequence": "ARECKTESNTFPGICITKPPCRKACISEKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 348
+    },
+    "1VIB": {
+        "sequence": "ASATWGAAYPACENNCRKKYDLCIRCQGKWAGKRGKCAAHCIIQKNNCKGKCKKE",
+        "melting_point_K": 356
+    },
+    "1P8B": {
+        "sequence": "ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG",
+        "melting_point_K": 364
+    },
+    "3KFD": {
+        "sequence": "ATALQCFCHLCTKDNFTCVTDGLCFVSVTETTDKVIHNSMCIAEIDLIPRDRPFVCAPSSKTGSVTTTYCCNQDHCNKIELPTTV",
+        "melting_point_K": 355
+    },
+    "2E3F": {
+        "sequence": "ATCDLASFSSQWVTPNDSLCAAHCIARRYRGGYCNGKRVCVCR",
+        "melting_point_K": 365
+    },
+    "2E3E": {
+        "sequence": "ATCDLASFSSQWVTPNDSLCAAHCLVKGYRGGYCKNKICHCRDKF",
+        "melting_point_K": 359
+    },
+    "2NY8": {
+        "sequence": "ATCDLASGFGVGSSLCAAHCIARRYRGGYCNSKAVCVCRN",
+        "melting_point_K": 338
+    },
+    "2NY9": {
+        "sequence": "ATCDLASGFGVGSSLCAAHCLVKGYRGGYCKNKICHCRDKF",
+        "melting_point_K": 341
+    },
+    "2NZ3": {
+        "sequence": "ATCDLASIFNVNHALCAAHCIARRYRGGYCNSKAVCVCRN",
+        "melting_point_K": 354
+    },
+    "2E3G": {
+        "sequence": "ATCDLASKWNWNHTLCAAHCIARRYRGGYCNSKAVCVCRN",
+        "melting_point_K": 361
+    },
+    "1L4V": {
+        "sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKAVCVCRN",
+        "melting_point_K": 356
+    },
+    "1ICA": {
+        "sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN",
+        "melting_point_K": 356
+    },
+    "2LLD": {
+        "sequence": "ATCDLLSGTGVKHSACAAHCLLRGNRGGYCNGRAICVCRN",
+        "melting_point_K": 368
+    },
+    "1WM7": {
+        "sequence": "ATCEDCPEHCATQNARAKCDNDKCVCEPK",
+        "melting_point_K": 336
+    },
+    "2KRA": {
+        "sequence": "AVITGACDKDVQCGSGTCCAASAWSRNIRFCIPLGNSGEDCHPASHKVPYDGKRLSSLCPCKSGLTCSKSGEKFKCS",
+        "melting_point_K": 364
+    },
+    "1IMT": {
+        "sequence": "AVITGACERDLQCGKGTCCAVSLWIKSVRVCTPVGTSGEDCHPASHKIPFSGQRMHHTCPCAPNLACVQTSPKKFKCLSK",
+        "melting_point_K": 348
+    },
+    "2ERI": {
+        "sequence": "CGESCVFIPCISTLLGCSCKNKVCYRNGVIP",
+        "melting_point_K": 370
+    },
+    "1Q3J": {
+        "sequence": "CIKNGNGCQPNGSQGNCCSGYCHKQPGWVAGYCRRK",
+        "melting_point_K": 353
+    },
+    "1OMC": {
+        "sequence": "CKSPGSSCSPTSYNCCRSCNPYTKACY",
+        "melting_point_K": 339
+    },
+    "1TTL": {
+        "sequence": "CKSPGSSCSPTSYNCCRSCNPYTKRCY",
+        "melting_point_K": 358
+    },
+    "1JXC": {
+        "sequence": "CPEIEAQGNECLKEYGGDVGFGFCAPRIFPTICYTRCRENKGAKGGRCRWGQGSNVKCLCDFCGDTPQ",
+        "melting_point_K": 366
+    },
+    "2PO8": {
+        "sequence": "CPKILKKCRRDSDCPGACICRGNGYCGSGSDGGV",
+        "melting_point_K": 345
+    },
+    "2KYQ": {
+        "sequence": "DCKRKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 357
+    },
+    "1KOZ": {
+        "sequence": "DCVRFWGKCSQTSDCCPHLACKSKWPRNICVWDGSV",
+        "melting_point_K": 345
+    },
+    "1EMX": {
+        "sequence": "DDCGKLFSGCDTNADCCEGYVCRLWCKLDW",
+        "melting_point_K": 353
+    },
+    "1G1P": {
+        "sequence": "DDCIKPYGFCSLPILKNGLCCSGACVGVCADL",
+        "melting_point_K": 334
+    },
+    "1G1Z": {
+        "sequence": "DDCIKPYGFCSLPILKNGLCCSGACAGVCADL",
+        "melting_point_K": 344
+    },
+    "1QKY": {
+        "sequence": "DEAIRCTGTKDCYIPCRYITGCFNSRCINKSCKCYGCT",
+        "melting_point_K": 352
+    },
+    "5KXH": {
+        "sequence": "DGDQCASNPCQNGGTCQDHLKSYVCFCLLDFEGRNCEKSK",
+        "melting_point_K": 371
+    },
+    "5KY2": {
+        "sequence": "DGDQCASNPCQNGGTCQDHLKSYVCFCLLDFEGRNCEKSK",
+        "melting_point_K": 347
+    },
+    "2LY5": {
+        "sequence": "DKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 333
+    },
+    "2LY6": {
+        "sequence": "DKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 331
+    },
+    "1I2V": {
+        "sequence": "DKLIGSCVWGAVNYTSDCNGECLLRGYKGGHCGSFANVNCWCET",
+        "melting_point_K": 363
+    },
+    "1OZZ": {
+        "sequence": "DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCWCET",
+        "melting_point_K": 346
+    },
+    "1P0A": {
+        "sequence": "DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFLNVNCWCET",
+        "melting_point_K": 343
+    },
+    "1P00": {
+        "sequence": "DKLIGSCVWGAVNYTSNCRAECKRRGYKGGHCGSFANVNCWCET",
+        "melting_point_K": 346
+    },
+    "4Z6A": {
+        "sequence": "DQCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILEK",
+        "melting_point_K": 334
+    },
+    "1KG1": {
+        "sequence": "DRCRYTLCCDGALKAVSACLHESESCLVPGDCCRGKSRLTLCSYGEGGNGFQCPTGYRQC",
+        "melting_point_K": 341
+    },
+    "1NE5": {
+        "sequence": "DRDSCVDKSRCAKYGYYQECQDCCKNAGHNGGTCMFFKCKCA",
+        "melting_point_K": 357
+    },
+    "1PX9": {
+        "sequence": "DRDSCVDKSRCAKYGYYQECQDCCKNAGHNGGTCMFFKCKCA",
+        "melting_point_K": 364
+    },
+    "6ZOI": {
+        "sequence": "DRPSYCNLPADSGSGTKSEQRIYYNSARKQCLTFTYNGKGGNENNFIHTYDCARTCQYPA",
+        "melting_point_K": 367
+    },
+    "6YHY": {
+        "sequence": "DRPSYCNLPADSGSGTKSEQRIYYNSARKQCLTFTYNGQGGNENNFRRTYDCRRTCQYP",
+        "melting_point_K": 333
+    },
+    "1M4F": {
+        "sequence": "DTHFPICIFCCGCCHRSKCGMCCKT",
+        "melting_point_K": 334
+    },
+    "5KY0": {
+        "sequence": "DVNECISNPCQNGATCLDQIGEFQCICMPGYEGVYCEINT",
+        "melting_point_K": 364
+    },
+    "5KY8": {
+        "sequence": "DVNECISNPCQNGATCLDQIGEFQCICMPGYEGVYCEINT",
+        "melting_point_K": 357
+    },
+    "5KY9": {
+        "sequence": "DVNECISNPCQNGGTCLDQIGEFQCICMPGYEGVYCEINT",
+        "melting_point_K": 343
+    },
+    "3UCI": {
+        "sequence": "EAEFGKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARLDDLDDRCTGQSADCPRYH",
+        "melting_point_K": 343
+    },
+    "1S4Y": {
+        "sequence": "EAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLPEPG",
+        "melting_point_K": 352
+    },
+    "1L3X": {
+        "sequence": "EAGEECDCGSPGNPCCDAATCKLRQGAQCAEGLCCDQCRFMKEGTICRRARGDDLDDYCNGISAGCPRNPFHA",
+        "melting_point_K": 347
+    },
+    "1RO3": {
+        "sequence": "ECESGPCCRNCKFLKEGTICKRARGDDMDDYCNGKTCDCPRNPHKGPAT",
+        "melting_point_K": 340
+    },
+    "2ECH": {
+        "sequence": "ECESGPCCRNCKFLKEGTICKRARGDDMDDYCNGKTCDCPRNPHKGPAT",
+        "melting_point_K": 367
+    },
+    "6GFT": {
+        "sequence": "ECKGFGKSCVPGKNECCSGLTCSNKHKWCKVLL",
+        "melting_point_K": 370
+    },
+    "1NIX": {
+        "sequence": "ECKGFGKSCVPGKNECCSGYACNSRDKWCKVLL",
+        "melting_point_K": 367
+    },
+    "2M4Z": {
+        "sequence": "ECLEIFKACNPSNDQCCKSSKLVCSRKTRACKYQI",
+        "melting_point_K": 344
+    },
+    "2M50": {
+        "sequence": "ECLEIFKACNPSNDQCCKSSKLVCSRKTRWCAYQI",
+        "melting_point_K": 342
+    },
+    "1MB6": {
+        "sequence": "ECLEIFKACNPSNDQCCKSSKLVCSRKTRWCKYQI",
+        "melting_point_K": 340
+    },
+    "2M4X": {
+        "sequence": "ECLEIFKACNPSNDQCCKSSKLVCSRKTRWCKYQI",
+        "melting_point_K": 362
+    },
+    "1RYV": {
+        "sequence": "ECLGFGKGCNPSNDQCCKSSNLVCSRAHRWCKYEI",
+        "melting_point_K": 328
+    },
+    "1RYG": {
+        "sequence": "ECLGFGKGCNPSNDQCCKSSNLVCSRKHAWCKYEI",
+        "melting_point_K": 344
+    },
+    "1NIY": {
+        "sequence": "ECLGFGKGCNPSNDQCCKSSNLVCSRKHRWCKYEI",
+        "melting_point_K": 336
+    },
+    "2A2V": {
+        "sequence": "ECRKMFGGCSVDSDCCAHLGCKPTLKYCAWDGTF",
+        "melting_point_K": 367
+    },
+    "1D1H": {
+        "sequence": "ECRYLFGGCKTTSDCCKHLGCKFRDKYCAWDFTFS",
+        "melting_point_K": 353
+    },
+    "1EIT": {
+        "sequence": "ECVPENGHCRDWYDECCEGFYCSCRQPPKCICRNNN",
+        "melting_point_K": 327
+    },
+    "1LMM": {
+        "sequence": "EDCIPKWKGCVNRHGDCCEGLECWKRRRSFEVCVPKTPKT",
+        "melting_point_K": 356
+    },
+    "4EC7": {
+        "sequence": "EDHPVHNLGEHSVCDSVSAWVTKTTATDIKGNTVTVMENVNLDNKVYKEYFFETKCKNPNPEPSGCRGIDSSHWNSYCTETDTFIKALTMEGNQASWRFIRIETACVCVITKKKGN",
+        "melting_point_K": 333
+    },
+    "1AGG": {
+        "sequence": "EDNCIAEDYGKCTWGGTKCCRGRPCRCSMIGTNCECTPRLIMEGLSFA",
+        "melting_point_K": 366
+    },
+    "1OMA": {
+        "sequence": "EDNCIAEDYGKCTWGGTKCCRGRPCRCSMIGTNCECTPRLIMEGLSFA",
+        "melting_point_K": 358
+    },
+    "6LSQ": {
+        "sequence": "EFECESGPCCRNCKFLKEGTICKRARGDDMDDYCNGKTCDCPRNPHKGPAT",
+        "melting_point_K": 354
+    },
+    "2M7F": {
+        "sequence": "EFHHHHHHGKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARGDWNDDRCTGQSADCPRNGLYG",
+        "melting_point_K": 360
+    },
+    "2M7H": {
+        "sequence": "EFHHHHHHGKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARGDWNDDRCTGQSADCPRNPWNG",
+        "melting_point_K": 351
+    },
+    "2M75": {
+        "sequence": "EFHHHHHHGKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARGDWNDDRCTGQSADCPRYH",
+        "melting_point_K": 341
+    },
+    "1V28": {
+        "sequence": "ENFAGGCATGFMRTADGRCKPTF",
+        "melting_point_K": 339
+    },
+    "1HRL": {
+        "sequence": "ENFAGGCATGYLRTADGRCKPTF",
+        "melting_point_K": 350
+    },
+    "1B1V": {
+        "sequence": "ENFNGGCLAGYMRTADGRCKPTF",
+        "melting_point_K": 333
+    },
+    "1B5N": {
+        "sequence": "ENFNGGCLAGYMRTADGRCKPTF",
+        "melting_point_K": 350
+    },
+    "1BQF": {
+        "sequence": "ENFSGGCVAGYMRTPDGRCKPTFYQ",
+        "melting_point_K": 344
+    },
+    "1WKX": {
+        "sequence": "EQCGRQAGGKLCPDNLCCSQWGWCGSTDEYCSPDHNCQSNCKD",
+        "melting_point_K": 335
+    },
+    "1HEV": {
+        "sequence": "EQCGRQAGGKLCPNNLCCSQWGWCGSTDEYCSPDHNCQSNCKD",
+        "melting_point_K": 332
+    },
+    "1Q9B": {
+        "sequence": "EQCGRQAGGKLCPNNLCCSQWGWCGSTDEYCSPDHNCQSNCKD",
+        "melting_point_K": 345
+    },
+    "4WP4": {
+        "sequence": "EQCGRQAGGKLCPNNLCCSQWGWCGSTDEYCSPDHNCQSNCKD",
+        "melting_point_K": 334
+    },
+    "1T0W": {
+        "sequence": "EQCGRQAGGKLCPNNLCCSQWGWCGSTDEYCS",
+        "melting_point_K": 331
+    },
+    "5OLL": {
+        "sequence": "EQCVKKDELCIPYYLDCCEPLECKKVNWWDHKCIG",
+        "melting_point_K": 355
+    },
+    "1H20": {
+        "sequence": "EQHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYVG",
+        "melting_point_K": 369
+    },
+    "1WQ9": {
+        "sequence": "EVRPFLDVYQRSACQTRETLVSILQEHPDEISDIFRPSCVAVLRCSGCCTDESMKCTPVGKHTADIQIMRMNPRTHSSKMEVMKFMEHTACECRPA",
+        "melting_point_K": 332
+    },
+    "1M2S": {
+        "sequence": "FGLIDVKCFASSECWTACKKVTGSGQGKCQNNQCRCY",
+        "melting_point_K": 348
+    },
+    "2OFS": {
+        "sequence": "FLQCYNCPNPTADCKTAVQCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQ",
+        "melting_point_K": 370
+    },
+    "1B8W": {
+        "sequence": "FVQHRPRDCESINGVCRHKDTVNCREIFLADCYNDGQKCCRK",
+        "melting_point_K": 340
+    },
+    "1ATX": {
+        "sequence": "GAACLCKSDGPNTRGNSMSGTIWVFGCPSGWNNCEGRAIIGYCCKQ",
+        "melting_point_K": 354
+    },
+    "2MPQ": {
+        "sequence": "GACLGFGKSCNPSNDQCCKSSSLACSTKHKWCKYEL",
+        "melting_point_K": 330
+    },
+    "4D4O": {
+        "sequence": "GAMSCVYAFGSNGQRQLGLGHDEDMDTPQRSVPGDDGAIVRKIACGGNHSVMLTNDGNLVGCGDNRRGELDSAQALRQVHDWRPVEVPAPVVDVACGWDTTVIVDADGRVWQRGGGCYEFTQQHVPLNSNDERIAVYGCFQNFVVVQGTRVYGWGSNTKCQLQEPKSRSLKEPVLVYDTGSVAVDYVAMGKDFMVIVDEGGRIVHASGRLPTGFELKQQQKRHNLVVLCMWTSIHLWNARLNTVESFGRGTHSQLFPQERLDFPIVGVATGSEHGILTTANQEGKSHCYNVYCWGWGEHGNCGPQKGSQPGLQLVGQYSGKPRVFGGCATTWIVLGSGSGSGSGSMSTYDEIEIEDMTFEPENQMFTYPCPCGDRFQIYLDDMFEGEKVAVCPSCSLMIDVVFDKEDLAEYYEEAGIHPPEPIAAAA",
+        "melting_point_K": 358
+    },
+    "4D4P": {
+        "sequence": "GAMSCVYAFGSNGQRQLGLGHDEDMDTPQRSVPGDDGAIVRKIACGGNHSVMLTNDGNLVGCGDNRRGELDSAQALRQVHDWRPVEVPAPVVDVACGWDTTVIVDADGRVWQRGGGCYEFTQQHVPLNSNDERIAVYGCFQNFVVVQGTRVYGWGSNTKCQLQEPKSRSLKEPVLVYDTGSVAVDYVAMGKDFMVIVDEGGRIVHASGRLPTGFELKQQQKRHNLVVLCMWTSIHLWNARLNTVESFGRGTHSQLFPQERLDFPIVGVATGSEHGILTTANQEGKSHCYNVYCWGWGEHGNCGPQKGSQPGLQLVGQYSGKPRVFGGCATTWIVLGSGSGSGSGSMSTYDEIEIEDMTFEPENQMFTYPCPCGDRFQIYLDDMFEGEKVAVCPSCSLMIDVVFDKEDLAEYYEEAGIHPPEPIAAAA",
+        "melting_point_K": 330
+    },
+    "1PQR": {
+        "sequence": "GCCGPYPNAACHPCGCKVGRPPYCDRPSGG",
+        "melting_point_K": 339
+    },
+    "1P1P": {
+        "sequence": "GCCGSYPNAACHPCSCKDRPSYCGQ",
+        "melting_point_K": 339
+    },
+    "99999999999999995164818811802792197885196090803013355167206819763650035712": {
+        "sequence": "GCCSDPRCAWECX",
+        "melting_point_K": 351
+    },
+    "1MXN": {
+        "sequence": "GCCSYPPCFATNPDC",
+        "melting_point_K": 338
+    },
+    "1MXP": {
+        "sequence": "GCCSYPPCPATNPDC",
+        "melting_point_K": 343
+    },
+    "2JTB": {
+        "sequence": "GCKGFGDSCTPGKNECCPNYACSSKHKWCKVYL",
+        "melting_point_K": 336
+    },
+    "1LU8": {
+        "sequence": "GCLEFWWKCNPNDDKCCRPKLKCSKLFKLCNFSF",
+        "melting_point_K": 364
+    },
+    "1QK7": {
+        "sequence": "GCLGDKCDYNNGCCSGYVCSRTWKWCVLAGPW",
+        "melting_point_K": 327
+    },
+    "5T3M": {
+        "sequence": "GCLGIFKACNPSNDQCCKSSKLVCSRKTRWCKWQI",
+        "melting_point_K": 368
+    },
+    "1W7Z": {
+        "sequence": "GCPRILIRCKQDSDCLAGCVCGPNGFCGSPA",
+        "melting_point_K": 363
+    },
+    "1H9H": {
+        "sequence": "GCPRILIRCKQDSDCLAGCVCGPNGFCGSPHHHHHH",
+        "melting_point_K": 328
+    },
+    "1H9I": {
+        "sequence": "GCPRILIRCKQDSDCLAGCVCTNNKFCGSPHHHHHH",
+        "melting_point_K": 336
+    },
+    "2ETI": {
+        "sequence": "GCPRILMRCKQDSDCLAGCVCGPNGFCG",
+        "melting_point_K": 352
+    },
+    "2IT7": {
+        "sequence": "GCPRILMRCKQDSDCLAGCVCGPNGFCG",
+        "melting_point_K": 333
+    },
+    "2LET": {
+        "sequence": "GCPRLLMRCKQDSDCLAGCVCGPNGFCG",
+        "melting_point_K": 371
+    },
+    "1S6W": {
+        "sequence": "GCRFCCNCCPNMSGCGVCCRF",
+        "melting_point_K": 359
+    },
+    "1C6W": {
+        "sequence": "GDCLPHLKLCKENKDCCSKKCKRRGTNIEKRCR",
+        "melting_point_K": 361
+    },
+    "1IE6": {
+        "sequence": "GDCLPHLKRCKADNDCCGKKCKRRGTNAEKRCR",
+        "melting_point_K": 337
+    },
+    "6SF1": {
+        "sequence": "GDPVKPSRGPLVTCTCESPHCKGPTCRGAWCTVVLVREEGRHPQEHRGCGNLHRELCRGRPTEFVNHYCCDSHLCNHNVSLVLEATQPPSEQPGTDGQ",
+        "melting_point_K": 336
+    },
+    "6SF3": {
+        "sequence": "GDPVKPSRGPLVTCTCESPHCKGPTCRGAWCTVVLVREEGRHPQEHRGCGNLHRELCRGRPTEFVNHYCCDSHLCNHNVSLVLEATQPPSEQPGTDGQ",
+        "melting_point_K": 367
+    },
+    "1KVE": {
+        "sequence": "WSLRWRMQKSTTIAAIAGCSGAATFGGLAGGIVGCIAAGILAILQGFEVNWHNGGGGDRSNPV",
+        "melting_point_K": 345
+    },
+    "1DQ7": {
+        "sequence": "GEDGYIADGDNCTYICTFNNYCHALCTDKKGDSGACDWWVPYGVVCWCEDLPTPVPIRGSGKCR",
+        "melting_point_K": 371
+    },
+    "2A7T": {
+        "sequence": "GEDGYIADGDNCTYICTFNNYCHALCTDKKGDSGACDWWVPYGVVCWCEDLPTPVPIRGSGKCR",
+        "melting_point_K": 359
+    },
+    "1FVL": {
+        "sequence": "GEECDCGSPSNPCCDAATCKLRPGAQCADGLCCDQCRFKKKRTICRIARGDFPDDRCTGLSNDCPRWNDL",
+        "melting_point_K": 346
+    },
+    "1J2L": {
+        "sequence": "GEECDCGSPSNPCCDAATCKLRPGAQCADGLCCDQCRFKKKRTICRIARGDFPDDRCTGQSADCPRWNGL",
+        "melting_point_K": 339
+    },
+    "6OHX": {
+        "sequence": "GEEVRDAYIAQPHNCVYHCFRDSYCNDLCIKHGAESGECKWFTSSGNACWCVKLPKSEPIKVPGKCH",
+        "melting_point_K": 366
+    },
+    "1FJN": {
+        "sequence": "GFGCPNNYQCHRHCKSIPGRCGGYCGGWHRLRCTCYRCG",
+        "melting_point_K": 360
+    },
+    "4R5R": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFKKKRTICRIPRGDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 336
+    },
+    "1Q7J": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIAKGDWNDDRCTGQSADCPRYH",
+        "melting_point_K": 338
+    },
+    "2PJI": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARGDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 339
+    },
+    "4M4C": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARGDPPDDRCTGQSADCPRYH",
+        "melting_point_K": 358
+    },
+    "1Q7I": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIARGDWNDDRCTGQSADCPRYH",
+        "melting_point_K": 362
+    },
+    "1N4Y": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIPRGDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 331
+    },
+    "2PJF": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIPRGDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 344
+    },
+    "4RQG": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIPRGDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 348
+    },
+    "2PJG": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIPRGEMPDDRCTGQSADCPRYH",
+        "melting_point_K": 371
+    },
+    "2LJV": {
+        "sequence": "GKECDCSSPENPCCDAATCKLRPGAQCGEGLCCEQCKFSRAGKICRIPRLDMPDDRCTGQSADCPRYH",
+        "melting_point_K": 332
+    },
+    "2NDB": {
+        "sequence": "GKKKCIAKDYGRCKWGGTPCCRGRGCICSIMGTNCECKPRLIMEGLGLA",
+        "melting_point_K": 364
+    },
+    "6YHT": {
+        "sequence": "GLPSLCYEPADSGSGTKSEKRIYYNSARKQCLRFTYNGKGGNANNFIHTFDCQHTCLYK",
+        "melting_point_K": 348
+    },
+    "4TTN": {
+        "sequence": "GLPVCAETCVGGTCNTPGCTCSWPVCTRN",
+        "melting_point_K": 359
+    },
+    "2M9O": {
+        "sequence": "GLPVCGETCTLGTCYTQGCTCSWPICKRN",
+        "melting_point_K": 370
+    },
+    "4TTO": {
+        "sequence": "GLPVCGETCVGGTCNTPGCTCSWPACTRN",
+        "melting_point_K": 361
+    },
+    "2KHB": {
+        "sequence": "GLPVCGETCVGGTCNTPGCTCSWPVCTRN",
+        "melting_point_K": 371
+    },
+    "4TTM": {
+        "sequence": "GLPVCGETCVGGTCNTPGCTCSWPVCTRN",
+        "melting_point_K": 371
+    },
+    "4IYE": {
+        "sequence": "GLTCVTSKSIFGITTEDCPDGQNLCFKRRHYVVPAIYDSTRGCAATCPIPENYDSIHCCKTDKCNE",
+        "melting_point_K": 366
+    },
+    "2K3G": {
+        "sequence": "GPEDTLPFLKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGETTLASGCMKYEGSDFQCKDSPKAQLRRTIECCRTNLCNQYLQPTLPPVVIGPFFDGSIR",
+        "melting_point_K": 351
+    },
+    "6WJC": {
+        "sequence": "GPGSLTCVKSNSIWFPTSEDCPDGQNLCFKRWQYISPRMYDFTRGCAATCPKAEYRDVINCCGTDKCNK",
+        "melting_point_K": 340
+    },
+    "5NGV": {
+        "sequence": "GPKAMAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLP",
+        "melting_point_K": 349
+    },
+    "3GJ3": {
+        "sequence": "GPLGSGTWDCDTCLVQNKPEAVKCVACETPKPG",
+        "melting_point_K": 330
+    },
+    "6LCQ": {
+        "sequence": "GPLGSRHCLSQSHRFKGMCVSSNNCANVCRTESFPDGECKSHGLERKCFCKKVC",
+        "melting_point_K": 371
+    },
+    "1JLP": {
+        "sequence": "GPPCCLYGSCRPFPGCYNALCCRK",
+        "melting_point_K": 332
+    },
+    "1B45": {
+        "sequence": "GRCCHPACGKYYSC",
+        "melting_point_K": 333
+    },
+    "1SFI": {
+        "sequence": "GRCTKSIPPICFPD",
+        "melting_point_K": 345
+    },
+    "4HGC": {
+        "sequence": "GRCTXSIPPICFPD",
+        "melting_point_K": 354
+    },
+    "1SNB": {
+        "sequence": "GRDAYIADSENCTYFCGSNPYCNDVCTENGAKSGYCQWAGRYGNACYCIDLPASERIKEGGRCG",
+        "melting_point_K": 367
+    },
+    "6AVD": {
+        "sequence": "GSAEIIRCSGTRECYAPCQKLTGCLNAKCMNKACKCYGCV",
+        "melting_point_K": 335
+    },
+    "2MEO": {
+        "sequence": "GSAFCNLAACELSCRSLGLLGKCIGEECKCVPY",
+        "melting_point_K": 371
+    },
+    "2ME7": {
+        "sequence": "GSAFCNLARCELSCRSLGLLGKCIGEECKCVPY",
+        "melting_point_K": 352
+    },
+    "2MEL": {
+        "sequence": "GSAFCNLRACELSCRSLGLLGKCIGEECKCVPY",
+        "melting_point_K": 361
+    },
+    "2MEN": {
+        "sequence": "GSAFCNLRRCELSCASLGLLGKCIGEECKCVPY",
+        "melting_point_K": 348
+    },
+    "2KY3": {
+        "sequence": "GSAFCNLRRCELSCRSLGLLGKCIGEECKCVPY",
+        "melting_point_K": 344
+    },
+    "6ATU": {
+        "sequence": "GSAQEPVKGPVSTKPGSCPIILIRCAMLNPPNRCLKDTDCPGIKKCCEGSCGMACFVPQ",
+        "melting_point_K": 338
+    },
+    "6AV8": {
+        "sequence": "GSGCFGYKCDYYKGCCSGYVCSPTWKWCVRPGPGR",
+        "melting_point_K": 366
+    },
+    "6ATM": {
+        "sequence": "GSGVPINVKCRGSRDCLDPCKKAGMRFGKCINSKCHCTP",
+        "melting_point_K": 352
+    },
+    "1XDT": {
+        "sequence": "GSHMRVTLSSKPQALATPNKEEHGKRKKKGKGLGKKRDPCLRKYKDFCIHGECKYVKELRAPSCICHPGYHGERCHGLS",
+        "melting_point_K": 334
+    },
+    "6AVA": {
+        "sequence": "GSMCMPCFTTRPDMAQQCRACCKGRGKCFGPQCLCGYD",
+        "melting_point_K": 334
+    },
+    "6AVC": {
+        "sequence": "GSQFTDVKCTGSKQCWPVCKQMFGKPNGKCMNGKCRCYS",
+        "melting_point_K": 359
+    },
+    "6AU7": {
+        "sequence": "GSRPTDIKCSASYQCFPVCKSRFGKTNGRCVNGLCDCF",
+        "melting_point_K": 351
+    },
+    "6AUP": {
+        "sequence": "GSRPTDIKCSASYQCFPVCKSRFGKTNGRCVNGLCDCF",
+        "melting_point_K": 370
+    },
+    "6ATN": {
+        "sequence": "GSVFINVKCRGSPECLPKCKEAIGKSAGKCMNGKCKCYP",
+        "melting_point_K": 333
+    },
+    "2KTC": {
+        "sequence": "GSVGCAECPMHCKGKMAKPTCENEVCKCNIGKKD",
+        "melting_point_K": 339
+    },
+    "6AY7": {
+        "sequence": "GSVRIPVSCRHSGQCLRPCRDAGMRFGRCMNGRCDCTPR",
+        "melting_point_K": 356
+    },
+    "2IT8": {
+        "sequence": "GVCPKILKKCRRDSDCPGACICRGNGYCG",
+        "melting_point_K": 367
+    },
+    "1XSW": {
+        "sequence": "GVEINVKCSGSPQCLKPCKDAGMRFGKCMNRKCHCTPK",
+        "melting_point_K": 363
+    },
+    "2KTX": {
+        "sequence": "GVEINVKCSGSPQCLKPCKDAGMRFGKCMNRKCHCTPK",
+        "melting_point_K": 371
+    },
+    "1KTX": {
+        "sequence": "GVEINVKCSGSPQCLKPCKDAGMRFGKCMNRKCHCTPX",
+        "melting_point_K": 360
+    },
+    "1SCO": {
+        "sequence": "GVIINVKCKISRQCLEPCKKAGMRFGKCMNGKCHCTPK",
+        "melting_point_K": 359
+    },
+    "1APF": {
+        "sequence": "GVPCLCDSDGPRPRGNTLSGILWFYPSGCPSGWHNCKAHGPNIGWCCKK",
+        "melting_point_K": 353
+    },
+    "2H9X": {
+        "sequence": "GVPCRCDSDGPSVHGNTLSGTVWVGSCASGWHKCNDEYNIAYECCKQ",
+        "melting_point_K": 339
+    },
+    "1AGT": {
+        "sequence": "GVPINVSCTGSPQCIKPCKDAGMRFGKCMNRKCHCTPK",
+        "melting_point_K": 327
+    },
+    "1AHL": {
+        "sequence": "GVSCLCDSDGPSVRGNTLSGTLWLYPSGCPSGWHNCKAHGPTIGWCCKQ",
+        "melting_point_K": 329
+    },
+    "2AB9": {
+        "sequence": "GYKTSISTITIEDNGRCTKSIPPICFPDGRP",
+        "melting_point_K": 355
+    },
+    "1AS5": {
+        "sequence": "HPPCCLYGKCRRYPGCSSASCCQR",
+        "melting_point_K": 327
+    },
+    "1JLO": {
+        "sequence": "HPPCCLYGKCRRYPGCASASCCQR",
+        "melting_point_K": 365
+    },
+    "1M4E": {
+        "sequence": "ICIFCCGCCHRSKCGMCCKT",
+        "melting_point_K": 330
+    },
+    "1A1P": {
+        "sequence": "ICVVQDWGHHRCTK",
+        "melting_point_K": 357
+    },
+    "1N8M": {
+        "sequence": "IEAIRCGGSRDCYRPCQKRTGCPNAKCINKTCKCYGCS",
+        "melting_point_K": 361
+    },
+    "1D6B": {
+        "sequence": "IMFFEMQACWSHSGVCRDKSERNCKPMAWTYCENRNQKCCEY",
+        "melting_point_K": 332
+    },
+    "1ZUE": {
+        "sequence": "IMFFEMQACWSHSGVCRDKSERNCKPMAWTYCENRNQKCCEY",
+        "melting_point_K": 345
+    },
+    "1ZUF": {
+        "sequence": "IMFFEMQACWSHSGVCRDKSERNCKPMAWTYCENRNQKCCEY",
+        "melting_point_K": 343
+    },
+    "1CTX": {
+        "sequence": "IRCFITPDITSKDCPNGHVCYTKTWCDAFCSIRGKRVDLGCAATCPTVKTGVDIQCCSTDNCNPFPTRKRP",
+        "melting_point_K": 358
+    },
+    "1YI5": {
+        "sequence": "IRCFITPDITSKDCPNGHVCYTKTWCDAFCSIRGKRVDLGCAATCPTVKTGVDIQCCSTDNCNPFPTRKRP",
+        "melting_point_K": 337
+    },
+    "2CTX": {
+        "sequence": "IRCFITPDITSKDCPNGHVCYTKTWCDAFCSIRGKRVDLGCAATCPTVKTGVDIQCCSTDNCNPFPTRKRP",
+        "melting_point_K": 371
+    },
+    "4AEA": {
+        "sequence": "IRCFITPDITSKDCPNGHVCYTKTWCDAFCSIRGKRVDLGCAATCPTVKTGVDIQCCSTDNCNPFPTRKRP",
+        "melting_point_K": 340
+    },
+    "1NTN": {
+        "sequence": "ITCYKTPIITSETCAPGQNLCYTKTWCDAWCGSRGKVIELGCAATCPTVESYQDIKCCSTDNCNPHPKQKRP",
+        "melting_point_K": 364
+    },
+    "1W6B": {
+        "sequence": "ITCYKTPIPITSETCAPGQNLCYTKTWCDAWCGSRGKVIELGCAATCPTVESYQDIKCCSTDDCNPHPKQKRP",
+        "melting_point_K": 358
+    },
+    "2ABX": {
+        "sequence": "IVCHTTATIPSSAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNHPPKRQPG",
+        "melting_point_K": 369
+    },
+    "1BXP": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 347
+    },
+    "1IDI": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 343
+    },
+    "1IDL": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 335
+    },
+    "1IK8": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 372
+    },
+    "1IKC": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 341
+    },
+    "1KC4": {
+        "sequence": "IPGKRTESFYECCKEPYPDS",
+        "melting_point_K": 332
+    },
+    "1KFH": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDAFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 359
+    },
+    "1KL8": {
+        "sequence": "IPGKRTESFYECCKEPYPDS",
+        "melting_point_K": 344
+    },
+    "2QC1": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDVFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 360
+    },
+    "4UY2": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDVFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 337
+    },
+    "5HBT": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDVFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 335
+    },
+    "5HBV": {
+        "sequence": "IVCHTTATSPISAVTCPPGENLCYRKMWCDVFCSSRGKVVELGCAATCPSKKPYEEVTCCSTDKCNPHPKQRPG",
+        "melting_point_K": 362
+    },
+    "1KQH": {
+        "sequence": "KCLAEAADCSPWSGDSCCKPYLCSCIFFYPCSCRPKGW",
+        "melting_point_K": 332
+    },
+    "1KQI": {
+        "sequence": "KCLAEAADCSPWSGDSCCKPYLCSCIFFYPCSCRPKGW",
+        "melting_point_K": 330
+    },
+    "1Y29": {
+        "sequence": "KCLPPGKPCYGATQKIPCCGVCSHNKCT",
+        "melting_point_K": 345
+    },
+    "1I6F": {
+        "sequence": "KDGYPVDSKGCKLSCVANNYCDNQCKMKKASGGHCYAMSCYCEGLPENAKVSDSATNICG",
+        "melting_point_K": 343
+    },
+    "1I6G": {
+        "sequence": "KDGYPVDSKGCKLSCVANNYCDNQCKMKKASGGHCYAMSCYCEGLPENAKVSDSATNICG",
+        "melting_point_K": 341
+    },
+    "1NH5": {
+        "sequence": "KDGYPVDSKGCKLSCVANNYCDNQCKMKKASGGHCYAMSCYCEGLPENAKVSDSATNICG",
+        "melting_point_K": 345
+    },
+    "3BYB": {
+        "sequence": "KDRPDFCELPADTGPCRVRFPSFYYNPDEKKCLEFIYGGCEGNANNFITKEECESTCAA",
+        "melting_point_K": 336
+    },
+    "3UIR": {
+        "sequence": "KDRPDFCELPADTGPCRVRFPSFYYNPDEKKCLEFIYGGCEGNANNFITKEECESTCAA",
+        "melting_point_K": 333
+    },
+    "5ZJ3": {
+        "sequence": "KDRPDFCELPADTGPCRVRFPSFYYNPDEKKCLEFIYGGCEGNANNFITKEECESTCAA",
+        "melting_point_K": 371
+    },
+    "6Q61": {
+        "sequence": "KDRPSLCDLPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCARTCLYTA",
+        "melting_point_K": 353
+    },
+    "6Q6C": {
+        "sequence": "KDRPSLCDLPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCQDTCLYTA",
+        "melting_point_K": 359
+    },
+    "2CA7": {
+        "sequence": "KDRPSLCDLPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCQRTCLYT",
+        "melting_point_K": 364
+    },
+    "1B7D": {
+        "sequence": "KEGYLMDHEGCKLSCFIRPSGYCGRECGIKKGSSGYCAWPACYCYGLPNWVKVWDRATNKC",
+        "melting_point_K": 337
+    },
+    "1CN2": {
+        "sequence": "KEGYLVDKNTGCKYECLKLGDNDYCLRECKQQYGKGAGGYCYAFACWCTHLYEQAIVWPLPNKRCSX",
+        "melting_point_K": 346
+    },
+    "6VXW": {
+        "sequence": "KEGYLVDYHTGCKYTCAKLGDNDYCVRECRLRYYQSAHGYCYAFACWCTHLYEQAVVWPLPNKRCKX",
+        "melting_point_K": 342
+    },
+    "1JZA": {
+        "sequence": "KEGYLVNKSTGCKYGCLKLGENEGCDKECKAKNQGGSYGYCYAFACWCEGLPESTPTYPLPNKSCS",
+        "melting_point_K": 365
+    },
+    "1JZB": {
+        "sequence": "KEGYLVNKSTGCKYGCLKLGENEGCDKECKAKNQGGSYGYCYAFACWCEGLPESTPTYPLPNKSCS",
+        "melting_point_K": 358
+    },
+    "2KJA": {
+        "sequence": "KEGYLVNKSTGCKYGCLLLGKNEGCDKECKAKNQGGSYGYCYAFGCWCEGLPESTPTYPLPNKSCS",
+        "melting_point_K": 328
+    },
+    "2LI7": {
+        "sequence": "KEGYLVSKSTGCKYECLKLGDNDYCLRECKQQYGKSSGGYCYAFACWCTHLYEQAVVWPLPNKTCNX",
+        "melting_point_K": 372
+    },
+    "1GPS": {
+        "sequence": "KICRRRSAGFKGPCMSNKNCAQVCQQEGWGGGNCDGPFRRCKCIRQC",
+        "melting_point_K": 329
+    },
+    "1T1T": {
+        "sequence": "KIDGYPVDYWNCKRICWYNNKYCNDLCKGLKADSGYCWGWTLSCYCQGLPDNARIKRSGRCRA",
+        "melting_point_K": 341
+    },
+    "1NRA": {
+        "sequence": "KKDGYPVDSGNCKYECLKDDYCNDLCLERKADKGYCYWGKVSCYCYGLPDNSPTKTSGKCNPA",
+        "melting_point_K": 345
+    },
+    "1NRB": {
+        "sequence": "KKDGYPVDSGNCKYECLKDDYCNDLCLERKADKGYCYWGKVSCYCYGLPDNSPTKTSGKCNPA",
+        "melting_point_K": 368
+    },
+    "1IVA": {
+        "sequence": "KKKCIAKDYGRCKWGGTPCCRGRGCICSIMGTNCECKPRLIMEGLGLA",
+        "melting_point_K": 355
+    },
+    "1OAV": {
+        "sequence": "KKKCIAKDYGRCKWGGTPCCRGRGCICSIMGTNCECKPRLIMEGLGLA",
+        "melting_point_K": 344
+    },
+    "1OAW": {
+        "sequence": "KKKCIAKDYGRCKWGGTPCCRGRGCICSIMGTNCECKPRLIMEGLGLA",
+        "melting_point_K": 370
+    },
+    "1T0Z": {
+        "sequence": "KKNGYAVDSSGKVAECLFNNYCNNECTKVYYADKGYCCLLKCYCFGLADDKPVLDIWDSTKNYCDVQIIDLS",
+        "melting_point_K": 347
+    },
+    "1WWN": {
+        "sequence": "KKNGYAVDSSGKVSECLLNNYCNNICTKVYYATSGYCCLLSCYCFGLDDDKAVLKIKDATKSYCDVQII",
+        "melting_point_K": 347
+    },
+    "4KYP": {
+        "sequence": "KKNGYPLDRNGKTTECSGVNAIAPHYCNSECTKVYYAESGYCCWGACYCFGLEDDKPIGPMKDITKKYCDVQIIPSGSHHHHHH",
+        "melting_point_K": 334
+    },
+    "1T7H": {
+        "sequence": "KRCSCSSLMDKECVYFCH",
+        "melting_point_K": 342
+    },
+    "1BHP": {
+        "sequence": "KSCCKSTLGRNCYNLCRARGAQKLCANVCRCKLTSGLSCPKDFPK",
+        "melting_point_K": 351
+    },
+    "2V9B": {
+        "sequence": "KSCCPNTTGRDIYNTCRLGGGSRERCASLSGCKIISASTCPSDYPK",
+        "melting_point_K": 367
+    },
+    "1ED0": {
+        "sequence": "KSCCPNTTGRNIYNACRLTGAPRPTCAKLSGCKIISGSTCPSDYPK",
+        "melting_point_K": 333
+    },
+    "1OKH": {
+        "sequence": "KSCCPNTTGRNIYNACRLTGAPRPTCAKLSGCKIISGSTCPSDYPK",
+        "melting_point_K": 329
+    },
+    "1ORL": {
+        "sequence": "KSCCPNTTGRNIYNTCRFAGGSRERCAKLSGCKIISASTCPSDYPK",
+        "melting_point_K": 361
+    },
+    "1JMN": {
+        "sequence": "KSCCPNTTGRNIYNTCRFGGGSRQVCASLSGCKIISASTCPSDYPK",
+        "melting_point_K": 364
+    },
+    "1JMP": {
+        "sequence": "KSCCPNTTGRNIYNTCRLGGGSRERCASLSGCKIISASTCPSDYPK",
+        "melting_point_K": 365
+    },
+    "3C8P": {
+        "sequence": "KSCCPSTTGRNIYNTCRLTGSSRETCAKLSGCKIISASTCPSNYPK",
+        "melting_point_K": 352
+    },
+    "1NBL": {
+        "sequence": "KSCCRNTLARNCYNACRFTGGSQPTCGILCDCIHVTTTTCPSSHPS",
+        "melting_point_K": 343
+    },
+    "3SZS": {
+        "sequence": "KSCCRNTLARNCYNACRFTGGSQPTCGILCDCIHVTTTTCPSSHPS",
+        "melting_point_K": 361
+    },
+    "2PLH": {
+        "sequence": "KSCCRSTLGRNCYNLCRARGAQKLCAGVCRCKISSGLSCPKGFPK",
+        "melting_point_K": 344
+    },
+    "1WUW": {
+        "sequence": "KSCCRSTLGRNCYNLCRVRGAQKLCANACRCKLTSGLKCPSSFPK",
+        "melting_point_K": 339
+    },
+    "1JKZ": {
+        "sequence": "KTCEHLADTYRGVCFTNASCDDHCKNKAHLISGTCHNWKCFCTQNC",
+        "melting_point_K": 344
+    },
+    "6VPN": {
+        "sequence": "KTCENLADTYKGPCFTTGSCDDHCKNKEHLRSGRCRDDFRCWCTKNC",
+        "melting_point_K": 334
+    },
+    "2GL1": {
+        "sequence": "KTCENLANTYRGPCFTTGSCDDHCKNKEHLRSGRCRDDFRCWCTRNC",
+        "melting_point_K": 370
+    },
+    "1MA2": {
+        "sequence": "KWCFRVCYRGICYRRCR",
+        "melting_point_K": 341
+    },
+    "1CW6": {
+        "sequence": "KYYGNGVHCTKSGCSVNWGEAFSAGVHRLANGGNGFW",
+        "melting_point_K": 352
+    },
+    "1JE9": {
+        "sequence": "LECHNQQSSQAPTTKTCSGETNCYKKWWSDHRGTIIERGCGCPKVKPGVNLNCCRTDRCNN",
+        "melting_point_K": 347
+    },
+    "1IQ9": {
+        "sequence": "LECHNQQSSQPPTTKTCPGETNCYKKVWRDHRGTIIERGCGCPTVKPGIKLNCCTTDKCNN",
+        "melting_point_K": 334
+    },
+    "1NEA": {
+        "sequence": "LECHNQQSSQPPTTKTCPGETNCYKKVWRDHRGTIIERGCGCPTVKPGIKLNCCTTDKCNN",
+        "melting_point_K": 347
+    },
+    "1NOR": {
+        "sequence": "LECHNQQSSQPPTTKTCSGETNCYKKWWSDHRGTIIERGCGCPKVKPGVNLNCCRTDRCNN",
+        "melting_point_K": 356
+    },
+    "2MJ4": {
+        "sequence": "LECHNQQSSQPPTTKTCSGETNCYKKWWSDHRGTIIERGCGCPKVKPGVNLNCCRTDRCNN",
+        "melting_point_K": 334
+    },
+    "1ONJ": {
+        "sequence": "LECHNQQSSQTPTTKTCSGETNCYKKWWSDHRGTIIERGCGCPKVKPGVNLNCCTTDRCNN",
+        "melting_point_K": 337
+    },
+    "1VB0": {
+        "sequence": "LECHNQQSSQTPTTKTCSGETNCYKKWWSDHRGTIIERGCGCPKVKPGVNLNCCTTDRCNN",
+        "melting_point_K": 366
+    },
+    "1G6M": {
+        "sequence": "LECHNQQSSQTPTTTGCSGGENNCYKKEWRDNRGYRTERGCGCPSVKKGIGINCCTTDRCNN",
+        "melting_point_K": 349
+    },
+    "1COD": {
+        "sequence": "LECHNQQSSQTPTTTGCSGGETNCYKKRWRDHRGYRTERGCGCPSVKNGIEINCCTTDRCNN",
+        "melting_point_K": 332
+    },
+    "1COE": {
+        "sequence": "LECHNQQSSQTPTTTGCSGGETNCYKKRWRDHRGYRTERGCGCPSVKNGIEINCCTTDRCNN",
+        "melting_point_K": 352
+    },
+    "1V6P": {
+        "sequence": "LECHNQQSSQTPTTTGCSGGETNCYKKRWRDHRGYRTERGCGCPSVKNGIEINCCTTDRCNN",
+        "melting_point_K": 362
+    },
+    "1I25": {
+        "sequence": "LFECSFSCEIEKEGDKPCKKKKCKGGWKCKFNMCVKV",
+        "melting_point_K": 350
+    },
+    "3VTS": {
+        "sequence": "LKCHNKLVPFLSKTCPEGKNLCYKMTLMKMPKIPIKRGCTDACPKSSLLVKVVCCNKDKCN",
+        "melting_point_K": 344
+    },
+    "1CVO": {
+        "sequence": "LKCHNTQLPFIYKTCPEGKNLCFKATLKKFPLKFPVKRGCADNCPKNSALLKYVCCSTDKCN",
+        "melting_point_K": 347
+    },
+    "1KXI": {
+        "sequence": "LKCHNTQLPFIYKTCPEGKNLCFKATLKKFPLKFPVKRGCADNCPKNSALLKYVCCSTDKCN",
+        "melting_point_K": 330
+    },
+    "1CB9": {
+        "sequence": "LKCKKLVPLFSKTCPAGKNLCYKMFMVAAPHVPVKRGCIDVCPKSSLLVKYVCCNTDKCN",
+        "melting_point_K": 348
+    },
+    "1CCQ": {
+        "sequence": "LKCKKLVPLFSKTCPAGKNLCYKMFMVAAPHVPVKRGCIDVCPKSSLLVKYVCCNTDKCN",
+        "melting_point_K": 349
+    },
+    "1FFJ": {
+        "sequence": "LKCKKLVPLFSKTCPAGKNLCYKMFMVAAPHVPVKRGCIDVCPKSSLLVKYVCCNTDKCN",
+        "melting_point_K": 331
+    },
+    "2CDX": {
+        "sequence": "LKCNKLIPIASKTCPAGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 369
+    },
+    "1CDT": {
+        "sequence": "LKCNKLIPIAYKTCPEGKNLCYKMMLASKKMVPVKRGCINVCPKNSALVKYVCCSTDRCN",
+        "melting_point_K": 346
+    },
+    "6RC7": {
+        "sequence": "LKCNKLIPLAYKTCPAGKNLCYKMFMVSNKTVPVKRGCIDACPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 356
+    },
+    "7O2K": {
+        "sequence": "LKCNKLIPLAYKTCPAGKNLCYKMFMVSNKTVPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 347
+    },
+    "7QFC": {
+        "sequence": "LKCNKLIPLAYKTCPAGKNLCYKMFMVSNKTVPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 367
+    },
+    "1RL5": {
+        "sequence": "LKCNKLVPIAYKTCPEGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 364
+    },
+    "1ZAD": {
+        "sequence": "LKCNKLVPIAYKTCPEGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 355
+    },
+    "5NPN": {
+        "sequence": "LKCNKLVPIAYKTCPEGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 328
+    },
+    "5NQ4": {
+        "sequence": "LKCNKLVPIAYKTCPEGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 345
+    },
+    "1H0J": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVATPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 365
+    },
+    "1I02": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVATPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 362
+    },
+    "1XT3": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVATPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 343
+    },
+    "2BHI": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVATPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 348
+    },
+    "2CRS": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVATPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 366
+    },
+    "2CRT": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVATPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 335
+    },
+    "1CHV": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVSNKMVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 337
+    },
+    "1CRF": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVSNLTVPVKRGCIDVCPKNSALVKYVCCNTDRCN",
+        "melting_point_K": 342
+    },
+    "4OM4": {
+        "sequence": "LKCNKLVPLFYKTCPAGKNLCYKMFMVSNLTVPVKRGCIDVCPKNSALVKYVCCNTDRCN",
+        "melting_point_K": 341
+    },
+    "1CXN": {
+        "sequence": "LKCNQLIPPFWKTCPKGKNLCYKMTMRAAPMVPVKRGCIDVCPKSSLLIKYMCCNTDKCN",
+        "melting_point_K": 336
+    },
+    "1CXO": {
+        "sequence": "LKCNQLIPPFWKTCPKGKNLCYKMTMRAAPMVPVKRGCIDVCPKSSLLIKYMCCNTDKCN",
+        "melting_point_K": 333
+    },
+    "1TGX": {
+        "sequence": "LKCNQLIPPFWKTCPKGKNLCYKMTMRAAPMVPVKRGCIDVCPKSSLLIKYMCCNTDKCN",
+        "melting_point_K": 351
+    },
+    "2CCX": {
+        "sequence": "LKCNQLIPPFWKTCPKGKNLCYKMTMRAAPMVPVKRGCIDVCPKSSLLIKYMCCNTNKCN",
+        "melting_point_K": 341
+    },
+    "1UG4": {
+        "sequence": "LKCNQLIPPFYKTCAAGKNLCYKMFMVAAPKVPVKRGCIDVCPKSSLLVKYVCCNTDRCN",
+        "melting_point_K": 372
+    },
+    "1HP3": {
+        "sequence": "LLACLFGNGRCSSNRDCCELTPVCKRGSCVSS",
+        "melting_point_K": 349
+    },
+    "1G9P": {
+        "sequence": "LLACLFGNGRCSSNRDCCELTPVCKRGSCVSSGPGLVGGILGGIL",
+        "melting_point_K": 335
+    },
+    "6AEX": {
+        "sequence": "LQCMQCESNQSCLVEECALGQDLCRTTVLREWQDDRELEVVTRGCAHSEKTNRTMSYRMGSMIISLTETVCATNLCNRPRPGARGRAFPQGRYLECASCTSLDQSCERGREQSLQCRYPTEHCIEVVTLQSTERSLKDEDYTRGCGSLPGCPGTAGFHSNQTFHFLKCCNYTHCNGGPVLDLQSFPPNGFQCYSCEGNNTLGCSSEEASLINCRGPMNQCLVATGLDVLGNRSYTVRGCATASWCQGSHVADSFPTHLNVSVSCCHGSGCNSPTGGA",
+        "melting_point_K": 371
+    },
+    "5IMT": {
+        "sequence": "LQCYNCPNPTADCKTAVNCSSAFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLEN",
+        "melting_point_K": 368
+    },
+    "1ERG": {
+        "sequence": "LQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCN",
+        "melting_point_K": 365
+    },
+    "1CDQ": {
+        "sequence": "LQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLEN",
+        "melting_point_K": 365
+    },
+    "1CDR": {
+        "sequence": "LQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLEN",
+        "melting_point_K": 365
+    },
+    "1CDS": {
+        "sequence": "LQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLEN",
+        "melting_point_K": 370
+    },
+    "2JQP": {
+        "sequence": "LTCLICPEKDCQKVHTCRNEEKICVKRFYDKNQLGWRAQRGCAVSCPKAKPNETVQCCSTDKCNK",
+        "melting_point_K": 328
+    },
+    "7C28": {
+        "sequence": "LTCVTDKSFGGVITEECAAGQKICFKNWKKMGPKLYDVKRGCTATCPKADDNGCVKCCNTDKCNK",
+        "melting_point_K": 349
+    },
+    "1FF4": {
+        "sequence": "LTCVTTKSIGGVTTEDCPAGQNVCFKRWHYVTPKNYDIIKGCAATCPKVDNNDPIRCCGTDKCND",
+        "melting_point_K": 337
+    },
+    "1WZ5": {
+        "sequence": "LVKCRGTSDCGRPCQQQTGAPNSKCINRMCKCYGA",
+        "melting_point_K": 357
+    },
+    "4P7U": {
+        "sequence": "MALCKFCDVRFSTCDNQKSCMSNCSITSICEKPQEVCVAVWRKNDENITLETVCHDPKLPYHDFILEDAASPTCIMKEKKKPGETFFMCSCSSDECNDNIIFSEEYNTSNPD",
+        "melting_point_K": 343
+    },
+    "4XJJ": {
+        "sequence": "MALCKFCDVRFSTCDNQKSCMSNCSITSICEKPQEVCVAVWRKNDENITLETVCHDPKLPYHDFILEDAASPTCIMKEKKKPGETFFMCSCSSDECNDNIIFSEEYNTSNPD",
+        "melting_point_K": 338
+    },
+    "2QJ9": {
+        "sequence": "MAQAKHKQRKRLKSSCKRHPLYVDFSDVGWNDWIVAPPGYHAFYCHGECPFPLADHLNSTNHAIVQTLVNSVNSKIPKACCVPTELSAISMLYLDENEKVVLKNYQDMVVEGCGCR",
+        "melting_point_K": 360
+    },
+    "2QJA": {
+        "sequence": "MAQAKHKQRKRLKSSCKRHPLYVDFSDVGWNDWIVAPPGYHAFYCHGECPFPLADHLNSTNHAIVQTLVNSVNSKIPKACCVPTELSAISMLYLDENEKVVLKNYQDMVVEGCGCR",
+        "melting_point_K": 362
+    },
+    "2QJB": {
+        "sequence": "MAQAKHKQRKRLKSSCKRHPLYVDFSDVGWNDWIVAPPGYHAFYCHGECPFPLADHLNSTNHAIVQTLVNSVNSKIPKACCVPTELSAISMLYLDENEKVVLKNYQDMVVEGCGCR",
+        "melting_point_K": 356
+    },
+    "1CHL": {
+        "sequence": "MCMPCFTTDHQMARKCDDCCGGKGRGKCYGPQCLCR",
+        "melting_point_K": 336
+    },
+    "5L1C": {
+        "sequence": "MCMPCFTTDHQMARKCDDCCGGKGRGKCYGPQCLCR",
+        "melting_point_K": 336
+    },
+    "1SIS": {
+        "sequence": "MCMPCFTTDPNMAKKCRDCCGGNGKCFGPQCLCNR",
+        "melting_point_K": 361
+    },
+    "2I61": {
+        "sequence": "MDGYIKRRDGCKVACLIGNEGCDKECKAYGGSYGYCWTWGLACWCEGLPDDKTWKSETNTCG",
+        "melting_point_K": 334
+    },
+    "5F84": {
+        "sequence": "MDIVDGDQCESNPCLNGGSCKDDINSYECWCPFGFEGKNCELLEHHHHHH",
+        "melting_point_K": 331
+    },
+    "1F94": {
+        "sequence": "MECYRCGVSGCHLKITCSAEETFCYKWLNKISNERWLGCAKTCTEIDTWNVYNKCCTTNLCNT",
+        "melting_point_K": 333
+    },
+    "1IJC": {
+        "sequence": "MECYRCGVSGCHLKITCSAEETFCYKWLNKISNERWLGCAKTCTEIDTWNVYNKCCTTNLCNT",
+        "melting_point_K": 335
+    },
+    "1JGK": {
+        "sequence": "MKCKICNFDTCRAGELKVCASGEKYCFKESWREARGTRIERGCAATCPKGSVYGLYVLCCTTDDCN",
+        "melting_point_K": 365
+    },
+    "1BCG": {
+        "sequence": "MKKNGYPLDRNGKTTECSGVNAIAPHYCNSECTKVYYAESGYCCWGACYCFGLEDDKPIGPMKDITKKYCDVQIIPS",
+        "melting_point_K": 336
+    },
+    "5XWE": {
+        "sequence": "MKPVLLTLVVVTIVCLDLGYTRICLKQEPFQPETTTTCPEGEDACYNLFWSDHSEIKIEMGCGCPKTEPYTNLYCCKIDSCNK",
+        "melting_point_K": 330
+    },
+    "3QB4": {
+        "sequence": "MKRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLASHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR",
+        "melting_point_K": 351
+    },
+    "3EVS": {
+        "sequence": "MKRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR",
+        "melting_point_K": 355
+    },
+    "5LUE": {
+        "sequence": "MLKCNKLVPIAYKTCPEGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 327
+    },
+    "5T8A": {
+        "sequence": "MLKCNKLVPIAYKTCPEGKNLCYKMFMMSDLTIPVKRGCIDVCPKNSLLVKYVCCNTDRCN",
+        "melting_point_K": 337
+    },
+    "2UX2": {
+        "sequence": "MLQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLEN",
+        "melting_point_K": 361
+    },
+    "5IMY": {
+        "sequence": "MLQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLEN",
+        "melting_point_K": 363
+    },
+    "2UWR": {
+        "sequence": "MLQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLENC",
+        "melting_point_K": 359
+    },
+    "2J8B": {
+        "sequence": "MLQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCNFNEQLENG",
+        "melting_point_K": 337
+    },
+    "2MJ0": {
+        "sequence": "MLTCLNCPEMFCGKFQICRNGEKICFKKLHQRRALSWRYIRGCADTCPVGKPYEMIECCSTDKCNR",
+        "melting_point_K": 352
+    },
+    "1MR6": {
+        "sequence": "MQCKTCSFYTCPNSETCPDGKNICVKRSWTAVRGDGPKREIRRECAATCPPSKLGLTVFCCTTDNCNH",
+        "melting_point_K": 365
+    },
+    "2LJM": {
+        "sequence": "MRGSHHHHHHGSIEGRKEGYLVSKSTGCKYECLKLGDNDYCLRECKQQYGKSSGGYCYAFACWCTHLYEQAVVWPLPNKTCN",
+        "melting_point_K": 339
+    },
+    "6IMF": {
+        "sequence": "MRVFFSLIIFSFMLATCQGACGIGPLVSSPTDAMAPKKCVDPNDRRKHLIVSTWNTADCLRCECDNDGLSCCHRYGGLAERAGCKSVLNQVTCEYEFYRLDDLSKRCDA",
+        "melting_point_K": 344
+    },
+    "2ATB": {
+        "sequence": "MVRDAYIADDVNCVYECFRDAYCNELCTKNGASSGYCQWAGKYGNACWCYALPDNVPIRVPGKCR",
+        "melting_point_K": 352
+    },
+    "1LQH": {
+        "sequence": "MVRDAYIAKNYNCVYECFRDAYCNELCTKNGASSGYCQWAGKYGNACWCYALPDNVPIRVPGKCR",
+        "melting_point_K": 329
+    },
+    "1LQI": {
+        "sequence": "MVRDAYIAKNYNCVYECFRDAYCNELCTKNGASSGYCQWAGKYGNACWCYALPDNVPIRVPGKCR",
+        "melting_point_K": 366
+    },
+    "2ASC": {
+        "sequence": "MVRDAYIAKNYNCVYECFRDAYCNELCTKNGASSGYCQWAGKYGNACWCYALPDNVPIRVPGKCR",
+        "melting_point_K": 344
+    },
+    "2YEO": {
+        "sequence": "MVRDAYIAKNYNCVYECFRDAYCNELCTKNGASSGYCQWLGKYGNACWCYALPDNVPIRVPGKCR",
+        "melting_point_K": 342
+    },
+    "1OMY": {
+        "sequence": "MVRDAYIAQNYNCVYHCARDAYCNELCTKNGAKSGSCPYLGEHKFACYCKDLPDNVPIRVPGKCH",
+        "melting_point_K": 331
+    },
+    "5AX2": {
+        "sequence": "MVSTYDEIEIEDMTFEPENQMFTYPCPCGDRFQIYLDDMFEGEKVAVCPSCSLMIDVVFDKEDLAEYYEEAGIHPPEPIAAAAHHHHHH",
+        "melting_point_K": 372
+    },
+    "1UYA": {
+        "sequence": "NDDCELCVNVACTGCL",
+        "melting_point_K": 335
+    },
+    "1UYB": {
+        "sequence": "NDDCELCVNVACTGCL",
+        "melting_point_K": 360
+    },
+    "3D4U": {
+        "sequence": "NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWL",
+        "melting_point_K": 337
+    },
+    "3LMS": {
+        "sequence": "NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWL",
+        "melting_point_K": 339
+    },
+    "1ZLH": {
+        "sequence": "NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH",
+        "melting_point_K": 346
+    },
+    "1ZLI": {
+        "sequence": "NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH",
+        "melting_point_K": 350
+    },
+    "2JTO": {
+        "sequence": "NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH",
+        "melting_point_K": 339
+    },
+    "2K2X": {
+        "sequence": "NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH",
+        "melting_point_K": 350
+    },
+    "7RFA": {
+        "sequence": "NGLPVCGETCVGGTCNTPGCKCSWPVCTR",
+        "melting_point_K": 357
+    },
+    "1JJZ": {
+        "sequence": "NGLPVCGETCVGGTCNTPGCTCSWPVCTR",
+        "melting_point_K": 351
+    },
+    "1K48": {
+        "sequence": "NGLPVCGETCVGGTCNTPGCTCSWPVCTR",
+        "melting_point_K": 348
+    },
+    "1BRV": {
+        "sequence": "NHQDHNNFQTLPYVPCSTCEGNLACLSLCHIE",
+        "melting_point_K": 337
+    },
+    "1UGL": {
+        "sequence": "NLMKRCTRGFRKLGKCTTLEEEKCKTLYPRGQCTCSDSKMNTHSCDCKSC",
+        "melting_point_K": 357
+    },
+    "1RMR": {
+        "sequence": "NSVHPCCDPVICEPREGEHCISGPCCENCYFLNSGTICKRARGDGNQDYCTGITPDCPRNRYNV",
+        "melting_point_K": 340
+    },
+    "1TEJ": {
+        "sequence": "NSVNPCCDPVICKPRDGEHCISGPCCNNCKFLNSGTICQRARGDGNHDYCTGITTDCPRNRYNV",
+        "melting_point_K": 340
+    },
+    "1ZU3": {
+        "sequence": "NSVRDAYIAAPHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 329
+    },
+    "1T7A": {
+        "sequence": "NSVRDAYIADPHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 347
+    },
+    "1ZYV": {
+        "sequence": "NSVRDAYIADSHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIKGPGKCH",
+        "melting_point_K": 357
+    },
+    "1ZYW": {
+        "sequence": "NSVRDAYIADSHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIKVGGKCH",
+        "melting_point_K": 366
+    },
+    "1ZUT": {
+        "sequence": "NSVRDAYIADSHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIKVPGKCH",
+        "melting_point_K": 355
+    },
+    "1ZVG": {
+        "sequence": "NSVRDAYIADSHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 358
+    },
+    "1ZVE": {
+        "sequence": "NSVRDAYIAGPHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 349
+    },
+    "1T7E": {
+        "sequence": "NSVRDAYIAKSHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 341
+    },
+    "1T7B": {
+        "sequence": "NSVRDAYIAQPHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 327
+    },
+    "1DAN": {
+        "sequence": "NTVAAYNLTWKSTNFKTILEWEPKPVNQVYTVQISTKSGDWKSKCFYTTDTECDLTDEIVKDVKQTYLARVFSYPAGNVE",
+        "melting_point_K": 362
+    },
+    "1RC9": {
+        "sequence": "NVDFDSESPRKPEIQNEIVDLHNSLRRSVNPTASNMLRMEWYPEAADNAERWAYRCIESHSSYESRVIEGIKCGENIYMSPYPMKWTDIIHAWHDEYKDFKYGVGADPPNAVTGHYTQIVWYKSYRIGCAAAYCPSSPYSYFFVCQYCPAGNFIGKTATPYTSGTPCGDCPSDCDNGLCTNPCTRENKFTNCNTMVQQSSCQDNYMKTNCPASCFCQNKII",
+        "melting_point_K": 352
+    },
+    "2KCR": {
+        "sequence": "PAQDYRCQLSRNYGKGSGSFTNYYYDKATSSCKTFRYRGSGGNGNRFKTLEDCEATCVTAE",
+        "melting_point_K": 333
+    },
+    "1MCV": {
+        "sequence": "PCTLEYMRCKQDSDCLAGCVCGPNGFCG",
+        "melting_point_K": 347
+    },
+    "4XL1": {
+        "sequence": "PDVDECALGANPCEHAGKCLNTLGSFECQCLQGYTGPRCEIDVNECISNPCQNDATCLDQIGEFQCICMPGYEGVYCEINTDECASSPCLHNGRCVDKINEFLCQCPKGFSGHLCQSG",
+        "melting_point_K": 354
+    },
+    "1REW": {
+        "sequence": "QAKHKQRKRLKSSCKRHPLYVDFSDVGWNDWIVAPPGYHAFYCHGECPFPLADHLNSTNHAIVQTLVNSVNSKIPKACCVPTELSAISMLYLDENEKVVLKNYQDMVVEGCGCR",
+        "melting_point_K": 339
+    },
+    "2H5F": {
+        "sequence": "QAVGLPHGFCIQCNRKTWSNCSIGHRCLPYHMTCYTLYKPDENGEMKWAVKGCARMCPTAKSGERVKCCTGASCNSD",
+        "melting_point_K": 350
+    },
+    "2H7Z": {
+        "sequence": "QAVGPPYTLCFECNRMTSSDCSTALRCYRGSCYTLYRPDENCELKWAVKGCAETCPTAGPNERVKCCRSPRCNDD",
+        "melting_point_K": 339
+    },
+    "2PUQ": {
+        "sequence": "QCASSPCQNGGSCKDQLQSYICFCLPAFEGRNCETHKDDQLICVNENGGCEQYCSDHTGTKRSCRCHEGYSLLADGVSCTPTVEYPCGKIPILE",
+        "melting_point_K": 359
+    },
+    "6JIC": {
+        "sequence": "QDDPTCGKPCNTMDDCSNGWFCQACWNSRKTCGPFV",
+        "melting_point_K": 361
+    },
+    "1I8N": {
+        "sequence": "QDEDAGGAGDETSEGEDTTGSDETPSTGGGGDGGNEETITAGNEDCWSKRPGWKLPDNLLTKTEFTSVDECRKMCEESAVEPSCYILQINTETNECYRNNEGDVTWSSLQYDQPNVVQWHLHACSK",
+        "melting_point_K": 366
+    },
+    "1BRZ": {
+        "sequence": "QDKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 332
+    },
+    "2BRZ": {
+        "sequence": "QDKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 341
+    },
+    "4HE7": {
+        "sequence": "QDKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 365
+    },
+    "2N66": {
+        "sequence": "QDKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYKEKRNLQCICDYCEY",
+        "melting_point_K": 340
+    },
+    "2N69": {
+        "sequence": "QDKCKKVYENYPVSKCQLRIANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 331
+    },
+    "6A5I": {
+        "sequence": "QDRPKFCYLPDDPGVCKAHIPRFYYNPASNKCKEFIYGGCGGNANNFETRAECRHTCVASRKGGPRRP",
+        "melting_point_K": 337
+    },
+    "3BT1": {
+        "sequence": "QESCKGRCTEGFNVDKKCQCDELCSYYQSCCTDYTAECKP",
+        "melting_point_K": 355
+    },
+    "3BT2": {
+        "sequence": "QESCKGRCTEGFNVDKKCQCDELCSYYQSCCTDYTAECKP",
+        "melting_point_K": 330
+    },
+    "1BIG": {
+        "sequence": "QFTDVKCTGSKQCWPVCKQMFGKPNGKCMNGKCRCYS",
+        "melting_point_K": 348
+    },
+    "2BMT": {
+        "sequence": "QFTNVSCSASSQCWPVCKKLFGTYRGKCMNSKCRCYS",
+        "melting_point_K": 362
+    },
+    "1BAH": {
+        "sequence": "QFTNVSCTTSKEAWSVCQRLHNTSRGKCMNKKARCYS",
+        "melting_point_K": 339
+    },
+    "2CRD": {
+        "sequence": "QFTNVSCTTSKECWSVCQRLHNTSRGKCMNKKCRCYS",
+        "melting_point_K": 353
+    },
+    "4JTC": {
+        "sequence": "QFTNVSCTTSKECWSVCQRLHNTSRGKCMNKKCRCYS",
+        "melting_point_K": 349
+    },
+    "4JTD": {
+        "sequence": "QFTNVSCTTSKECWSVCQRLHNTSRGMCMNKKCRCYS",
+        "melting_point_K": 339
+    },
+    "1LIR": {
+        "sequence": "QFTQESCTASNQCWSICKRLHNTNRGKCMNKKCRCYS",
+        "melting_point_K": 332
+    },
+    "4NTW": {
+        "sequence": "QIRPAFCYEDPPFFQKCGAFVDSYYFNRSRITCVHFFYGQCDVNQNHFTTMSECNRVCHG",
+        "melting_point_K": 358
+    },
+    "4NTX": {
+        "sequence": "QIRPAFCYEDPPFFQKCGAFVDSYYFNRSRITCVHFFYGQCDVNQNHFTTMSECNRVCHG",
+        "melting_point_K": 359
+    },
+    "4NTY": {
+        "sequence": "QIRPAFCYEDPPFFQKCGAFVDSYYFNRSRITCVHFFYGQCDVNQNHFTTMSECNRVCHG",
+        "melting_point_K": 335
+    },
+    "5WUZ": {
+        "sequence": "QNCGRQAGNRACANQLCCSQYGFCGSTSEYCSRANGCQSNCRG",
+        "melting_point_K": 348
+    },
+    "3NH7": {
+        "sequence": "QNLDSMLHGTGMKSDSDQKKSENGVTLAPEDTLPFLKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGETTLASGCMKYEGSDFQCKDSPKAQLRRTIECCRTNLCNQYLQPTLPPVVIGPFFDGSIR",
+        "melting_point_K": 330
+    },
+    "3C05": {
+        "sequence": "QPKNPCCDAATCKLTPGSQCAEGLCCDQCKFIKAGKICRRARGDNPDYRCTGQSGDCPRKHF",
+        "melting_point_K": 370
+    },
+    "1R02": {
+        "sequence": "QPLPDCCRQKTCSCRLYELLHGAGNHAAGILTL",
+        "melting_point_K": 345
+    },
+    "1DEM": {
+        "sequence": "QPLRKLCILHRNPGRCYQKIPAFYYNQKKKQCEGFTWSGCGGNSNRFKTIEECRRTCIRK",
+        "melting_point_K": 353
+    },
+    "1DEN": {
+        "sequence": "QPLRKLCILHRNPGRCYQKIPAFYYNQKKKQCEGFTWSGCGGNSNRFKTIEECRRTCIRK",
+        "melting_point_K": 342
+    },
+    "1DTX": {
+        "sequence": "QPRRKLCILHRNPGRCYDKIPAFYYNQKKKQCERFDWSGCGGNSNRFKTIEECRRTCIG",
+        "melting_point_K": 372
+    },
+    "1C4E": {
+        "sequence": "QQCVKKDELCIPYYLDCCEPLECKKVNWWDHKCIG",
+        "melting_point_K": 347
+    },
+    "1GUR": {
+        "sequence": "QQCVKKDELCIPYYLDCCEPLECKKVNWWDHKCIG",
+        "melting_point_K": 327
+    },
+    "2LJS": {
+        "sequence": "QRACPRILKKCRRDSDCPGECICKGNGYCG",
+        "melting_point_K": 331
+    },
+    "1Q2J": {
+        "sequence": "QRCCNGRRGCSSRWCRDHSRCC",
+        "melting_point_K": 340
+    },
+    "4AML": {
+        "sequence": "QRCGEQGSNMECPNNLCCSQYGYCGMGGDYCGKGCQNGACWTSKRCGSQAGGATCTNNQCCSQYGYCGFGAEYCGAGCQGGPCRADIKCGSQAGGKLCPNNLCCSQWGFCGLGSEFCGGGCQSGACSTDKPCGKDAGGRVCTNNYCCSKWGSCGIGPGYCGAGCQSGGCDG",
+        "melting_point_K": 355
+    },
+    "1EHD": {
+        "sequence": "QRCGSQGGGATCPGLRCCSIWGWCGDSEPYCGRTCENKCWSGERSDHRCGAAVGNPPCGQDRCCSVHGWCGGGNDYCSGGKCQYRCSSS",
+        "melting_point_K": 332
+    },
+    "1EHH": {
+        "sequence": "QRCGSQGGGATCPGLRCCSIWGWCGDSEPYCGRTCENKCWSGERSDHRCGAAVGNPPCGQDRCCSVHGWCGGGNDYCSGGKCQYRCSSS",
+        "melting_point_K": 347
+    },
+    "1IQB": {
+        "sequence": "QRCGSQGGGGTCPALWCCSIWGWCGDSEPYCGRTCENKCWSGERSDHRCGAAVGNPPCGQDRCCSVHGWCGGGNDYCSGSKCQYRCSSS",
+        "melting_point_K": 344
+    },
+    "1P9G": {
+        "sequence": "QTCASRCPRPCNAGLCCSIYGYCGSGAAYCGAGNCRCQCRG",
+        "melting_point_K": 337
+    },
+    "1P9Z": {
+        "sequence": "QTCASRCPRPCNAGLCCSIYGYCGSGAAYCGAGNCRCQCRG",
+        "melting_point_K": 347
+    },
+    "2C4B": {
+        "sequence": "QVINTFDGVADYLQTYHKLPDNYITKSEAQALGWVASKGNLADVAPGKSIGGDIFSNREGKLPGKSGRTWREADINYTSGFRNSDRILYSSDWLIYKTTDAYQTFTKIRSSSMGVCPKILKKCRRDSDCLAGCVCGPNGFCGS",
+        "melting_point_K": 356
+    },
+    "1WQ8": {
+        "sequence": "QVRPFLEVHERSACQARETLVPILQEYPDEISDIFRPSCVAVLRCSGCCTDESLKCTPVGKHTVDIQIMRVNPRTQSSKMEVMKFTEHTACECRPRRKQGEPDGPKEKPR",
+        "melting_point_K": 327
+    },
+    "1TCH": {
+        "sequence": "RDCCTPPKKCKDAQCKPQRCCA",
+        "melting_point_K": 345
+    },
+    "1TCK": {
+        "sequence": "RDCCTPPKKCKKAQCKPQRCCA",
+        "melting_point_K": 346
+    },
+    "1TCG": {
+        "sequence": "RDCCTPAKKCKDRQCKPQRCCA",
+        "melting_point_K": 330
+    },
+    "1TCJ": {
+        "sequence": "RDCCTPPKKCKDRQCKPQRCCA",
+        "melting_point_K": 359
+    },
+    "1GIB": {
+        "sequence": "RDCCTPPRKCKDRRCKPMKCCA",
+        "melting_point_K": 332
+    },
+    "1PE4": {
+        "sequence": "RDGYPLASNGCKFGCSGLGENNPTCNHVCEKKAGSDYGYCYAWTCYCEHVAEGTVLWGDSGTGPCRS",
+        "melting_point_K": 331
+    },
+    "4CQK": {
+        "sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKILRRCLCTKPC",
+        "melting_point_K": 327
+    },
+    "1LSI": {
+        "sequence": "RECYLNPHDTQTCPSGQEICYVKSWCNAWCSSRGKVLEFGCAATCPSVNTGTEIKCCSADKCNTYP",
+        "melting_point_K": 332
+    },
+    "2ERA": {
+        "sequence": "RICFNHQGSQPQTTKTCSPGESSCYNKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 330
+    },
+    "1ERA": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 348
+    },
+    "1FRA": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 372
+    },
+    "3EBX": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 346
+    },
+    "6EBX": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 349
+    },
+    "6PNW": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGINLSCCESEVCNN",
+        "melting_point_K": 361
+    },
+    "1QKD": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYNKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 364
+    },
+    "1QKE": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYNKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 364
+    },
+    "5EBX": {
+        "sequence": "RICFNHQSSQPQTTKTCSPGESSCYNKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 367
+    },
+    "3ERA": {
+        "sequence": "RICFNHQTSQPQTTKTCSPGESSCYNKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 345
+    },
+    "1NXB": {
+        "sequence": "RICFNQHSSQPQTTKTCSPGESSCYHKQWSDFRGTIIERGCGCPTVKPGIKLSCCESEVCNN",
+        "melting_point_K": 332
+    },
+    "1F2S": {
+        "sequence": "RICPRIWMECKRDSDCMAECICVMGHCG",
+        "melting_point_K": 333
+    },
+    "1MCT": {
+        "sequence": "RICPRIWMECTRDSDCMAKCICVAGHCG",
+        "melting_point_K": 369
+    },
+    "1DRS": {
+        "sequence": "RICYNHLGTKPPTTETCQEDSCYKNIWTFDNIIRRGCGCFTPRGDMPGPYCCESDKCNL",
+        "melting_point_K": 372
+    },
+    "1NTX": {
+        "sequence": "RICYNHQSTTRATTKSCEENSCYKKYWRDHRGTIIERGCGCPKVKPGVGIHCCQSDKCNY",
+        "melting_point_K": 333
+    },
+    "1TFS": {
+        "sequence": "RICYSHKASLPRATKTCVENTCYKMFIRTHREYISERGCGCPTAMWPYQTECCKGDRCNK",
+        "melting_point_K": 335
+    },
+    "1VYC": {
+        "sequence": "RKCLIKYSQANESSKTCPSGQLLCLKKWEIGNPSGKEVKRGCVATCPKPWKNEIIQCCAKDKCNA",
+        "melting_point_K": 331
+    },
+    "2H8U": {
+        "sequence": "RKCLIKYSQANESSKTCPSGQLLCLKKWEIGNPSGKEVKRGCVATCPKPWKNEIIQCCAKDKCNA",
+        "melting_point_K": 367
+    },
+    "3PLC": {
+        "sequence": "RKCLNTPLPLIYTTCPIGQDKCVKMTIKKLPSKYDVIRGCIDICPKSSADVEVLCCDTNKCNK",
+        "melting_point_K": 328
+    },
+    "1KBT": {
+        "sequence": "RKCNKLVPLFYKTCPAGKNLCYKMFMVSNLTVPVKRGCIDVCPKNSALVKYVCCNTDRCN",
+        "melting_point_K": 363
+    },
+    "4OM5": {
+        "sequence": "RKCNKLVPLFYKTCPAGKNLCYKMFMVSNLTVPVKRGCIDVCPKNSALVKYVCCNTDRCN",
+        "melting_point_K": 362
+    },
+    "1BUN": {
+        "sequence": "RKRHPDCDKPPDTKICQTVVRAFYYKPSAKRCVQFRYGGCNGNGNHFKSDHLCRCECLEYR",
+        "melting_point_K": 357
+    },
+    "4ZQY": {
+        "sequence": "RLCLSDYSIFSETIEICPEGHNYCFKKFPKGITRLPWVIRGCAATCPKPEAQVYVDCCARDKCNR",
+        "melting_point_K": 345
+    },
+    "5NCE": {
+        "sequence": "RMCKTPSGKFKGYCVNNTNCKNVCRTEGFPTGSCDFHVAGRKCYCYKPCP",
+        "melting_point_K": 372
+    },
+    "3D65": {
+        "sequence": "RPDFCELPADTGPCRVRFPSFYYNPDEKKCLEFIYGGCEGNANNFITKEECESTCAA",
+        "melting_point_K": 335
+    },
+    "2M99": {
+        "sequence": "RPRFCELAPSAGSCFAFVPSYYYNQYSNTCHSFTYSGCGGNANRFRTIDECNRTCVG",
+        "melting_point_K": 341
+    },
+    "1J5J": {
+        "sequence": "RPTDIKCSESYQCFPVCKSRFGKTNGRCVNGFCDCF",
+        "melting_point_K": 362
+    },
+    "1LGL": {
+        "sequence": "RPTDIKCSESYQCFPVCKSRFGKTNGRCVNGFCDCF",
+        "melting_point_K": 364
+    },
+    "1C2U": {
+        "sequence": "RSAIDTIPKSRCTAFQCKHSAKYRLSFCRKTCGTA",
+        "melting_point_K": 349
+    },
+    "1ANS": {
+        "sequence": "RSCCPCYWGGCPWGQNCYPEGCSGPKV",
+        "melting_point_K": 344
+    },
+    "1CZ6": {
+        "sequence": "RSVCRQIKICRRRGGCYYKCTNRPY",
+        "melting_point_K": 362
+    },
+    "1KBA": {
+        "sequence": "RTCLISPSSTPQTCPNGQDICFLKAQCDKFCSIRGPVIEQGCVATCPQFRSNYRSLLCCTTDNCNH",
+        "melting_point_K": 349
+    },
+    "2NBT": {
+        "sequence": "RTCLISPSSTPQTCPNGQDICFLKAQCDKFCSIRGPVIEQGCVATCPQFRSNYRSLLCCTTDNCNH",
+        "melting_point_K": 356
+    },
+    "4LFT": {
+        "sequence": "RTCNKTFSDQSKICPPGENICYTKTWCDAFCSQRGKRVELGCAATCPKVKAGVEIKCCSTDNCNKFQFGKPRX",
+        "melting_point_K": 341
+    },
+    "2BTC": {
+        "sequence": "RVCPKILMECKKDSDCLAECICLEHGYCG",
+        "melting_point_K": 344
+    },
+    "2STB": {
+        "sequence": "RVCPKILMECKKDSDCLAECICLEHGYCG",
+        "melting_point_K": 357
+    },
+    "1LU0": {
+        "sequence": "RVCPRILLECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 372
+    },
+    "2V1V": {
+        "sequence": "RVCPRILLECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 368
+    },
+    "1CTI": {
+        "sequence": "RVCPRILMECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 357
+    },
+    "1PPE": {
+        "sequence": "RVCPRILMECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 340
+    },
+    "2CTI": {
+        "sequence": "RVCPRILMECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 359
+    },
+    "2STA": {
+        "sequence": "RVCPRILMECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 333
+    },
+    "3CTI": {
+        "sequence": "RVCPRILMECKKDSDCLAECVCLEHGYCG",
+        "melting_point_K": 360
+    },
+    "2FQA": {
+        "sequence": "SAISCGETCFKFKCYTPRCSCSYPVCK",
+        "melting_point_K": 372
+    },
+    "1IXT": {
+        "sequence": "SCNNSCQSHSDCASHCICTFRGCGAVN",
+        "melting_point_K": 366
+    },
+    "1EYO": {
+        "sequence": "SCSGRDSRCPPVCCMGLMCSRGKCVSIYGE",
+        "melting_point_K": 327
+    },
+    "1GM2": {
+        "sequence": "SCTKSIPPQCY",
+        "melting_point_K": 335
+    },
+    "1DF6": {
+        "sequence": "SCVYIPCTVTALLGCSCSNRVCYNGIPCAE",
+        "melting_point_K": 329
+    },
+    "3CH5": {
+        "sequence": "SDKPASTSGTGFGDKFKPAIGTWDCDTCLVQNKPEAVKCVACETPKPGTGVK",
+        "melting_point_K": 371
+    },
+    "6V6T": {
+        "sequence": "SECRYLFGGCKTTADCCKHLGCRTDLYYCAWDGTF",
+        "melting_point_K": 362
+    },
+    "2KNI": {
+        "sequence": "SEDCIPKWKGCVNRHGDCCEGLECWKRRRSFEVCVPKTPKT",
+        "melting_point_K": 343
+    },
+    "1BTE": {
+        "sequence": "SETQECLFFNANWERDRTNQTGVEPCYGDKDKRRHCFATWKNISGSIEIVKQGCWLDDINCYDRTDCIEKKDSPEVYFCCCEGNMCNEKFSYFPEME",
+        "melting_point_K": 356
+    },
+    "2H62": {
+        "sequence": "SGRGEAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHL",
+        "melting_point_K": 363
+    },
+    "2H64": {
+        "sequence": "SGRGEAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLP",
+        "melting_point_K": 332
+    },
+    "1NYS": {
+        "sequence": "SGRGEAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLPEPLVPR",
+        "melting_point_K": 350
+    },
+    "1NYU": {
+        "sequence": "SGRGEAETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWLDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLPEPLVPR",
+        "melting_point_K": 343
+    },
+    "1HA9": {
+        "sequence": "SGSDGGVCPKILKKCRRDSDCPGACICRGNGYCG",
+        "melting_point_K": 336
+    },
+    "1IB9": {
+        "sequence": "SGSDGGVCPKILKKCRRDSDCPGACICRGNGYCG",
+        "melting_point_K": 356
+    },
+    "1IC9": {
+        "sequence": "SKYEYTIPSYTFRGPGCPTLKPAITVRCE",
+        "melting_point_K": 342
+    },
+    "1ICO": {
+        "sequence": "SKYEYTIPSYTFRGPGCPTVKPAVTIRCE",
+        "melting_point_K": 333
+    },
+    "2MOP": {
+        "sequence": "SPPVCGNKILEQGEDCDCGSPANCQDRCCNAATCKLTPGSQCNYGECCDQCRFKKAGTVCRIARGDWNDDYCTGKSSDCPWNH",
+        "melting_point_K": 366
+    },
+    "2MP5": {
+        "sequence": "SPPVCGNKILEQGEDCDCGSPANCQDRCCNAATCKLTPGSQCNYGECCDQCRFKKAGTVCRIARGDWNDDYCTGKSSDCPWNH",
+        "melting_point_K": 333
+    },
+    "1AXH": {
+        "sequence": "SPTCIPSGQPCPYNENCCSQSCTFKENENGNTVKRCD",
+        "melting_point_K": 342
+    },
+    "1EHS": {
+        "sequence": "STQSNKKDLCEHYRQIAKESCKKGFLGVRDGTAGACFGAQIMVAAKGC",
+        "melting_point_K": 365
+    },
+    "1LA4": {
+        "sequence": "TCRYLFGGCKTTADCCKHLACRSDGKYCAWDGTF",
+        "melting_point_K": 357
+    },
+    "1MTX": {
+        "sequence": "TIINVKCTSPKQCLPPCKAQFGQSAGAKCMNGKCKCYPH",
+        "melting_point_K": 330
+    },
+    "1SXM": {
+        "sequence": "TIINVKCTSPKQCSKPCKELYGSSAGAKCMNGKCKCYNN",
+        "melting_point_K": 336
+    },
+    "1C49": {
+        "sequence": "TISCTNEKQCYPHCKKETGYPNAKCMNRKCKCFGR",
+        "melting_point_K": 328
+    },
+    "3HH7": {
+        "sequence": "TKCYNHQSTTPETTEICPDSGYFCYKSSWIDGREGRIERGCTFTCPELTPNGKYVYCCRRDKCNQ",
+        "melting_point_K": 352
+    },
+    "1TXA": {
+        "sequence": "TKCYVTPDATSQTCPDGQDICYTKTWCDGFCSSRGKRIDLGCAATCPKVKPGVDIKCCSTDNCNPFPTWKRKH",
+        "melting_point_K": 351
+    },
+    "1TXB": {
+        "sequence": "TKCYVTPDATSQTCPDGQDICYTKTWCDGFCSSRGKRIDLGCAATCPKVKPGVDIKCCSTDNCNPFPTWKRKH",
+        "melting_point_K": 355
+    },
+    "1ES7": {
+        "sequence": "TLPFLKCYCSGHCPDDAINNTCITNGHCFAIIEEDDQGETTLASGCMKYEGSDFQCKDSPKAQLRRTIECCRTNLCNQYLQPTLPPVVI",
+        "melting_point_K": 363
+    },
+    "1B41": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 370
+    },
+    "1F8U": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 345
+    },
+    "1FSC": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 339
+    },
+    "1FSS": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 334
+    },
+    "1KU6": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 358
+    },
+    "1MAH": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 351
+    },
+    "2X8B": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 363
+    },
+    "4BDT": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 354
+    },
+    "4EY8": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY",
+        "melting_point_K": 371
+    },
+    "1FAS": {
+        "sequence": "TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDYLEVKCCTSPDKCNY",
+        "melting_point_K": 343
+    },
+    "1QM7": {
+        "sequence": "TMCYSHTTTSRAILTNCPGETNCYKKSRRHPPKMVLGRGCGCPTVAPGIKLNCCTTDKCNY",
+        "melting_point_K": 359
+    },
+    "1PVZ": {
+        "sequence": "TPFAIKCATDADCSRKCPGNPPCRNGFCACT",
+        "melting_point_K": 345
+    },
+    "1RJI": {
+        "sequence": "TPYPVNCKTDRDCVMCGLGISCKNGYCQGCT",
+        "melting_point_K": 333
+    },
+    "1WT8": {
+        "sequence": "TPYPVNCKTDRDCVMCGLGISCKNGYCQGCT",
+        "melting_point_K": 353
+    },
+    "1AZ6": {
+        "sequence": "TQSHAGQCGGIGYSGPTVCASGTTCQVLNPYYSQCL",
+        "melting_point_K": 369
+    },
+    "1AZH": {
+        "sequence": "TQSHAGQCGGIGYSGPTVCASGTTCQVLNPYYSQCL",
+        "melting_point_K": 356
+    },
+    "1AZJ": {
+        "sequence": "TQSHYGQCGGIGYSGPTVCASGTTCQVLNPAYSQCL",
+        "melting_point_K": 345
+    },
+    "1AZK": {
+        "sequence": "TQSHYGQCGGIGYSGPTVCASGTTCQVLNPYASQCL",
+        "melting_point_K": 351
+    },
+    "1CBH": {
+        "sequence": "TQSHYGQCGGIGYSGPTVCASGTTCQVLNPYYSQCL",
+        "melting_point_K": 333
+    },
+    "2CBH": {
+        "sequence": "TQSHYGQCGGIGYSGPTVCASGTTCQVLNPYYSQCL",
+        "melting_point_K": 329
+    },
+    "1PNH": {
+        "sequence": "TVCNLRRCQLSCRSLGLLGKCIGVKCECVKH",
+        "melting_point_K": 351
+    },
+    "1HLY": {
+        "sequence": "TVIDVKCTSPKQCLPPCKAQFGIRAGAKCMNGKCKCYPH",
+        "melting_point_K": 346
+    },
+    "1ORX": {
+        "sequence": "VCGETCVGGTCNTPGCTCSWPVCT",
+        "melting_point_K": 366
+    },
+    "1BGK": {
+        "sequence": "VCRDWFKETACRHAKSLGNCRTSQKYRANCAKTCELC",
+        "melting_point_K": 336
+    },
+    "1HP2": {
+        "sequence": "VFINAKCRGSPECLPKCKEAIGKAAGKCMNGKCKCYP",
+        "melting_point_K": 353
+    },
+    "1DU9": {
+        "sequence": "VGCEECPMHCKGKNAKPTCDDGVCNCNV",
+        "melting_point_K": 370
+    },
+    "1WM8": {
+        "sequence": "VGCEECPMHCKGKNANPTCDDGVCNCNV",
+        "melting_point_K": 368
+    },
+    "1MMC": {
+        "sequence": "VGECVRGRCPSGMCCSQFGYCGKGPKYCGR",
+        "melting_point_K": 333
+    },
+    "2MLD": {
+        "sequence": "VGINVDCKHSGQCLKPCKKAGMRFGKCINGKCDCTPK",
+        "melting_point_K": 328
+    },
+    "1BKT": {
+        "sequence": "VGINVKCKHSGQCLKPCKDAGMRFGKCINGKCDCTPK",
+        "melting_point_K": 341
+    },
+    "2MLA": {
+        "sequence": "VGINVKCKHSGQCLKPCKKAGMRFGKCINGKCDCTPK",
+        "melting_point_K": 360
+    },
+    "2K4U": {
+        "sequence": "VGINVKCKHSRQCLKPCKDAGMRFGKCTNGKCHCTPK",
+        "melting_point_K": 347
+    },
+    "1WMT": {
+        "sequence": "VHTNIPCRGTSDCYEPCEKKYNCARAKCMNRHCNCYNNCPW",
+        "melting_point_K": 371
+    },
+    "1AHO": {
+        "sequence": "VKDGYIVDDVNCTYFCGRNAYCNEECTKLKGESGYCQWASPYGNACYCYKLPDHVRTKGPGRCH",
+        "melting_point_K": 338
+    },
+    "1PTX": {
+        "sequence": "VKDGYIVDDVNCTYFCGRNAYCNEECTKLKGESGYCQWASPYGNACYCYKLPDHVRTKGPGRCH",
+        "melting_point_K": 363
+    },
+    "4AEI": {
+        "sequence": "VKDGYIVDDVNCTYFCGRNAYCNEECTKLKGESGYCQWASPYGNACYCYKLPDHVRTKGPGRCHX",
+        "melting_point_K": 333
+    },
+    "1SEG": {
+        "sequence": "VKDGYIVKNYNCTYFCFRNAYCNEECTKLKGESGYCQWASPYGNACYCYKLPDHVPIRVPGKCH",
+        "melting_point_K": 332
+    },
+    "1CW5": {
+        "sequence": "VNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP",
+        "melting_point_K": 356
+    },
+    "1LPA": {
+        "sequence": "VPDPRGIIINLDEGELCLNSAQCKSNCCQHDTILSLLRCALKARENSECSAFTLYGVYYKCPCERGLTCEGDKSLVGSITNTNFGICHNVGRSDS",
+        "melting_point_K": 367
+    },
+    "1N8S": {
+        "sequence": "VPDPRGIIINLDEGELCLNSAQCKSNCCQHDTILSLLRCALKARENSECSAFTLYGVYYKCPCERGLTCEGDKSLVGSITNTNFGICHNVGRSDS",
+        "melting_point_K": 369
+    },
+    "1PCN": {
+        "sequence": "VPDPRGIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKARENSECSAFTLYGVYYKCPCERGLTCEGDKSLVGSITNTNFGICHNVGRS",
+        "melting_point_K": 369
+    },
+    "1PCO": {
+        "sequence": "VPDPRGIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKARENSECSAFTLYGVYYKCPCERGLTCEGDKSLVGSITNTNFGICHNVGRS",
+        "melting_point_K": 336
+    },
+    "1ETH": {
+        "sequence": "VPDPRGIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKARENSECSAFTLYGVYYKCPCERGLTCEGDKSLVGSITNTNFGICHNVGRSDS",
+        "melting_point_K": 347
+    },
+    "1LPB": {
+        "sequence": "VPDPRGIIINLDEGELCLNSAQCKSNCCQHDTILSLSRCALKARENSECSAFTLYGVYYKCPCERGLTCEGDKSLVGSITNTNFGICHNVGRSDS",
+        "melting_point_K": 349
+    },
+    "1KCO": {
+        "sequence": "VQCPHFCYELDYELCPDVCYV",
+        "melting_point_K": 359
+    },
+    "1LQQ": {
+        "sequence": "VRDAYIAKNYNCVYECFRDSYCNDLCTKNGASSGYCQWAGKYGNACWCYALPDNVPIRVPGKCH",
+        "melting_point_K": 346
+    },
+    "2KBK": {
+        "sequence": "VRDAYIAKPENCVYECGITQDCNKLCTENGAESGYCQWGGKYGNACWCIKLPDSVPIRVPGKCQ",
+        "melting_point_K": 345
+    },
+    "1SN4": {
+        "sequence": "VRDAYIAKPENCVYHCAGNEGCNKLCTDNGAESGYCQWGGRYGNACWCIKLPDDVPIRVPGKCH",
+        "melting_point_K": 335
+    },
+    "1DJT": {
+        "sequence": "VRDAYIAKPHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 341
+    },
+    "1SN1": {
+        "sequence": "VRDAYIAKPHNCVYECARNEYCNDLCTKNGAKSGYCQWVGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 337
+    },
+    "1CHZ": {
+        "sequence": "VRDAYIAKPHNCVYECARNEYCNNLCTKNGAKSGYCQWSGKYGNGCWCIELPDNVPIRVPGKCH",
+        "melting_point_K": 352
+    },
+    "2E0H": {
+        "sequence": "VRDAYIAQNYNCVYHCARDAYCNELCTKNGAKSGSCPYLGEHKFACYCKDLPDNVPIRVPGKCH",
+        "melting_point_K": 348
+    },
+    "1KV0": {
+        "sequence": "VRDGYIALPHNCAYGCLNNEYCNNLCTKDGAKIGYCNIVGKYGNACWCIQLPDNVPIRVPGRCHPA",
+        "melting_point_K": 335
+    },
+    "1BMR": {
+        "sequence": "VRDGYIAQPENCVYHCFPGSSGCDTLCKEKGGTSGHCGFKVGHGLACWCNALPDNVGIIVEGEKCHSX",
+        "melting_point_K": 342
+    },
+    "1FH3": {
+        "sequence": "VRDGYIAQPENCVYHCFPGSSGCDTLCKEKGGTSGHCGFKVGHGLACWCNALPDNVGIIVEGEKCHSX",
+        "melting_point_K": 342
+    },
+    "1ACW": {
+        "sequence": "VSCEDCPEHCSTQKAQAKCDNDKCVCEPI",
+        "melting_point_K": 355
+    },
+    "1TXM": {
+        "sequence": "VSCTGSKDCYAPCRKQTGCPNAKCINKSCKCYGC",
+        "melting_point_K": 342
+    },
+    "1WPD": {
+        "sequence": "VSCTGSKDCYAPCRKQTGCPYGKCMNRKCKCNRC",
+        "melting_point_K": 346
+    },
+    "1PLO": {
+        "sequence": "VTDNAGAVKFPQLCKFCDVRFSTCDNQKSCMSNCSITSICEKPQEVCVAVWRKNDENITLETVCHDPKLPYHDFILEDAASPKCIMKEKKKPGETFFMCSCSSDECNDNIIFSEEYNTSNPD",
+        "melting_point_K": 342
+    },
+    "1TSK": {
+        "sequence": "VVIGQRCYRSPDCYSACKKLVGKATGKCTNGRCDC",
+        "melting_point_K": 330
+    },
+    "1FU3": {
+        "sequence": "WCKQSGEMCNLLDQNCCDGYCIVLVCT",
+        "melting_point_K": 344
+    },
+    "1C55": {
+        "sequence": "WCSTCLDLACGASRECYDPCFKAFGRAHGKCMNNKCRCYT",
+        "melting_point_K": 358
+    },
+    "1C56": {
+        "sequence": "WCSTCLDLACGASRECYDPCFKAFGRAHGKCMNNKCRCYT",
+        "melting_point_K": 328
+    },
+    "1WQB": {
+        "sequence": "WLGCARVKEACGPWEWPCCSGLKCDGSECHPQ",
+        "melting_point_K": 344
+    },
+    "1BF0": {
+        "sequence": "WQPPWYCKEPVRIGSCKKQFSSFYFKWTAKKCLPFLFSGCGGNANRFQTIGECRKKCLGK",
+        "melting_point_K": 338
+    },
+    "1PAO": {
+        "sequence": "ACKSTQDPMFTPKGCDN",
+        "melting_point_K": 343
+    },
+    "1IM7": {
+        "sequence": "IWGCSGKLICTTA",
+        "melting_point_K": 346
+    },
+    "1NIL": {
+        "sequence": "KCTSDQDEQFIPKGCSK",
+        "melting_point_K": 338
+    },
+    "1KB7": {
+        "sequence": "SCATTVDAKFRPNGCTD",
+        "melting_point_K": 333
+    },
+    "1KB8": {
+        "sequence": "SCATTVDAKFRPNGCTD",
+        "melting_point_K": 360
+    },
+    "1HY9": {
+        "sequence": "YGQVPMCDAGEQCAVRKGARIGKLCDCPRGTSCNSFLLKCL",
+        "melting_point_K": 341
+    },
+    "1H5O": {
+        "sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG",
+        "melting_point_K": 358
+    },
+    "1Z99": {
+        "sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG",
+        "melting_point_K": 363
+    },
+    "4GV5": {
+        "sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG",
+        "melting_point_K": 364
+    },
+    "1J34": {
+        "sequence": "YNSGKLEEFVRGNLERECKEEKCSFEEAREVFENTEKTTEFWKQYV",
+        "melting_point_K": 353
+    },
+    "1J35": {
+        "sequence": "YNSGKLEEFVRGNLERECKEEKCSFEEAREVFENTEKTTEFWKQYV",
+        "melting_point_K": 351
+    },
+    "1CIX": {
+        "sequence": "YSRCQLQGFNCVVRSYGLPTIPCCRGLTCRSYFPGSTYGRCQRY",
+        "melting_point_K": 350
+    },
+    "4CPA": {
+        "sequence": "ZZHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV",
+        "melting_point_K": 355
+    },
+    "3JB9": {
+        "sequence": "GUAUGUAU",
+        "melting_point_K": 340
+    },
+    "2MXO": {
+        "sequence": "AECKGFWKSCVPGKNECCSGYACSSRDKWCKVLL",
+        "melting_point_K": 348
+    },
+    "1P0G": {
+        "sequence": "AKKVFKRLEKLFSKIQNDK",
+        "melting_point_K": 343
+    },
+    "1OT0": {
+        "sequence": "AKKVFKRLEKLFAKIQNWK",
+        "melting_point_K": 367
+    },
+    "1P0J": {
+        "sequence": "AKKVFKRLAKLFSKIQNWK",
+        "melting_point_K": 352
+    },
+    "1P0L": {
+        "sequence": "AKKVFKALEKLFSKIWNDK",
+        "melting_point_K": 327
+    },
+    "1P0O": {
+        "sequence": "AKKVFKRLEKLFSKIWNWK",
+        "melting_point_K": 351
+    },
+    "1P5K": {
+        "sequence": "AKKVFKRLEKSFSKIQNAK",
+        "melting_point_K": 371
+    },
+    "1P5L": {
+        "sequence": "AKKVSKRLEKLFSKIQNDK",
+        "melting_point_K": 334
+    },
+    "1WN4": {
+        "sequence": "ALETQKPNHLLEEALVAFAKKGNLGGLP",
+        "melting_point_K": 350
+    },
+    "2LB7": {
+        "sequence": "AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGAGSCQSQCRGC",
+        "melting_point_K": 346
+    },
+    "1PJV": {
+        "sequence": "AVCVYRTCDKDCKRRGYRSGKCINNACKCYPY",
+        "melting_point_K": 360
+    },
+    "1QS3": {
+        "sequence": "CANPACGRHYS",
+        "melting_point_K": 329
+    },
+    "1N2Y": {
+        "sequence": "CFRARGYGFRGPGLC",
+        "melting_point_K": 367
+    },
+    "2JUE": {
+        "sequence": "CGETCVGGTCNTPGCTCSWPVCTRNGLPV",
+        "melting_point_K": 337
+    },
+    "1FYG": {
+        "sequence": "CKAAGKPCSRIAYNCCTGSCRSGKC",
+        "melting_point_K": 365
+    },
+    "1FGD": {
+        "sequence": "CPEGYILDDGFICTDIDE",
+        "melting_point_K": 359
+    },
+    "1Y58": {
+        "sequence": "CRRWQWRMKKLGC",
+        "melting_point_K": 328
+    },
+    "6CMH": {
+        "sequence": "CSASSLLDKEAVYFCHLDIIW",
+        "melting_point_K": 347
+    },
+    "6DK5": {
+        "sequence": "CSCSSLMDKECVYFCHLDIIW",
+        "melting_point_K": 351
+    },
+    "2BEY": {
+        "sequence": "CTKSIPPICTKSIPPI",
+        "melting_point_K": 328
+    },
+    "1MQX": {
+        "sequence": "CAFXLPGGGGVCXLSECI",
+        "melting_point_K": 341
+    },
+    "1MQY": {
+        "sequence": "CAFXLPGGGGVCXLASECI",
+        "melting_point_K": 346
+    },
+    "1MQZ": {
+        "sequence": "CKFXLPGGGGVCXLKSECI",
+        "melting_point_K": 363
+    },
+    "2KGQ": {
+        "sequence": "DKCKKVYENYPVSKCQLANQCNYDCKLDKHARSGECFYDEKRNLQCICDYCEY",
+        "melting_point_K": 356
+    },
+    "1I2U": {
+        "sequence": "DKLIGSCVWGAVNYTSDCNGECKRRGYKGGHCGSFANVNCWCET",
+        "melting_point_K": 333
+    },
+    "1SQK": {
+        "sequence": "DLPKVAENLKSQLEGFNQDKLKNAS",
+        "melting_point_K": 367
+    },
+    "3C5T": {
+        "sequence": "DLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS",
+        "melting_point_K": 369
+    },
+    "3C59": {
+        "sequence": "DLSKQMEEEAVRMFIEWLKNGGPSSGAPPPS",
+        "melting_point_K": 356
+    },
+    "1H6K": {
+        "sequence": "DQHFRGDNEEQEKLLKKSCTLYVGNLSFYTTEEQIYELFSKSGDIKKIIMGLDKMKTACGFCFVEYYSRADAENAMRYINGTRLDDRIIRTDWDAGFK",
+        "melting_point_K": 348
+    },
+    "1L4W": {
+        "sequence": "EERGWKHWVYYTCCPDTPYLDITEE",
+        "melting_point_K": 348
+    },
+    "1LJZ": {
+        "sequence": "EERGWKHWVYYTCCPDTPYLDITEE",
+        "melting_point_K": 348
+    },
+    "1LFC": {
+        "sequence": "FKCRRWQWRMKKLGAPSITCVRRAF",
+        "melting_point_K": 341
+    },
+    "1G92": {
+        "sequence": "FLPLLILGSLLMTPPVIQAIHDAQR",
+        "melting_point_K": 335
+    },
+    "1RGJ": {
+        "sequence": "FRYYESSLEPWDD",
+        "melting_point_K": 364
+    },
+    "1TYK": {
+        "sequence": "GCLEFWWKCNPNDDKCCRPKLKCSKLFKLCNFSF",
+        "melting_point_K": 348
+    },
+    "1QFB": {
+        "sequence": "GCPWEPWC",
+        "melting_point_K": 350
+    },
+    "1NXN": {
+        "sequence": "GDCPWKPWC",
+        "melting_point_K": 336
+    },
+    "6MZT": {
+        "sequence": "GDIKCSGTRQCWGPCKKQTTCTNSKCMNGKCKCYGCV",
+        "melting_point_K": 357
+    },
+    "1ONU": {
+        "sequence": "GEEELQENQELIREKSN",
+        "melting_point_K": 365
+    },
+    "1ONT": {
+        "sequence": "GEEEYQKMLENLREAEVKKNA",
+        "melting_point_K": 337
+    },
+    "1SBU": {
+        "sequence": "GFASLPILKNG",
+        "melting_point_K": 348
+    },
+    "1XC0": {
+        "sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGGQE",
+        "melting_point_K": 361
+    },
+    "2MLT": {
+        "sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ",
+        "melting_point_K": 342
+    },
+    "1VM5": {
+        "sequence": "GLFDIIKKIAESF",
+        "melting_point_K": 352
+    },
+    "1VM4": {
+        "sequence": "GLFDIVKKLVSDF",
+        "melting_point_K": 330
+    },
+    "1VM3": {
+        "sequence": "GLFDIVKSLVSDF",
+        "melting_point_K": 366
+    },
+    "1VM2": {
+        "sequence": "GLFDKLKSLVSDF",
+        "melting_point_K": 368
+    },
+    "3GJ7": {
+        "sequence": "GPLGSAGSSWQCDTCLLQNKVTDNKCIACQAAKLPLKETAKQTGIGTPSKSDKPASTSGTGFGDKFKPAIGTWDCDTCLVQNKPEAVKCVACETPKPG",
+        "melting_point_K": 331
+    },
+    "3GJ5": {
+        "sequence": "GPLGSGSWDCEVCLVQNKADSTKCIACESAKPGT",
+        "melting_point_K": 361
+    },
+    "3GJ8": {
+        "sequence": "GPLGSVGSWECPVCCVSNKAEDSRCVSCTSEKPGLVSASSSNSVPVSLPSGGCLGLDKFKKPEGSWDCEVCLVQNKADSTKCIACESAKPGT",
+        "melting_point_K": 364
+    },
+    "1JBL": {
+        "sequence": "GRCTKSIPPICFPD",
+        "melting_point_K": 338
+    },
+    "1JBN": {
+        "sequence": "GRCTKSIPPICFPD",
+        "melting_point_K": 359
+    },
+    "1O8Y": {
+        "sequence": "GRCTKSIPPICFPD",
+        "melting_point_K": 368
+    },
+    "1O8Z": {
+        "sequence": "GRCTKSIPPICFPD",
+        "melting_point_K": 372
+    },
+    "3P8F": {
+        "sequence": "GRCTKSIPPICFPD",
+        "melting_point_K": 348
+    },
+    "4ABI": {
+        "sequence": "GRCTKSIXICFPD",
+        "melting_point_K": 335
+    },
+    "4ABJ": {
+        "sequence": "GRCTKSXPICFPD",
+        "melting_point_K": 344
+    },
+    "1WGE": {
+        "sequence": "GSSGSSGMAVFHDEVEIEDFQYDEDSETYFYPCPCGDNFAITKEDLENGEDVATCPSCSLIIKVIYDKDQFMCGETVSGPSSG",
+        "melting_point_K": 337
+    },
+    "2UVS": {
+        "sequence": "GVEINVKCSGSPQCLKPCKDAGMRFGKCMNRKCHCTPK",
+        "melting_point_K": 372
+    },
+    "1WN8": {
+        "sequence": "GVKSSETTLTMFLKEMQLKGLP",
+        "melting_point_K": 354
+    },
+    "1FQJ": {
+        "sequence": "GVQGFGDDIPGMEGLGTDITVICPWEAFNHLELHELAQYGII",
+        "melting_point_K": 332
+    },
+    "1JRJ": {
+        "sequence": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS",
+        "melting_point_K": 342
+    },
+    "1HOY": {
+        "sequence": "HRYYESSLEPWYPD",
+        "melting_point_K": 332
+    },
+    "1JBD": {
+        "sequence": "HRYYESSLEPWYPD",
+        "melting_point_K": 363
+    },
+    "1QX9": {
+        "sequence": "ICLKKWPWWPWRRCK",
+        "melting_point_K": 354
+    },
+    "2JOT": {
+        "sequence": "IDTCRLPSDRGRCKASFERWYFNGRTCAKFIYGGCGGNGNKFPTQEACMKRCAKA",
+        "melting_point_K": 361
+    },
+    "1T54": {
+        "sequence": "ILGKIAEGIKSLF",
+        "melting_point_K": 351
+    },
+    "1T51": {
+        "sequence": "ILGKIWEGIKSLF",
+        "melting_point_K": 335
+    },
+    "1T52": {
+        "sequence": "ILGKIWKGIKSLF",
+        "melting_point_K": 332
+    },
+    "1T55": {
+        "sequence": "ILGKIWKPIKKLF",
+        "melting_point_K": 336
+    },
+    "1K83": {
+        "sequence": "IWGIGCNP",
+        "melting_point_K": 327
+    },
+    "3CQZ": {
+        "sequence": "IWGIGCNP",
+        "melting_point_K": 349
+    },
+    "1VNA": {
+        "sequence": "KEGYLVKKSDGCKYDCFWLGKNEHCNTECKAKNQGGSYGYCYAFACWCEGLPESTPTYPLPNKSC",
+        "melting_point_K": 341
+    },
+    "1JC6": {
+        "sequence": "KNRPTFCNLLPETGRCNALIPAFYYNSHLHKCQKFNYGGCGGNANNFKTIDECQRTCAAKYGRSS",
+        "melting_point_K": 333
+    },
+    "1YWH": {
+        "sequence": "KSDAFSKYLWSSK",
+        "melting_point_K": 344
+    },
+    "1HD9": {
+        "sequence": "LCTASIPPQCY",
+        "melting_point_K": 338
+    },
+    "3CMH": {
+        "sequence": "LDKEAVYFCHLDIIW",
+        "melting_point_K": 340
+    },
+    "8S2C": {
+        "sequence": "LETVLSLSI",
+        "melting_point_K": 345
+    },
+    "1ERH": {
+        "sequence": "LQCYNCPNPTADCKTAVNCSSDFDACLITKAGLQVYNKCWKFEHCNFNDVTTRLRENELTYYCCKKDLCN",
+        "melting_point_K": 334
+    },
+    "2KJF": {
+        "sequence": "LVAYGIAQGTAEKVVSLINAGLTVGSIISILGGVTVGLSGVFTAVKAAIAKQGIKKAIQL",
+        "melting_point_K": 354
+    },
+    "99999999999999995280522225138166806691251291352861698530421623488512": {
+        "sequence": "MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIKKKGKRAVIAW",
+        "melting_point_K": 343
+    },
+    "1O82": {
+        "sequence": "MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIKKKGKRAVIAW",
+        "melting_point_K": 344
+    },
+    "1O83": {
+        "sequence": "MAKEFGIPAAVAGTVLNVVEAGGWVTTIVSILTAVGSGGLSLLAAAGRESIKAYLKKEIKKKGKRAVIAW",
+        "melting_point_K": 331
+    },
+    "2DTB": {
+        "sequence": "MAQDIISTIGDLVKWIIDTVNKFTKK",
+        "melting_point_K": 353
+    },
+    "2BTX": {
+        "sequence": "MRYYESSLKSYPD",
+        "melting_point_K": 334
+    },
+    "3CTO": {
+        "sequence": "MSISASEARQRLFPLIEQVNTDHQPVRITSRAGDAVLMSADDYDAWQETVYLLRSPENARRLMEAVARDKAGHSAFTKSVDELREMAGGEE",
+        "melting_point_K": 347
+    },
+    "2VUM": {
+        "sequence": "NPIWGIGC",
+        "melting_point_K": 329
+    },
+    "1KWD": {
+        "sequence": "PCSICSNNPTCWAICK",
+        "melting_point_K": 336
+    },
+    "1KWE": {
+        "sequence": "PCSICSNNPTCWAACK",
+        "melting_point_K": 358
+    },
+    "2QTV": {
+        "sequence": "PSQPPINAVSGQTPHLNRKANDGWNDLPLKVKEKPSRAKAVSVAPPNIL",
+        "melting_point_K": 364
+    },
+    "1KFP": {
+        "sequence": "QCRRLCYKQRCVTYCRGR",
+        "melting_point_K": 343
+    },
+    "2A9H": {
+        "sequence": "QFTNVSCTTSKECWSVCQRLHNTSRGKCMNKKCRCYS",
+        "melting_point_K": 343
+    },
+    "1PD1": {
+        "sequence": "QLKDLESQI",
+        "melting_point_K": 357
+    },
+    "1RKK": {
+        "sequence": "RRWCFRVCYRGFCYRKCR",
+        "melting_point_K": 328
+    },
+    "1ICL": {
+        "sequence": "SKYEYTVPSYTFRGPGCPTVKPAISLRCE",
+        "melting_point_K": 348
+    },
+    "2PTA": {
+        "sequence": "TISCTNPKQCYPHCKKETGYPNAKCMNRKCKCFGR",
+        "melting_point_K": 363
+    },
+    "1TOC": {
+        "sequence": "TSEDHFQPFFNEKTFGAGEADCGLRPLFEKKQVQDQTEKELFESYIEGR",
+        "melting_point_K": 348
+    },
+    "2ODY": {
+        "sequence": "TSEDHFQPFFNEKTFGAGEADCGLRPLFEKKQVQDQTEKELFESYIEGR",
+        "melting_point_K": 348
+    },
+    "1PD0": {
+        "sequence": "TYNNSNPFMT",
+        "melting_point_K": 355
+    },
+    "2KBH": {
+        "sequence": "VKDGYIADDRNCPYFCGRNAYCDGECKKNRAESGYCQWASKYGNACWCYKLPDDARIMKPGRCNGG",
+        "melting_point_K": 354
+    },
+    "2KBJ": {
+        "sequence": "VKDGYIADDRNCPYFCGRNAYCDGECKKNRAESGYCQWASKYGNACWCYKLPDDARIMKPGRCNGG",
+        "melting_point_K": 369
+    },
+    "6THI": {
+        "sequence": "VRDGYIADDKNCAYFCGRNAYCDEECKKKGAESGYCQWAGQYGNACWCYKLPDKVPIKVSGKCN",
+        "melting_point_K": 346
+    },
+    "9FJY": {
+        "sequence": "WKATCPA",
+        "melting_point_K": 341
+    },
+    "1HAA": {
+        "sequence": "WRYYESSLEPYPD",
+        "melting_point_K": 327
+    },
+    "1HAJ": {
+        "sequence": "WRYYEASLEPYPD",
+        "melting_point_K": 354
+    },
+    "1HC9": {
+        "sequence": "WRYYASSLLPYPD",
+        "melting_point_K": 359
+    },
+    "1PAN": {
+        "sequence": "ACKSTQDPMFTPKGCDN",
+        "melting_point_K": 339
+    },
+    "1I93": {
+        "sequence": "CHWLRGDMRRC",
+        "melting_point_K": 339
+    },
+    "1I6Y": {
+        "sequence": "CRVVRGDYLDC",
+        "melting_point_K": 334
+    },
+    "1I8E": {
+        "sequence": "CYCSLRGDCYC",
+        "melting_point_K": 344
+    },
+    "7Q5G": {
+        "sequence": "CYWAVCT",
+        "melting_point_K": 355
+    },
+    "1J8N": {
+        "sequence": "IWGCSGKLICTTA",
+        "melting_point_K": 351
+    },
+    "1NIM": {
+        "sequence": "KCTSDQDEQFIPKGCSK",
+        "melting_point_K": 369
+    },
+    "1PAJ": {
+        "sequence": "KCTSDQDEQFIPKGCSK",
+        "melting_point_K": 344
+    },
+    "1PAK": {
+        "sequence": "KCTSDQDEQFIPKGCSK",
+        "melting_point_K": 354
+    },
+    "1JBF": {
+        "sequence": "NLPRCTEGPWGWVCM",
+        "melting_point_K": 334
+    },
+    "1XY2": {
+        "sequence": "YIQNCPLG",
+        "melting_point_K": 360
+    },
+    "1LUP": {
+        "sequence": "YCQKWMWTCDEERKCCEGLVCRLWCKRIINM",
+        "melting_point_K": 341
+    },
+    "1V7F": {
+        "sequence": "YCQKWMWTCDSARKCCEGLVCRLWCKKII",
+        "melting_point_K": 331
+    },
+    "1RON": {
+        "sequence": "YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY",
+        "melting_point_K": 340
+    },
+    "1IDG": {
+        "sequence": "YRGWKHWVYYTCCPDTPYS",
+        "melting_point_K": 341
+    },
+    "1IDH": {
+        "sequence": "YRGWKHWVYYTCCPDTPYS",
+        "melting_point_K": 353
+    },
+    "1LXG": {
+        "sequence": "YRGWKHWVYYTCCPDTPYS",
+        "melting_point_K": 353
+    },
+    "1LXH": {
+        "sequence": "YRGWKHWVYYTCCPDTPYS",
+        "melting_point_K": 343
+    }
+}
