@@ -11,19 +11,23 @@ const SearchBar = () => {
   const lastSearchedTerm = useRef(null);
 
   useEffect(() => {
-    fetch('/filtered_pdbs_list.json')
-      .then(res => res.json())
-      .then(data => {
-        const pdbIds = data.map(filename => filename.replace('.pdb', '').toLowerCase());
-        setAllPdbIds(pdbIds);
-        
-        const opt = data.map(filename => ({
-          label: filename.replace('.pdb', ''),
+  fetch('/filtered_pdbs_list.json')
+    .then(res => res.json())
+    .then(data => {
+      const pdbIds = data.map(filename => filename.replace('.pdb', '').toLowerCase());
+      setAllPdbIds(pdbIds);
+      
+      const opt = data.map(filename => {
+        const pdbId = filename.replace('.pdb', '');
+        return {
+          label: <div style={{ fontWeight: 'bold' }}>{pdbId}</div>,
           value: filename
-        }));
-        setOptions(opt);
+        };
       });
-  }, []);
+      setOptions(opt);
+    });
+}, []);
+
 
   const findNearestMatches = (searchTerm) => {
     const distances = allPdbIds.map(pdbId => ({
