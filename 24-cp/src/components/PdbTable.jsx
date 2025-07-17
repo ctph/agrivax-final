@@ -76,7 +76,8 @@ const PdbTable = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-  fetch('/home_page_table.json')
+  // fetch('/home_page_table.json')
+  fetch('/home_page_table_with_filenames.json')
     .then(res => res.json())
     .then(data => {
       const formatted = Object.entries(data)
@@ -84,7 +85,8 @@ const PdbTable = () => {
           id: pdbId,
           sequence: info.sequence || '-',
           melting_point: info.melting_point_K ?? '-',
-          filepath: `/filtered_pdbs/${pdbId}.pdb`,
+          // filepath: `/filtered_pdbs_frontend/${pdbId}.pdb`,
+          filepath: `/filtered_pdbs_frontend/${info.filename}`,
         }))
         .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 
