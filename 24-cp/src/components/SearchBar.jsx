@@ -20,10 +20,11 @@ const SearchBar = () => {
       const opt = data.map(filename => {
         const pdbId = filename.replace('.pdb', '');
         return {
-          label: <div style={{ fontWeight: 'bold' }}>{pdbId}</div>,
+          label: pdbId.toUpperCase(), // <- make label a string
           value: filename
         };
       });
+
       setOptions(opt);
     });
 }, []);
