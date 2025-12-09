@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { Spin, Button, Flex, Card, Typography, Tag, Divider, Space } from "antd";
-import * as $3Dmol from "3dmol";
+import {
+  Spin,
+  Button,
+  Flex,
+  Card,
+  Typography,
+  Tag,
+  Divider,
+  Space,
+} from "antd";
 import Protein3DMol from "../components/Protein3DMol";
-import { InfoCircleOutlined, ArrowLeftOutlined } from "@ant-design/icons";
-import { Grid } from 'antd'; // Ant Design's responsive hook
-import './SimilarityPage.css';
-import MoleculeViewer from '../components/MoleculeViewer';
+import { ArrowLeftOutlined } from "@ant-design/icons";
+import { Grid } from "antd";
+import "./SimilarityPage.css";
 import Header from "../components/Header";
 
 const { useBreakpoint } = Grid;
-
 const { Title, Text } = Typography;
+
 const ProteinContent = () => {
   const { pdbId: rawParam } = useParams();
   const navigate = useNavigate();
@@ -24,6 +31,8 @@ const ProteinContent = () => {
 
   const [pdbStructure, setPdbStructure] = useState("");
   const [metadata, setMetadata] = useState(null);
+  const [organism, setOrganism] = useState("Unknown");
+  const [classification, setClassification] = useState("Unknown");
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [renderMode, setRenderMode] = useState("cartoon");
@@ -33,9 +42,8 @@ const ProteinContent = () => {
       return [{}, { cartoon: { color: "spectrum" } }];
     } else if (renderMode === "stick") {
       return [{}, { stick: { radius: 0.2 } }];
-    } else {
-      return [{}];
     }
+    return [{}];
   };
 
   const handleSimilarityClick = (threshold) => {
@@ -44,41 +52,98 @@ const ProteinContent = () => {
   };
 
   useEffect(() => {
-    const cleanPdbId = rawParam.split("_")[0].toLowerCase();
-    const pdbUrl = `https://two4-cp-backend2.onrender.com/filtered_pdbs/${normalizedPdbId}.pdb`;
+    const fetchAll = async () => {
+      setIsLoading(true);
+      setError(null);
 
-    fetch(pdbUrl)
-      .then((res) => {
-        if (!res.ok) throw new Error("PDB file not found");
-        return res.text();
-      })
-      .then((text) => {
-        if (!text || text.trim().length === 0) {
+      const cleanPdbId = rawParam.split("_")[0].toLowerCase();
+      const pdbUrl = `https://two4-cp-backend2.onrender.com/filtered_pdbs/${normalizedPdbId}.pdb`;
+
+      try {
+        // Fetch PDB and entry metadata in parallel
+        const [pdbRes, entryRes] = await Promise.all([
+          fetch(pdbUrl),
+          fetch(`https://data.rcsb.org/rest/v1/core/entry/${cleanPdbId}`),
+        ]);
+
+        if (!pdbRes.ok) throw new Error("PDB file not found");
+        if (!entryRes.ok) throw new Error("Failed to fetch metadata");
+
+        const pdbText = await pdbRes.text();
+        if (!pdbText || pdbText.trim().length === 0) {
           throw new Error("Empty PDB file content");
         }
-        setPdbStructure(text);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setPdbStructure(null);
-      });
+        setPdbStructure(pdbText);
 
-    // Fetch metadata
-    fetch(`https://data.rcsb.org/rest/v1/core/entry/${cleanPdbId}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch metadata");
-        return res.json();
-      })
-      .then((json) => {
-        setMetadata(json);
-      })
-      .catch((err) => {
-        console.error("Error fetching metadata:", err);
-        setMetadata(null);
-      })
-      .finally(() => {
+        const entryJson = await entryRes.json();
+        setMetadata(entryJson);
+        console.log("RCSB entry JSON", cleanPdbId, entryJson);
+
+        // Classification
+        const cls =
+          entryJson.struct_keywords?.pdbx_keywords ||
+          entryJson.struct_keywords?.text ||
+          "Unknown";
+        setClassification(cls);
+
+        // Organism
+        // 1) Try entry-level organism list
+        let org =
+          entryJson.rcsb_entry_info?.deposited_organism_list?.[0] || null;
+
+        // 2) If still missing, loop over all polymer entities for this entry
+        if (!org) {
+          const entityIds =
+            entryJson.rcsb_entry_container_identifiers?.polymer_entity_ids ||
+            [];
+          console.log("polymer_entity_ids for", cleanPdbId, entityIds);
+
+          for (const entityId of entityIds) {
+            try {
+              const entityRes = await fetch(
+                `https://data.rcsb.org/rest/v1/core/polymer_entity/${cleanPdbId}/${entityId}`
+              );
+              if (!entityRes.ok) continue;
+
+              const entityJson = await entityRes.json();
+              console.log(
+                `polymer_entity ${cleanPdbId}_${entityId}`,
+                entityJson
+              );
+
+              const candidate =
+                entityJson.rcsb_entity_source_organism?.[0]
+                  ?.organism_scientific_name ||
+                entityJson.entity_src_nat?.[0]?.pdbx_organism_scientific ||
+                entityJson.entity_src_gen?.[0]?.pdbx_gene_src_scientific_name ||
+                null;
+
+              if (candidate) {
+                org = candidate;
+                break;
+              }
+            } catch (err) {
+              console.warn(
+                "Error fetching polymer_entity metadata:",
+                cleanPdbId,
+                entityId,
+                err
+              );
+            }
+          }
+        }
+
+        setOrganism(org || "Unknown");
+      } catch (e) {
+        console.error(e);
+        setError(e.message);
+        setPdbStructure(null);
+      } finally {
         setIsLoading(false);
-      });
+      }
+    };
+
+    fetchAll();
   }, [normalizedPdbId, rawParam]);
 
   if (isLoading) {
@@ -91,22 +156,31 @@ const ProteinContent = () => {
 
   if (error || !pdbStructure) {
     return (
-      <Flex vertical justify="center" align="center" style={{ height: "80vh", gap: 16 }}>
+      <Flex
+        vertical
+        justify="center"
+        align="center"
+        style={{ height: "80vh", gap: 16 }}
+      >
         <Title level={4} type="danger">
           {error || "Protein structure not found"}
         </Title>
-        <Button type="primary" icon={<ArrowLeftOutlined />} onClick={() => navigate("/")}>
+        <Button
+          type="primary"
+          icon={<ArrowLeftOutlined />}
+          onClick={() => navigate("/")}
+        >
           Back to Home
         </Button>
       </Flex>
     );
   }
 
-  
   return (
     <div className="percent-page-container">
       <Space direction="vertical" size="middle" style={{ width: "100%" }}>
         <Header />
+
         {/* TITLE + BUTTONS */}
         {isMobile ? (
           <div style={{ textAlign: "center", marginBottom: "1rem" }}>
@@ -115,9 +189,11 @@ const ProteinContent = () => {
               <Button onClick={() => handleSimilarityClick(50)}>50%</Button>
               <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
               <Button onClick={() => handleSimilarityClick(75)}>75%</Button>
-              <Button 
-                type="primary" 
-                href={`https://www.rcsb.org/structure/${rawParam.split('_')[0].toUpperCase()}`}
+              <Button
+                type="primary"
+                href={`https://www.rcsb.org/structure/${rawParam
+                  .split("_")[0]
+                  .toUpperCase()}`}
                 target="_blank"
               >
                 View on RCSB
@@ -135,9 +211,11 @@ const ProteinContent = () => {
                 <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
                 <Button onClick={() => handleSimilarityClick(75)}>75%</Button>
               </Button.Group>
-              <Button 
-                type="primary" 
-                href={`https://www.rcsb.org/structure/${rawParam.split('_')[0].toUpperCase()}`}
+              <Button
+                type="primary"
+                href={`https://www.rcsb.org/structure/${rawParam
+                  .split("_")[0]
+                  .toUpperCase()}`}
                 target="_blank"
               >
                 View on RCSB
@@ -148,10 +226,16 @@ const ProteinContent = () => {
 
         <Flex justify="left" gap={8} wrap>
           <Text strong>View Mode:</Text>
-          <Button type={renderMode === "cartoon" ? "primary" : "default"} onClick={() => setRenderMode("cartoon")}>
+          <Button
+            type={renderMode === "cartoon" ? "primary" : "default"}
+            onClick={() => setRenderMode("cartoon")}
+          >
             Cartoon
           </Button>
-          <Button type={renderMode === "stick" ? "primary" : "default"} onClick={() => setRenderMode("stick")}>
+          <Button
+            type={renderMode === "stick" ? "primary" : "default"}
+            onClick={() => setRenderMode("stick")}
+          >
             Stick
           </Button>
         </Flex>
@@ -160,7 +244,8 @@ const ProteinContent = () => {
 
         <Flex justify="space-between" gap={24} style={{ flexWrap: "wrap" }}>
           {/* 3D Viewer */}
-          <Card className="similarity-card"
+          <Card
+            className="similarity-card"
             title={
               <Space>
                 <Text strong>3D Structure</Text>
@@ -179,56 +264,31 @@ const ProteinContent = () => {
               backgroundColor: "#fafafa",
             }}
           >
-            {!isMobile ? (
-              <div
+            <div
+              style={{
+                height: "400px",
+                width: "100%",
+                borderRadius: "0 0 12px 12px",
+              }}
+            >
+              <Protein3DMol
+                pdbIdStructure={pdbStructure}
+                viewStyle={getViewStyle()}
+                surfaceStyle={null}
+                partialViewStyle={null}
                 style={{
-                  height: "400px",
                   width: "100%",
-                  borderRadius: "0 0 12px 12px",
+                  height: "100%",
                 }}
-              >
-                <Protein3DMol
-                  pdbIdStructure={pdbStructure}
-                  viewStyle={getViewStyle()}
-                  surfaceStyle={null}
-                  partialViewStyle={null}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                  }}
-                />
-              </div>
-            ) : (
-              <div
-                style={{
-                  height: "400px",
-                  width: "100%",
-                  borderRadius: "0 0 12px 12px",
-                }}
-              >
-                <Protein3DMol
-                  pdbIdStructure={pdbStructure}
-                  viewStyle={getViewStyle()}
-                  surfaceStyle={null}
-                  partialViewStyle={null}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                  }}
-                />
-              </div>
-            )}
+              />
+            </div>
           </Card>
-
 
           {/* Metadata */}
           <Card
             title={
               <Space>
                 <Text strong>Structure Information</Text>
-                <Tag icon={<InfoCircleOutlined />} color="cyan">
-                  Details
-                </Tag>
               </Space>
             }
             style={{
@@ -239,7 +299,11 @@ const ProteinContent = () => {
             }}
           >
             {metadata ? (
-              <Space direction="vertical" size="middle" style={{ width: "100%" }}>
+              <Space
+                direction="vertical"
+                size="middle"
+                style={{ width: "100%" }}
+              >
                 <div>
                   <Text type="secondary">Title</Text>
                   <div style={{ marginTop: 4 }}>
@@ -259,7 +323,8 @@ const ProteinContent = () => {
                   <div>
                     <Text type="secondary">Released</Text>
                     <div style={{ marginTop: 4 }}>
-                      {metadata.rcsb_accession_info?.initial_release_date || "N/A"}
+                      {metadata.rcsb_accession_info?.initial_release_date ||
+                        "N/A"}
                     </div>
                   </div>
                 </Flex>
@@ -268,9 +333,14 @@ const ProteinContent = () => {
 
                 <div>
                   <Text type="secondary">Organism</Text>
-                  <div style={{ marginTop: 4 }}>
-                    {metadata.rcsb_entity_source_organism?.[0]?.organism_scientific_name || "Unknown"}
-                  </div>
+                  <div style={{ marginTop: 4 }}>{organism}</div>
+                </div>
+
+                <Divider style={{ margin: "8px 0" }} />
+
+                <div>
+                  <Text type="secondary">Classification</Text>
+                  <div style={{ marginTop: 4 }}>{classification}</div>
                 </div>
 
                 {metadata.pdbx_database_status?.status && (
@@ -279,11 +349,15 @@ const ProteinContent = () => {
                     <div>
                       <Text type="secondary">Status</Text>
                       <div style={{ marginTop: 4 }}>
-                        <Tag color={
-                          metadata.pdbx_database_status.status === "REL" ? "green" : "orange"
-                        }>
-                          {metadata.pdbx_database_status.status === "REL" 
-                            ? "Released" 
+                        <Tag
+                          color={
+                            metadata.pdbx_database_status.status === "REL"
+                              ? "green"
+                              : "orange"
+                          }
+                        >
+                          {metadata.pdbx_database_status.status === "REL"
+                            ? "Released"
                             : metadata.pdbx_database_status.status}
                         </Tag>
                       </div>
@@ -297,204 +371,10 @@ const ProteinContent = () => {
               </Flex>
             )}
           </Card>
-        </Flex>        
+        </Flex>
       </Space>
     </div>
   );
 };
 
 export default ProteinContent;
-
-
-// import React, { useEffect, useState } from "react";
-// import { useParams, useNavigate } from "react-router-dom";
-// import {Spin, Button, Flex, Card, Typography, Tag, Divider, Space, Grid} from "antd";
-// import Protein3DMol from "../components/Protein3DMol";
-// import { ArrowLeftOutlined } from "@ant-design/icons";
-// import './SimilarityPage.css';
-// import Header from "../components/Header";
-
-// const { useBreakpoint } = Grid;
-// const { Title, Text } = Typography;
-
-// const ProteinContent = () => {
-//   const { pdbId: rawParam } = useParams();
-//   const navigate = useNavigate();
-//   const screens = useBreakpoint();
-//   const isMobile = !screens.md;
-
-//   const normalizedPdbId = rawParam?.toUpperCase().includes("_")
-//     ? rawParam.toUpperCase()
-//     : `${rawParam?.toUpperCase()}_A`;
-
-//   const [pdbStructure, setPdbStructure] = useState("");
-//   const [isLoading, setIsLoading] = useState(true);
-//   const [error, setError] = useState(null);
-//   const [renderMode, setRenderMode] = useState("cartoon");
-
-//   const getViewStyle = () => {
-//     if (renderMode === "cartoon") {
-//       return [{}, { cartoon: { color: "spectrum" } }];
-//     } else if (renderMode === "stick") {
-//       return [{}, { stick: { radius: 0.2 } }];
-//     } else {
-//       return [{}];
-//     }
-//   };
-
-//   const handleSimilarityClick = (threshold) => {
-//     const baseId = rawParam.split("_")[0].toLowerCase();
-//     navigate(`/percent/${baseId}/${threshold}`);
-//   };
-
-//   useEffect(() => {
-//     const pdbUrl = `https://two4-cp-backend2.onrender.com/filtered_pdbs/${normalizedPdbId}.pdb`;
-
-//     fetch(pdbUrl)
-//       .then((res) => {
-//         if (!res.ok) throw new Error("PDB file not found");
-//         return res.text();
-//       })
-//       .then((text) => {
-//         if (!text || text.trim().length === 0) {
-//           throw new Error("Empty PDB file content");
-//         }
-//         setPdbStructure(text);
-//       })
-//       .catch((err) => {
-//         setError(err.message);
-//         setPdbStructure(null);
-//       })
-//       .finally(() => {
-//         setIsLoading(false);
-//       });
-//   }, [normalizedPdbId, rawParam]);
-
-//   if (isLoading) {
-//     return (
-//       <Flex justify="center" align="center" style={{ height: "80vh" }}>
-//         <Spin size="large" tip="Loading protein structure..." />
-//       </Flex>
-//     );
-//   }
-
-//   if (error || !pdbStructure) {
-//     return (
-//       <Flex vertical justify="center" align="center" style={{ height: "80vh", gap: 16 }}>
-//         <Title level={4} type="danger">
-//           {error || "Protein structure not found"}
-//         </Title>
-//         <Button type="primary" icon={<ArrowLeftOutlined />} onClick={() => navigate("/")}>
-//           Back to Home
-//         </Button>
-//       </Flex>
-//     );
-//   }
-
-//   return (
-//     <div className="percent-page-container">
-//       <Space direction="vertical" size="middle" style={{ width: "100%" }}>
-//         <Header />
-//         {isMobile ? (
-//           <div style={{ textAlign: "center", marginBottom: "1rem" }}>
-//             <Title level={2}>{rawParam.toUpperCase()}</Title>
-//             <div className="threshold-buttons">
-//               <Button onClick={() => handleSimilarityClick(50)}>50%</Button>
-//               <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
-//               <Button onClick={() => handleSimilarityClick(75)}>75%</Button>
-//               <Button
-//                 type="primary"
-//                 href={`https://www.rcsb.org/structure/${rawParam.split("_")[0].toUpperCase()}`}
-//                 target="_blank"
-//               >
-//                 View on RCSB
-//               </Button>
-//             </div>
-//           </div>
-//         ) : (
-//           <Flex justify="space-between" align="center">
-//             <Title level={2} style={{ margin: 0 }}>
-//               {rawParam.toUpperCase()}
-//             </Title>
-//             <Space>
-//               <Button.Group>
-//                 <Button onClick={() => handleSimilarityClick(50)}>50%</Button>
-//                 <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
-//                 <Button onClick={() => handleSimilarityClick(75)}>75%</Button>
-//               </Button.Group>
-//               <Button
-//                 type="primary"
-//                 href={`https://www.rcsb.org/structure/${rawParam.split("_")[0].toUpperCase()}`}
-//                 target="_blank"
-//               >
-//                 View on RCSB
-//               </Button>
-//             </Space>
-//           </Flex>
-//         )}
-
-//         {/* View Mode Toggle */}
-//         <Flex justify="left" gap={12} style={{ marginTop: 8 }}>
-//           <Text strong style={{ fontSize: '19px' }}>View Mode:</Text>
-//           <Button.Group>
-//             <Button
-//               type={renderMode === "cartoon" ? "primary" : "default"}
-//               onClick={() => setRenderMode("cartoon")}
-//             >
-//               Cartoon
-//             </Button>
-//             <Button
-//               type={renderMode === "stick" ? "primary" : "default"}
-//               onClick={() => setRenderMode("stick")}
-//             >
-//               Stick
-//             </Button>
-//           </Button.Group>
-//         </Flex>
-
-//         <Divider style={{ margin: "16px 0" }} />
-
-//         {/* 3D Viewer */}
-//         <Card
-//           className="similarity-card"
-//           title={
-//             <Space>
-//               <Text strong>3D Structure</Text>
-//               <Tag color="blue">Interactive</Tag>
-//             </Space>
-//           }
-//           style={{
-//             borderRadius: "12px",
-//             boxShadow: "0 1px 2px 0 rgba(0,0,0,0.03)",
-//             border: "1px solid #f0f0f0",
-//           }}
-//           bodyStyle={{
-//             padding: isMobile ? "16px" : 0,
-//             backgroundColor: "#fafafa",
-//           }}
-//         >
-//           <div
-//             style={{
-//               height: "400px",
-//               width: "100%",
-//               borderRadius: "0 0 12px 12px",
-//             }}
-//           >
-//             <Protein3DMol
-//               pdbIdStructure={pdbStructure}
-//               viewStyle={getViewStyle()}
-//               surfaceStyle={null}
-//               partialViewStyle={null}
-//               style={{
-//                 width: "100%",
-//                 height: "100%",
-//               }}
-//             />
-//           </div>
-//         </Card>
-//       </Space>
-//     </div>
-//   );
-// };
-
-// export default ProteinContent;
