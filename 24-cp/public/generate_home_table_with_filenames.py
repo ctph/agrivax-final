@@ -28,7 +28,7 @@ for pdb_id, info in data.items():
         info['filename'] = None  # or leave out if you prefer
 
 # Save to a new file
-with open('home_page_table_with_filenames.json', 'w') as f:
+with open('final_home_page_table_with_filenames.json', 'w') as f:
     json.dump(data, f, indent=2)
 
-print("✅ Done! Output written to home_page_table_with_filenames.json")
+print("✅ Done! Output written to final_home_page_table_with_filenames.json")
