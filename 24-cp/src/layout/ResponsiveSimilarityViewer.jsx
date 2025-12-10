@@ -9,7 +9,7 @@
 // const { Title } = Typography;
 
 // const ResponsiveSimilarityViewer = () => {
-//   const { pdbId } = useParams(); 
+//   const { pdbId } = useParams();
 //   const isMobile = useMediaQuery({ maxWidth: 767 });
 
 //   const [metadata, setMetadata] = useState(null);
@@ -61,32 +61,33 @@
 
 // export default ResponsiveSimilarityViewer;
 
-
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { useMediaQuery } from 'react-responsive';
-import SimilarityPage from '../layout/SimilarityPage';
-import Mobile3DMolViewer from '../components/Mobile3DMolViewer';
-import { Card, Typography, Spin, Alert } from 'antd';
-import './ResponsiveSimilarViewer.css';
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
+import SimilarityPage from "../layout/SimilarityPage";
+import Mobile3DMolViewer from "../components/Mobile3DMolViewer";
+import { Card, Typography, Spin, Alert } from "antd";
+import "./ResponsiveSimilarViewer.css";
 
 const { Title, Text } = Typography;
 
 const ResponsiveSimilarityViewer = () => {
-  const { pdbId } = useParams(); 
+  const { pdbId } = useParams();
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [metadata, setMetadata] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const coreId = pdbId.split('_')[0].toLowerCase();
+  const coreId = pdbId.split("_")[0].toLowerCase();
 
   useEffect(() => {
     const fetchMetadata = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`https://data.rcsb.org/rest/v1/core/entry/${coreId}`);
-        
+        const response = await fetch(
+          `https://data.rcsb.org/rest/v1/core/entry/${coreId}`
+        );
+
         if (!response.ok) {
           throw new Error(`Failed to fetch data for ${coreId}`);
         }
@@ -94,9 +95,9 @@ const ResponsiveSimilarityViewer = () => {
         const data = await response.json();
         setMetadata({
           classification: data.struct_keywords?.pdbx_keywords || "Unknown",
-          melting_point: "N/A",  // You might want to fetch this from another API
+          melting_point: "N/A",
           notes: data.struct?.title || "No title available",
-          experimental_method: data.exptl?.[0]?.method || "Unknown method"
+          experimental_method: data.exptl?.[0]?.method || "Unknown method",
         });
       } catch (err) {
         console.error("Error fetching metadata:", err);
@@ -105,7 +106,7 @@ const ResponsiveSimilarityViewer = () => {
           classification: "Unknown",
           melting_point: "N/A",
           notes: "Failed to load metadata",
-          experimental_method: "Unknown"
+          experimental_method: "Unknown",
         });
       } finally {
         setLoading(false);
@@ -138,11 +139,9 @@ const ResponsiveSimilarityViewer = () => {
 
   return (
     <div className="percent-page-container">
-      <Title level={2}>
-        Similar Structures to {pdbId.toUpperCase()}
-      </Title>
+      <Title level={2}>Similar Structures to {pdbId.toUpperCase()}</Title>
 
-      <Card 
+      <Card
         className="similarity-card"
         title={
           <Text strong>
@@ -156,15 +155,9 @@ const ResponsiveSimilarityViewer = () => {
         }
       >
         {isMobile ? (
-          <Mobile3DMolViewer 
-            pdbId={pdbId} 
-            metadata={metadata} 
-          />
+          <Mobile3DMolViewer pdbId={pdbId} metadata={metadata} />
         ) : (
-          <SimilarityPage 
-            pdbId={pdbId}
-            metadata={metadata}
-          />
+          <SimilarityPage pdbId={pdbId} metadata={metadata} />
         )}
       </Card>
     </div>

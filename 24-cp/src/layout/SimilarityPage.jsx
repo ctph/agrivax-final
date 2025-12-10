@@ -206,6 +206,7 @@ const ProteinContent = () => {
               {rawParam.toUpperCase()} Structure Viewer
             </Title>
             <Space>
+              <Text strong>Cluster of similarity:</Text>
               <Button.Group>
                 <Button onClick={() => handleSimilarityClick(50)}>50%</Button>
                 <Button onClick={() => handleSimilarityClick(65)}>65%</Button>
@@ -224,23 +225,39 @@ const ProteinContent = () => {
           </Flex>
         )}
 
-        <Flex justify="left" gap={8} wrap>
-          <Text strong>View Mode:</Text>
-          <Button
-            type={renderMode === "cartoon" ? "primary" : "default"}
-            onClick={() => setRenderMode("cartoon")}
-          >
-            Cartoon
-          </Button>
-          <Button
-            type={renderMode === "stick" ? "primary" : "default"}
-            onClick={() => setRenderMode("stick")}
-          >
-            Stick
-          </Button>
-        </Flex>
+        <Flex align="center" gap={12} wrap>
+          {/* LEFT: View Mode */}
+          <Flex align="center" gap={8}>
+            <Text strong>View Mode:</Text>
 
-        <Divider style={{ margin: "16px 0" }} />
+            <Button
+              type={renderMode === "cartoon" ? "primary" : "default"}
+              onClick={() => setRenderMode("cartoon")}
+            >
+              Cartoon
+            </Button>
+
+            <Button
+              type={renderMode === "stick" ? "primary" : "default"}
+              onClick={() => setRenderMode("stick")}
+            >
+              Stick
+            </Button>
+          </Flex>
+
+          {/* RIGHT: Cyclization (push right) */}
+          <Flex align="center" gap={8} style={{ marginLeft: "auto" }}>
+            <Text strong>Cyclization Class:</Text>
+
+            <Button.Group>
+              <Button>s2s</Button>
+              <Button>s2e</Button>
+              <Button>e2e</Button>
+              <Button>e2e + s2s</Button>
+              <Button>s2e + s2s</Button>
+            </Button.Group>
+          </Flex>
+        </Flex>
 
         <Flex justify="space-between" gap={24} style={{ flexWrap: "wrap" }}>
           {/* 3D Viewer */}
